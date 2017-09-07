@@ -2,12 +2,16 @@
 # Alex Shah
 # Homework 0
 
-import numpy as np
-import tensorflow as tf
+from scipy.optimize import fmin
 
-x = tf.Variable(tf.float32)
-y = tf.Variable(tf.float32)
+def g(x): return -3.0*x**2+24*x-30
 
-y_eq = -3 * x ** 2 + 24 * x - 30
+maximum = print(fmin(lambda x: -g(x), 0.0))
 
-loss = tf.square (y - y_eq)
+# Output:
+# Optimization terminated successfully.
+#         Current function value: -18.000000
+#         Iterations: 29
+#         Function evaluations: 58
+# [ 4.] <-- Answer
+
