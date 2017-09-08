@@ -1,0 +1,19 @@
+
+ A x B fails as dimensions are different:
+Dimensions must be equal, but are 3 and 2 for 'MatMul' (op: 'MatMul') with input shapes: [2,3], [2,3].
+
+ At x B
+[[ -2.  -2.  13.]
+ [ -8.   1.  16.]
+ [ -6.  -3.  27.]]
+
+ Rank
+2
+
+ A x Bt
+[[ 13.   8.]
+ [ 11.  13.]]
+
+ A x Bt + C inverse
+[[ 14.    8. ]
+ [ 11.   13.5]]
