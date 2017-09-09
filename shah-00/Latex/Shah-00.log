@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  7 SEP 2017 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  9 SEP 2017 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -687,7 +687,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./2-1results.txt) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<2-2-gitProof.png, id=82, 999.735pt x 348.30125pt>
+<2-2-gitProof.png, id=86, 999.735pt x 348.30125pt>
 File: 2-2-gitProof.png Graphic file (type png)
  <use 2-2-gitProof.png>
 Package pdftex.def Info: 2-2-gitProof.png used on input line 32.
@@ -696,7 +696,7 @@ Package pdftex.def Info: 2-2-gitProof.png used on input line 32.
 [2
 
  <./2-2-gitProof.png>]
-<2-3-kaggleProof.png, id=87, 1158.3275pt x 1080.035pt>
+<2-3-kaggleProof.png, id=91, 1158.3275pt x 1080.035pt>
 File: 2-3-kaggleProof.png Graphic file (type png)
 
 <use 2-3-kaggleProof.png>
@@ -727,20 +727,20 @@ LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
 ] (./4-3Results.txt) [6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./Shah-00.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `Shah-00.out' has not changed.
-(rerunfilecheck)             Checksum: 8295BBC8994B27C8A958983929BAB3DB;566.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+(rerunfilecheck)             Checksum: A095DA812F8553A1163BE018E7287DE0;616.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 17658 strings out of 494910
- 323254 string characters out of 6179837
- 448184 words of memory out of 5000000
- 20504 multiletter control sequences out of 15000+600000
+ 17663 strings out of 494910
+ 323320 string characters out of 6179837
+ 450184 words of memory out of 5000000
+ 20505 multiletter control sequences out of 15000+600000
  11849 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,6n,54p,420b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -753,10 +753,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti10.pfb>
-Output written on Shah-00.pdf (6 pages, 237341 bytes).
+Output written on Shah-00.pdf (6 pages, 240604 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 130 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
