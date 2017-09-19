@@ -1,0 +1,15 @@
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+step 0, training accuracy 0.1
+step 100, training accuracy 0.88
+step 200, training accuracy 0.96
+step 300, training accuracy 0.92
+step 400, training accuracy 0.98
+step 500, training accuracy 0.9
+step 600, training accuracy 0.96
+step 700, training accuracy 0.92
+step 800, training accuracy 0.94
+step 900, training accuracy 0.98
+test accuracy 0.9651
