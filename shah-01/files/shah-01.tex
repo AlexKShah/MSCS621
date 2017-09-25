@@ -1,0 +1,38 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[letterpaper, margin=1in]{geometry} % page format
+\usepackage{listings} % this package is for including code
+\usepackage{graphicx} % this package is for including figures
+\usepackage{amsmath}  % this package is for math and matrices
+\usepackage{amsfonts} % this package is for math fonts
+\usepackage{tikz} % for drawings
+\usepackage{hyperref} % for urls
+\usepackage[section]{placeins}
+\usepackage{float}
+
+\title{Homework 1}
+\author{Alex Shah}
+\date{9/25/17}
+
+\begin{document}
+\lstset{language=Python}
+\maketitle
+
+\section{Code}
+\lstinputlisting[language=Python,frame=single,breaklines=true]{mnist2.py}
+\clearpage
+
+\section{Results}
+\subsection{Baseline:}
+\lstinputlisting[language=Python,frame=single,breaklines=true]{baseline.txt}
+\clearpage
+\subsection{Full Data Set:}
+\lstinputlisting[language=Python,frame=single,breaklines=true]{fullset.txt}
+\clearpage
+\subsection{Smaller Batch Size:}
+\lstinputlisting[language=Python,frame=single,breaklines=true]{custom1.txt}
+\clearpage
+\subsection{Larger Batch Size:}
+\lstinputlisting[language=Python,frame=single,breaklines=true]{custom2.txt}
+\clearpage
+
+\end{document}
