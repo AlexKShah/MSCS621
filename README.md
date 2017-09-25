@@ -1,3 +1,3 @@
-# MSCS621
+# MSCS692
 
-Marist MSCS 621 - Tensorflow
+Marist MSCS 692 - Tensorflow
