@@ -1,0 +1,9 @@
+Extracting ./train-images-idx3-ubyte.gz
+Extracting ./train-labels-idx1-ubyte.gz
+Extracting ./t10k-images-idx3-ubyte.gz
+Extracting ./t10k-labels-idx1-ubyte.gz
+Testing Accuracy: 0.8541
+Number of hidden layers:  2048
+Learning Rate:  1e-05
+Time from start:  121.779753036
+============================================================================
