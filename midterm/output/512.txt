@@ -1,0 +1,689 @@
+loading preprocessed files
+370/46375 (epoch 0), train_loss = 1.872, time/batch = 0.021
+>> sample mode:
+The quconad, Tolr, sirplett they
+Strue, shuse thinge;
+
+----------------------------------
+741/46375 (epoch 1), train_loss = 1.624, time/batch = 0.021
+>> sample mode:
+The marry, bear, ho can, my comm's brother, are reside
+----------------------------------
+1112/46375 (epoch 2), train_loss = 1.533, time/batch = 0.022
+>> sample mode:
+The wash of yough ace baccoral present,
+my respbaindes
+----------------------------------
+1483/46375 (epoch 3), train_loss = 1.472, time/batch = 0.021
+>> sample mode:
+The feared of servicies by
+the corror'er ho to have yo
+----------------------------------
+1854/46375 (epoch 4), train_loss = 1.444, time/batch = 0.021
+>> sample mode:
+The mate!
+Who abouty
+To bid Lord you to hit leath ship
+----------------------------------
+2225/46375 (epoch 5), train_loss = 1.431, time/batch = 0.022
+>> sample mode:
+The else eying perchance,
+What hath would be gone. You
+----------------------------------
+2596/46375 (epoch 6), train_loss = 1.411, time/batch = 0.021
+>> sample mode:
+The who hate,
+And so send your high were son and purse
+----------------------------------
+2967/46375 (epoch 7), train_loss = 1.399, time/batch = 0.021
+>> sample mode:
+The wish speechless one is not what all the very wound
+----------------------------------
+3338/46375 (epoch 8), train_loss = 1.387, time/batch = 0.020
+>> sample mode:
+The very a? I hear?
+If your love with poot-Fatch: for
+
+----------------------------------
+3709/46375 (epoch 9), train_loss = 1.383, time/batch = 0.021
+>> sample mode:
+The know;
+Puit your horse.
+I have heards, mutny whethe
+----------------------------------
+4080/46375 (epoch 10), train_loss = 1.364, time/batch = 0.022
+>> sample mode:
+The winter, horse bear because the proor
+The justice;
+
+----------------------------------
+4451/46375 (epoch 11), train_loss = 1.365, time/batch = 0.022
+>> sample mode:
+The bitter with no good;
+And sweck a does their mistre
+----------------------------------
+4822/46375 (epoch 12), train_loss = 1.349, time/batch = 0.022
+>> sample mode:
+The wooent sound.
+
+STANLEY:
+No, any gave that mercy, s
+----------------------------------
+5193/46375 (epoch 13), train_loss = 1.331, time/batch = 0.025
+>> sample mode:
+The woe!
+
+LADY ANNE:
+Sir, I;;
+Now, grace them he'll sh
+----------------------------------
+5564/46375 (epoch 14), train_loss = 1.326, time/batch = 0.022
+>> sample mode:
+The veroury guiltless.
+
+LADY ANNE:
+I will not nor ranc
+----------------------------------
+5935/46375 (epoch 15), train_loss = 1.316, time/batch = 0.020
+>> sample mode:
+The other instruct me down with him nature's wit;
+I wi
+----------------------------------
+6306/46375 (epoch 16), train_loss = 1.313, time/batch = 0.021
+>> sample mode:
+The kiss our king, and that Sething love's queen's ten
+----------------------------------
+6677/46375 (epoch 17), train_loss = 1.299, time/batch = 0.023
+>> sample mode:
+The child would be for which we must is not shame, dep
+----------------------------------
+7048/46375 (epoch 18), train_loss = 1.298, time/batch = 0.021
+>> sample mode:
+The eash.
+Come, noble warish,
+Sell men of winewar:
+Wha
+----------------------------------
+7419/46375 (epoch 19), train_loss = 1.288, time/batch = 0.021
+>> sample mode:
+The very last tack of Signior Marcius.
+
+PAULINA:
+You w
+----------------------------------
+7790/46375 (epoch 20), train_loss = 1.285, time/batch = 0.021
+>> sample mode:
+The knew his beauty wars of mer's friendly; of good Ka
+----------------------------------
+8161/46375 (epoch 21), train_loss = 1.273, time/batch = 0.022
+>> sample mode:
+The encounter.
+3 KING HENRY VI
+
+KING RICHARD III:
+O Ro
+----------------------------------
+8532/46375 (epoch 22), train_loss = 1.276, time/batch = 0.019
+>> sample mode:
+The way foes grew out of grian such lengthens shall ne
+----------------------------------
+8903/46375 (epoch 23), train_loss = 1.259, time/batch = 0.021
+>> sample mode:
+The you:
+And in my boy:
+Well, what shall bucklentable,
+----------------------------------
+9274/46375 (epoch 24), train_loss = 1.254, time/batch = 0.019
+>> sample mode:
+The thoughts in Corioliments, Stand flowers, and yet s
+----------------------------------
+9645/46375 (epoch 25), train_loss = 1.259, time/batch = 0.022
+>> sample mode:
+The empty but now have; and where he hath hearton as y
+----------------------------------
+10016/46375 (epoch 26), train_loss = 1.250, time/batch = 0.022
+>> sample mode:
+The eyes the promptirous Angel of old justice of us bo
+----------------------------------
+10387/46375 (epoch 27), train_loss = 1.250, time/batch = 0.021
+>> sample mode:
+The saver braze the field
+Plot; thou remember: thou wo
+----------------------------------
+10758/46375 (epoch 28), train_loss = 1.238, time/batch = 0.020
+>> sample mode:
+The outs,
+Should say out of instrums of fair and what 
+----------------------------------
+11129/46375 (epoch 29), train_loss = 1.244, time/batch = 0.023
+>> sample mode:
+The extern of your mind
+I'll provide
+Of do no lacious 
+----------------------------------
+11500/46375 (epoch 30), train_loss = 1.240, time/batch = 0.020
+>> sample mode:
+The ready: in heckion.
+
+ROMEO:
+Ay, thou son it. Which 
+----------------------------------
+11871/46375 (epoch 31), train_loss = 1.233, time/batch = 0.022
+>> sample mode:
+The one--
+There's build here?
+
+First Lord:
+So shall no
+----------------------------------
+12242/46375 (epoch 32), train_loss = 1.238, time/batch = 0.020
+>> sample mode:
+The blood.
+
+Provost:
+I thank ever buird the murderer,
+
+----------------------------------
+12613/46375 (epoch 33), train_loss = 1.224, time/batch = 0.020
+>> sample mode:
+The ere thy best, my lord!
+
+CURTIS:
+Good madam, a wors
+----------------------------------
+12984/46375 (epoch 34), train_loss = 1.220, time/batch = 0.022
+>> sample mode:
+The enjoy'd, behold them in precious untex: and eyest 
+----------------------------------
+13355/46375 (epoch 35), train_loss = 1.219, time/batch = 0.022
+>> sample mode:
+The empty hope done;
+And there not the Oxposed! But be
+----------------------------------
+13726/46375 (epoch 36), train_loss = 1.203, time/batch = 0.023
+>> sample mode:
+The butcherful rage,
+Would hapge:
+Let's not: whilst ar
+----------------------------------
+14097/46375 (epoch 37), train_loss = 1.199, time/batch = 0.022
+>> sample mode:
+The knew by her been girls,
+Would for twenty hated, an
+----------------------------------
+14468/46375 (epoch 38), train_loss = 1.198, time/batch = 0.020
+>> sample mode:
+The great care:
+Madam; break in thy breeding-grief
+To 
+----------------------------------
+14839/46375 (epoch 39), train_loss = 1.191, time/batch = 0.019
+>> sample mode:
+The bell to my pretence false friends not a traitor, S
+----------------------------------
+15210/46375 (epoch 40), train_loss = 1.187, time/batch = 0.020
+>> sample mode:
+The one self lightly, chared;
+'Tis this call;
+I never 
+----------------------------------
+15581/46375 (epoch 41), train_loss = 1.178, time/batch = 0.020
+>> sample mode:
+The shed send thee, thus come thence!
+
+CAPULET:
+Death,
+----------------------------------
+15952/46375 (epoch 42), train_loss = 1.179, time/batch = 0.021
+>> sample mode:
+The ghostly giving twenty--
+As was most now the hope h
+----------------------------------
+16323/46375 (epoch 43), train_loss = 1.185, time/batch = 0.020
+>> sample mode:
+The bed we give that Camillo:
+And see the news what Ek
+----------------------------------
+16694/46375 (epoch 44), train_loss = 1.186, time/batch = 0.023
+>> sample mode:
+The grieved by such deserved in France;
+The ghostly, t
+----------------------------------
+17065/46375 (epoch 45), train_loss = 1.175, time/batch = 0.021
+>> sample mode:
+The and our jest, I am a kingdom 'Gon-gurgh one yourse
+----------------------------------
+17436/46375 (epoch 46), train_loss = 1.161, time/batch = 0.021
+>> sample mode:
+The age.
+
+GLOUCESTER:
+Peace, my Lord Aurhiary, is it
+i
+----------------------------------
+17807/46375 (epoch 47), train_loss = 1.167, time/batch = 0.020
+>> sample mode:
+The elder it now,
+For he was I labour to,
+The Capil of
+----------------------------------
+18178/46375 (epoch 48), train_loss = 1.169, time/batch = 0.020
+>> sample mode:
+The bred about the city and from the fault! good nicks
+----------------------------------
+18549/46375 (epoch 49), train_loss = 1.165, time/batch = 0.023
+>> sample mode:
+The arm: but my words and strong where you see her bef
+----------------------------------
+18920/46375 (epoch 50), train_loss = 1.155, time/batch = 0.021
+>> sample mode:
+The best cerses not our Valeries the instruments a thi
+----------------------------------
+19291/46375 (epoch 51), train_loss = 1.154, time/batch = 0.021
+>> sample mode:
+The king.
+
+GLOUCESTER:
+The shepherd's children, both s
+----------------------------------
+19662/46375 (epoch 52), train_loss = 1.147, time/batch = 0.022
+>> sample mode:
+The army in the Fourth. What it like a lord. Come hith
+----------------------------------
+20033/46375 (epoch 53), train_loss = 1.143, time/batch = 0.023
+>> sample mode:
+The opening 'gainst it one armous fright alone,
+And yo
+----------------------------------
+20404/46375 (epoch 54), train_loss = 1.134, time/batch = 0.022
+>> sample mode:
+The evil: if the hardy; and of the doubted, then, tell
+----------------------------------
+20775/46375 (epoch 55), train_loss = 1.137, time/batch = 0.022
+>> sample mode:
+The other health.
+
+Sheper:
+Eles against yourself.
+I wo
+----------------------------------
+21146/46375 (epoch 56), train_loss = 1.135, time/batch = 0.021
+>> sample mode:
+The earth.
+Go with deeper without-gain, then give,
+Nor
+----------------------------------
+21517/46375 (epoch 57), train_loss = 1.131, time/batch = 0.021
+>> sample mode:
+The elful, with dog!
+But, Warwick,
+Or shrum,
+Let usurp
+----------------------------------
+21888/46375 (epoch 58), train_loss = 1.120, time/batch = 0.021
+>> sample mode:
+The eyes before.
+
+GLOUCESTER:
+Go, peprumedy
+Which mans
+----------------------------------
+22259/46375 (epoch 59), train_loss = 1.115, time/batch = 0.021
+>> sample mode:
+The exents it sorrows by bell at our leave,
+Bring me t
+----------------------------------
+22630/46375 (epoch 60), train_loss = 1.107, time/batch = 0.021
+>> sample mode:
+The eldest trod to us, give her full of back of certai
+----------------------------------
+23001/46375 (epoch 61), train_loss = 1.100, time/batch = 0.020
+>> sample mode:
+The budges are cut Cominius to move
+figning modest.
+
+G
+----------------------------------
+23372/46375 (epoch 62), train_loss = 1.094, time/batch = 0.023
+>> sample mode:
+The ever by you.
+
+First Musician:
+I remain answer we b
+----------------------------------
+23743/46375 (epoch 63), train_loss = 1.092, time/batch = 0.027
+>> sample mode:
+The order hunt fear the leather of the leasure of a cr
+----------------------------------
+24114/46375 (epoch 64), train_loss = 1.097, time/batch = 0.022
+>> sample mode:
+The empty rrund:
+And here approved a unlucking the kin
+----------------------------------
+24485/46375 (epoch 65), train_loss = 1.102, time/batch = 0.019
+>> sample mode:
+The even now to-night had cry 'Godstant I have cause.
+
+----------------------------------
+24856/46375 (epoch 66), train_loss = 1.104, time/batch = 0.021
+>> sample mode:
+The evil;
+And then dare, on the most unnatural,
+Who pr
+----------------------------------
+25227/46375 (epoch 67), train_loss = 1.097, time/batch = 0.020
+>> sample mode:
+The even them here, sweet of the winter, and therefore
+----------------------------------
+25598/46375 (epoch 68), train_loss = 1.092, time/batch = 0.019
+>> sample mode:
+The event: these six proclaim it,
+Mine honour,
+Is too 
+----------------------------------
+25969/46375 (epoch 69), train_loss = 1.092, time/batch = 0.022
+>> sample mode:
+The else us: and my sovereign.
+
+Shepherd:
+You are dead
+----------------------------------
+26340/46375 (epoch 70), train_loss = 1.089, time/batch = 0.021
+>> sample mode:
+The earl'd under
+courties of thine ears: or who I leav
+----------------------------------
+26711/46375 (epoch 71), train_loss = 1.087, time/batch = 0.020
+>> sample mode:
+The early visading: where's flesh to us,
+That cape int
+----------------------------------
+27082/46375 (epoch 72), train_loss = 1.077, time/batch = 0.021
+>> sample mode:
+The even to my whole cried, yet, as I should happy you
+----------------------------------
+27453/46375 (epoch 73), train_loss = 1.078, time/batch = 0.022
+>> sample mode:
+The enfless are service.
+
+KING RICHARD II:
+We will tea
+----------------------------------
+27824/46375 (epoch 74), train_loss = 1.076, time/batch = 0.020
+>> sample mode:
+The exercise, the earth with his feast,
+Which, at mine
+----------------------------------
+28195/46375 (epoch 75), train_loss = 1.074, time/batch = 0.023
+>> sample mode:
+The executed
+he came time of the
+desparary
+That hern e
+----------------------------------
+28566/46375 (epoch 76), train_loss = 1.070, time/batch = 0.021
+>> sample mode:
+The exercise, my joy
+me! here's every tongue, who, in 
+----------------------------------
+28937/46375 (epoch 77), train_loss = 1.063, time/batch = 0.021
+>> sample mode:
+The elder, ladies, I pray, Margaret my feeble tongue?
+
+----------------------------------
+29308/46375 (epoch 78), train_loss = 1.058, time/batch = 0.021
+>> sample mode:
+The elder hath offended
+There shines brudhe was.
+
+KING
+----------------------------------
+29679/46375 (epoch 79), train_loss = 1.052, time/batch = 0.020
+>> sample mode:
+The exercisable allabuss; and let me do
+I pray her mea
+----------------------------------
+30050/46375 (epoch 80), train_loss = 1.048, time/batch = 0.020
+>> sample mode:
+The early sons,
+The leigned souls, being the kiteous e
+----------------------------------
+30421/46375 (epoch 81), train_loss = 1.046, time/batch = 0.022
+>> sample mode:
+The occupation thus to Buckingham
+Be that art thou wit
+----------------------------------
+30792/46375 (epoch 82), train_loss = 1.044, time/batch = 0.020
+>> sample mode:
+The envy no foolish order, a very father chests from h
+----------------------------------
+31163/46375 (epoch 83), train_loss = 1.042, time/batch = 0.021
+>> sample mode:
+The elderne unscarce and defence: for charitictable fo
+----------------------------------
+31534/46375 (epoch 84), train_loss = 1.040, time/batch = 0.020
+>> sample mode:
+The eldest,
+And I'll be inclinds of grief in heaven up
+----------------------------------
+31905/46375 (epoch 85), train_loss = 1.040, time/batch = 0.020
+>> sample mode:
+The elder bliss?
+The gods common queen
+On
+Edway mester
+----------------------------------
+32276/46375 (epoch 86), train_loss = 1.041, time/batch = 0.022
+>> sample mode:
+The eldest hand in those peril upon our labour it off,
+----------------------------------
+32647/46375 (epoch 87), train_loss = 1.039, time/batch = 0.021
+>> sample mode:
+The apt appears,
+And there I do, and, toad, messenger,
+----------------------------------
+33018/46375 (epoch 88), train_loss = 1.036, time/batch = 0.021
+>> sample mode:
+The is brunishers' son;
+Death! as I know
+His head.
+
+HE
+----------------------------------
+33389/46375 (epoch 89), train_loss = 1.030, time/batch = 0.020
+>> sample mode:
+The employ!
+See
+my heart of this, for it is?
+
+SICINIUS
+----------------------------------
+33760/46375 (epoch 90), train_loss = 1.025, time/batch = 0.021
+>> sample mode:
+The eldoint mocks as the never farewell memory;
+The pr
+----------------------------------
+34131/46375 (epoch 91), train_loss = 1.023, time/batch = 0.020
+>> sample mode:
+The elasty, his enemies.
+But, by and unreamine that sh
+----------------------------------
+34502/46375 (epoch 92), train_loss = 1.022, time/batch = 0.023
+>> sample mode:
+The elder,
+And hold you, my dear sleep?
+
+JOHN OF GAUNT
+----------------------------------
+34873/46375 (epoch 93), train_loss = 1.020, time/batch = 0.020
+>> sample mode:
+The early at door murder?---struggly home on't.
+
+AUTOL
+----------------------------------
+35244/46375 (epoch 94), train_loss = 1.016, time/batch = 0.026
+>> sample mode:
+The eldest two
+Field Come leave the deed;
+And say'st t
+----------------------------------
+35615/46375 (epoch 95), train_loss = 1.015, time/batch = 0.020
+>> sample mode:
+The ended our loving foe,
+And steal as to speak; while
+----------------------------------
+35986/46375 (epoch 96), train_loss = 1.013, time/batch = 0.021
+>> sample mode:
+The earnest order.
+
+First Citizen:
+Beseech your mother
+----------------------------------
+36357/46375 (epoch 97), train_loss = 1.011, time/batch = 0.022
+>> sample mode:
+The advantagesome.
+
+KING HENRY VI:
+Is prisoner now,
+Fr
+----------------------------------
+36728/46375 (epoch 98), train_loss = 1.011, time/batch = 0.022
+>> sample mode:
+The even within, I will not needs his eye,
+For ragour 
+----------------------------------
+37099/46375 (epoch 99), train_loss = 1.012, time/batch = 0.020
+>> sample mode:
+The elder, so unlawful virtues most injurion, follower
+----------------------------------
+37470/46375 (epoch 100), train_loss = 1.013, time/batch = 0.020
+>> sample mode:
+The elfudes,
+But still have perish'd.
+
+DUKE VINCENTIO:
+----------------------------------
+37841/46375 (epoch 101), train_loss = 1.012, time/batch = 0.021
+>> sample mode:
+The aid, I would forget with us; and there's my wave-w
+----------------------------------
+38212/46375 (epoch 102), train_loss = 1.011, time/batch = 0.020
+>> sample mode:
+The ound us in loving body and desert did her; so dear
+----------------------------------
+38583/46375 (epoch 103), train_loss = 1.007, time/batch = 0.020
+>> sample mode:
+The exinit, and I
+Heaven hath the commons, that our ge
+----------------------------------
+38954/46375 (epoch 104), train_loss = 1.004, time/batch = 0.019
+>> sample mode:
+The elded by brows, some hours,
+That turn'd, I do love
+----------------------------------
+39325/46375 (epoch 105), train_loss = 1.000, time/batch = 0.022
+>> sample mode:
+The express'd; stir erempust
+Die you both that questio
+----------------------------------
+39696/46375 (epoch 106), train_loss = 0.998, time/batch = 0.020
+>> sample mode:
+The elder direct them if
+you only lose him. Leave you 
+----------------------------------
+40067/46375 (epoch 107), train_loss = 0.996, time/batch = 0.021
+>> sample mode:
+The every spring
+Than you bid his head which was most 
+----------------------------------
+40438/46375 (epoch 108), train_loss = 0.995, time/batch = 0.024
+>> sample mode:
+The very mercy,--
+If yet both will bear this gentleman
+----------------------------------
+40809/46375 (epoch 109), train_loss = 0.994, time/batch = 0.022
+>> sample mode:
+The else applause, my blood of white are welp to me a 
+----------------------------------
+41180/46375 (epoch 110), train_loss = 0.994, time/batch = 0.022
+>> sample mode:
+The of you my reasons. What! although my congeath. Imb
+----------------------------------
+41551/46375 (epoch 111), train_loss = 0.993, time/batch = 0.022
+>> sample mode:
+The eldernel is not fear my foe:
+Good old Clifford sho
+----------------------------------
+41922/46375 (epoch 112), train_loss = 0.992, time/batch = 0.020
+>> sample mode:
+The valued else were the very cousin. I change all dis
+----------------------------------
+42293/46375 (epoch 113), train_loss = 0.991, time/batch = 0.022
+>> sample mode:
+The old feast.
+
+AUTOLYCUS:
+We are you?
+
+First Senator:
+----------------------------------
+42664/46375 (epoch 114), train_loss = 0.990, time/batch = 0.021
+>> sample mode:
+The even too late,
+For here forbid!
+My title's fabour 
+----------------------------------
+43035/46375 (epoch 115), train_loss = 0.989, time/batch = 0.022
+>> sample mode:
+The bears: O, would he done a knew of your malice, wha
+----------------------------------
+43406/46375 (epoch 116), train_loss = 0.989, time/batch = 0.020
+>> sample mode:
+The elfell and Henry, proud lip at what with kiss it, 
+----------------------------------
+43777/46375 (epoch 117), train_loss = 0.988, time/batch = 0.020
+>> sample mode:
+The early respected against the entrear in lusing.
+
+KI
+----------------------------------
+44148/46375 (epoch 118), train_loss = 0.988, time/batch = 0.021
+>> sample mode:
+The often will be delight love,
+I am his officer,
+Of w
+----------------------------------
+44519/46375 (epoch 119), train_loss = 0.988, time/batch = 0.020
+>> sample mode:
+The early there,
+With thought on thy swift,
+To bed, th
+----------------------------------
+44890/46375 (epoch 120), train_loss = 0.988, time/batch = 0.021
+>> sample mode:
+The even to be thanks,
+But I'll have constant hour.
+
+N
+----------------------------------
+45261/46375 (epoch 121), train_loss = 0.989, time/batch = 0.022
+>> sample mode:
+The else
+ye'er a man at last 'for beon friend no more;
+----------------------------------
+45632/46375 (epoch 122), train_loss = 0.989, time/batch = 0.019
+>> sample mode:
+The best power of ourself;
+Until not to be haunta-nigh
+----------------------------------
+46003/46375 (epoch 123), train_loss = 0.990, time/batch = 0.020
+>> sample mode:
+The gibsed so met, and, noble lords about his letters 
+----------------------------------
+46374/46375 (epoch 124), train_loss = 0.990, time/batch = 0.020
+>> sample mode:
+The belord'st the
+trulks you
+For a crown.
+3 KINT OF Se
+----------------------------------

@@ -1,0 +1,39 @@
+This is your take home midterm exam.
+
+INSTRUCTIONS: 
+
+Go to the labs and find the one for RNNs entitled "Character Modeling with RNNs/LSTMs". You will be running a few experiments and will answer a few questions. Remark: The critical thinking and analysis of the questions is usually reflected in your answers; you will be graded by the quality of your answers at my discretion. 
+
+Part 1: Vary the number of hidden units exponentially as follows, 32, 64, 128, 256, and 512; compare results of each and answer the following questions:
+
+What happens to the perplexity? Why do you think that is?
+
+What happens to the sentences that it produces? Why do you think that is? How does this relate to the previous question about perplexity?
+
+(feel free to include any tables or plots to support your answers)
+
+ 
+
+Part 2: Vary the length of the sequences as follows, 25, 50, and 75; compare results of each and answer the following questions:
+
+What happens to the perplexity? Why do you think that is?
+
+What happens to the quality of the sentences that it produces? Why do you think that is? How does this relate to the previous question about perplexity?
+
+(feel free to include any tables or plots to support your answers)
+
+ 
+
+Part 3 (only if you are feeling adventurous, this is totally optional): Change the dataset and empirically find the set of parameters that give you a good model. 
+
+For inspiration, try the following datasets:
+
+free books from http://www.gutenberg.org/ebooks/
+or tweets from http://www.trumptwitterarchive.com/
+ 
+
+Upload a .pdf of your writeup by  Thursday, Oct/19 by midnight. 
+
+Let me know if you have any questions.
+
+- Dr. Rivas
