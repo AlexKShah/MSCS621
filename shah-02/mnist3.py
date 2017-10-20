@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import time
-import sys
 
 startTime = time.process_time()
 
@@ -23,7 +22,7 @@ nclasses = trainlabels.shape[1]
 n_hidden = 4096
 learning_rate = 1.0
 training_iters = 100000
-batch_size = 25
+batch_size = 100
 ##
 
 n_input = 28 # MNIST data input (img shape: 28*28)
@@ -59,8 +58,10 @@ accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
 init = tf.global_variables_initializer()
 
+##Out of memory tweaks, didn't work for 4096
 config = tf.ConfigProto()
-config.gpu_options.per_process_gpu_memory_fraction = 0.5
+#config.gpu_options.per_process_gpu_memory_fraction = 0.2
+config.gpu_options.allow_growth = True
 with tf.Session(config=config) as sess:
     sess.run(init)
     step = 1
