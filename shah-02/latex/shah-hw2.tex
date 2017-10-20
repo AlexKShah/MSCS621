@@ -1,0 +1,51 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+
+\title{HW2: Neurons/Learning Rate}
+\author{Alex Shah}
+\date{10/20/17}
+
+\begin{document}
+
+\lstset{language=Python}
+\maketitle
+
+\section{Code}
+
+\lstinputlisting[language=Python,frame=single, breaklines=true]{mnist3.py}
+
+\clearpage
+
+\section{Results}
+
+\begin{table}[h]
+ \caption{Neurons and Learning Rate Test Accuracy}
+ \label{tbl:aTable}
+ \begin{center}
+  \begin{tabular}{lccccccr}
+    \hline 
+    Neurons/Learning Rate & 0.00001 & 0.0001 & 0.001 & 0.01 & 0.1 & 1.0  \\
+    \hline
+    16 & 0.1083 & 0.3873 & 0.8545 & 0.9487 & 0.8425 & 0.3734 \\
+    32 & 0.2175 & 0.6249 & 0.9438 & 0.9703 & 0.8836 & 0.0892 \\
+    64 & 0.2156 & 0.8204 & 0.9619 & 0.9752 & 0.8127 & 0.0958 \\
+    128 & 0.4487 & 0.903 & 0.9688 & 0.9776 & 0.4733 & 0.1009 \\
+    256 & 0.6379 & 0.9276 & 0.9705 & 0.9786 & 0.098 & 0.1028 \\
+    512 & 0.764 & 0.9398 & 0.9661 & 0.9768 & 0.4154 & 0.098 \\
+    1024 & 0.8381 & 0.945 & 0.9711 & 0.3739 & 0.1032 & 0.1135 \\
+    2048 & 0.8541 & 0.9435 & 0.9707 & 0.0892 & 0.0982 & 0.1135 \\
+    4096 & DNF & DNF & DNF & DNF & DNF & DNF \\
+    \hline 
+  \end{tabular}
+ \end{center}
+\end{table}
+
+\subsection{Explanation}
+
+\paragraph{what is this telling you about the training of an LSTM with respect to the number of neurons or learning rate or both? What can you learn from this?}
+
+\end{document}
