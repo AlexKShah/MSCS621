@@ -38,6 +38,32 @@
  \end{center}
 \end{table}
 
+\subsection{Part 1: Analysis}
+
+\paragraph{
+As the number of hidden units decreases, there is a marked drop in perplexity. Perplexity represents the difficulty the net has in predicting output. In this character RNN, the perplexity decreasing means that the network has an easier time predicting characters as the number of hidden units increases. These hidden units allow for more information to be factored into producing character output. The direct result of increasing hidden units is that the embedding, or vectorization of characters, is expanded by the increase in hidden units size. The effect is apparent from the table 1.
+}
+\
+\vspace{5mm}
+
+``The the dounch and pest as he schenged my trote to spr``
+
+\ 
+Sample from 32 hidden units 
+\vspace{5mm}
+
+``The bears: O, would he done a knew of your malice``
+
+\ 
+Sample from 512 hidden units 
+\
+
+\paragraph{
+Looking at the sentences produced by the lowest number of hidden units, 32, almost none of the words produced are English words. Very few of the sentences are readable, and even fewer follow any semblance of sentence structure. Compared to the higher hidden unit output, this seems almost random even by the end of the training. At 512 hidden units, most if not all words by the end of training are either English words or close enough approximations. Punctuation and symbols are used in ways that seem to mirror the source material, such as a character name and colon followed by a newline preceding what must be that character's dialogue. The spelling, syntax, and overall structure of sentences produced are much more readable and often wholly correct with higher hidden units.
+}
+
+\clearpage
+
 \section{Part 2: Sequence Length}
 
 \begin{table}[h]
@@ -50,9 +76,42 @@
 	\hline
 	25 & 1.336\\
 	50 & 1.412\\
-	75 & 1.361\\
+	75 & 1.357\\
   \end{tabular}
  \end{center}
 \end{table}
+
+\subsection{Part 2: Analysis}
+
+\paragraph{
+The sequence length is how many characters the RNN takes into account for modeling prediction. The output and states from longer or shorter sequences affects the predictions formed, but not the ease at which the net can predict them. Thus, the perplexity from 25 to 75 has very little change. 
+}
+
+\
+\vspace{5mm}
+
+``The Froths are in Boney?
+
+Proffil
+piad, that I'll keep with:
+Bain a town; and h''
+
+\ 
+Sample from 25 sequence length
+\vspace{5mm}
+
+``The devil's, thus, and that I did make of your noted to answerful, since he''
+
+\ 
+Sample from 75 sequence length
+\
+
+\paragraph{
+We can see that with a shorter sequence length the contextual accuracy of sentences, such as forming valid English words and structure, are diminished. In comparison, the longer sequence length is comprehensible as a fragment of a statement, albeit grammar structure is not entirely possible with character based prediction. This demonstrates the sequence length's effect on context and accuracy beyond predicting just a character, the amount of input affects how well that outputs fits overall in a human readable sentence. It is still just as difficult (noted by the perplexity remaining the same) to predict the characters, but the "understanding" that comes with a longer sequence length is reflected in the output text.
+}
+
+\subsection{Part 3: 50 Sequences of Grey}
+
+\paragraph{I decided to run this on a dataset consisting of the entire 50 Shades of Grey novel. For your enjoyment, computer generated smut:}
 
 \end{document}

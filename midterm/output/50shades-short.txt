@@ -1,0 +1,710 @@
+loading preprocessed files
+164/16500 (epoch 0), train_loss = 1.996, time/batch = 0.019
+>> sample mode:
+She forms.”? I geas th
+we movel. Cand thatlesterclens and
+her infm conlyour br pintw, and I
+askioguch cf
+----------------------------------
+329/16500 (epoch 1), train_loss = 1.731, time/batch = 0.020
+>> sample mode:
+She doing, swey, and colfther.
+This
+iteruped of this is Ana,” she roghid.” I dess she
+rolloke as if.”
+“I
+----------------------------------
+494/16500 (epoch 2), train_loss = 1.593, time/batch = 0.020
+>> sample mode:
+She utaction.
+“Taning for you, not boverom llevilred.
+His piviout flouth, ank you. While
+you while-My sh
+----------------------------------
+659/16500 (epoch 3), train_loss = 1.517, time/batch = 0.019
+>> sample mode:
+She wanting to Exany and
+meething up...olke,
+and take
+her insermory nothing.
+“You
+were don’t
+lip, Mr. Jo
+----------------------------------
+824/16500 (epoch 4), train_loss = 1.467, time/batch = 0.022
+>> sample mode:
+She statel.”
+Ever Kate car. He went I hime a groan.
+Babining waynar where ha
+going to Thy
+to pell. She w
+----------------------------------
+989/16500 (epoch 5), train_loss = 1.429, time/batch = 0.021
+>> sample mode:
+She thinks that with her onfforeht before.
+I rup.”
+“Why,
+I would date for
+the wantiatis
+meeth sich. Hell
+----------------------------------
+1154/16500 (epoch 6), train_loss = 1.399, time/batch = 0.020
+>> sample mode:
+She thank you, she’s stit.” She thinking
+to
+Date: Mia toverwisnce very. After
+take.“Stredees, I pirast c
+----------------------------------
+1319/16500 (epoch 7), train_loss = 1.373, time/batch = 0.020
+>> sample mode:
+She while starts a glider.
+“I’m agreement thin like that she disching
+Tanco: have the while. “I’m going 
+----------------------------------
+1484/16500 (epoch 8), train_loss = 1.352, time/batch = 0.019
+>> sample mode:
+She holds her up obtholab and Inorgiation. Oh, imperwing told
+Taylor.
+Whire I want
+toget you. Oh he afte
+----------------------------------
+1649/16500 (epoch 9), train_loss = 1.337, time/batch = 0.020
+>> sample mode:
+She tirhin you with this.
+The remind
+hands sheet is where Miss, with all I
+don’t like through out
+willin
+----------------------------------
+1814/16500 (epoch 10), train_loss = 1.317, time/batch = 0.019
+>> sample mode:
+She has anything you tonourdedictaging do this shall change asualling the living
+roy to hair
+tomorrow.
+“
+----------------------------------
+1979/16500 (epoch 11), train_loss = 1.305, time/batch = 0.028
+>> sample mode:
+She stare ancoura poind whesican tights regrature. I open a
+gotes.”
+“I went thrir, cument hours her to
+c
+----------------------------------
+2144/16500 (epoch 12), train_loss = 1.291, time/batch = 0.019
+>> sample mode:
+She shouth.
+At e-mail
+minutes,” I tell her life
+I tead that things told me and makes
+Date: Mon like a pr
+----------------------------------
+2309/16500 (epoch 13), train_loss = 1.278, time/batch = 0.019
+>> sample mode:
+She shouthing
+her room of
+you segonal—yead baby as I have a glate
+that for mecountain mind I’ll girl Scu
+----------------------------------
+2474/16500 (epoch 14), train_loss = 1.269, time/batch = 0.019
+>> sample mode:
+She sounds in a
+sin,
+Ana.
+What’s hap fool, she love
+so that you liked about my pass; each procedattem.Ye
+----------------------------------
+2639/16500 (epoch 15), train_loss = 1.261, time/batch = 0.019
+>> sample mode:
+She has voice is
+vanillay,” around
+my desk, Ana. I need her be—with has questecades the
+fuite begnotient
+----------------------------------
+2804/16500 (epoch 16), train_loss = 1.252, time/batch = 0.019
+>> sample mode:
+She hope she
+tries. Untilled was...abs-fiftry happen this ruls after that I’ve
+sturnight happy into the 
+----------------------------------
+2969/16500 (epoch 17), train_loss = 1.249, time/batch = 0.019
+>> sample mode:
+She contemplet, and head through and safe brow
+what she’s told me, unliving man,” she whispers. “Cally t
+----------------------------------
+3134/16500 (epoch 18), train_loss = 1.243, time/batch = 0.019
+>> sample mode:
+She fun forgive it, and blaros willingly she snim a
+while. I’m confusitaining?”
+“No. THE CPREVREF.” I kn
+----------------------------------
+3299/16500 (epoch 19), train_loss = 1.234, time/batch = 0.020
+>> sample mode:
+She told my
+playroom, and into her
+eyes, and
+from Ana.
+Kate, door I want to big
+do’ll return. She’s muph
+----------------------------------
+3464/16500 (epoch 20), train_loss = 1.225, time/batch = 0.019
+>> sample mode:
+She sleeps on fine, thank you.” From: Christian Grey
+Subject: Grace tixs. Why no go the hotel in pickets
+----------------------------------
+3629/16500 (epoch 21), train_loss = 1.222, time/batch = 0.019
+>> sample mode:
+She flight about my girl. “You’re surfaces me glad
+you’re right makes my anNo-
+for word to be doing the 
+----------------------------------
+3794/16500 (epoch 22), train_loss = 1.214, time/batch = 0.019
+>> sample mode:
+She kiss her bed, belopibitias the elevation?” she whispers, she resert? I
+don’t retend her? I bring bac
+----------------------------------
+3959/16500 (epoch 23), train_loss = 1.208, time/batch = 0.019
+>> sample mode:
+She topes on my
+face last my hold on top of her
+breast thesape. I don’t be much to be
+Anastasia.” She
+bo
+----------------------------------
+4124/16500 (epoch 24), train_loss = 1.203, time/batch = 0.019
+>> sample mode:
+She transwe. “If you really?
+I Ana’s earlo. I do. I’ll get for this, hot long like a
+glase.CHAY PANTEE I
+----------------------------------
+4289/16500 (epoch 25), train_loss = 1.196, time/batch = 0.020
+>> sample mode:
+She stares bite boys—against
+him blurtont breathing busy.”
+And when she small, as I ready interching ove
+----------------------------------
+4454/16500 (epoch 26), train_loss = 1.189, time/batch = 0.019
+>> sample mode:
+She look inch
+of her. She
+is points to
+you anythout wishche starts are dazy.
+She looks his right now.
+No
+----------------------------------
+4619/16500 (epoch 27), train_loss = 1.182, time/batch = 0.019
+>> sample mode:
+She exits and fallen for the
+but event fright. I’ll stop. I’m not herious.
+“Togat. She’s no controd.
+She
+----------------------------------
+4784/16500 (epoch 28), train_loss = 1.178, time/batch = 0.020
+>> sample mode:
+She which has been decape sleep. Pessing my
+cans.”
+But more proteily.
+“Christian. You’re boE,” she says.
+----------------------------------
+4949/16500 (epoch 29), train_loss = 1.176, time/batch = 0.019
+>> sample mode:
+She studic rolcaps she can is has been
+deciped my eyes I ear dows, good from
+her
+parents. “It’s not sure
+----------------------------------
+5114/16500 (epoch 30), train_loss = 1.171, time/batch = 0.020
+>> sample mode:
+She steps play by the regards
+stild something.” Her
+expression...and shuts for her and
+pensious.
+“Boint 
+----------------------------------
+5279/16500 (epoch 31), train_loss = 1.167, time/batch = 0.019
+>> sample mode:
+She sleckates off me about asks. “What?” I ask.
+“How course?”
+“Yeat. But ask.
+“Secure. May 2: one away. 
+----------------------------------
+5444/16500 (epoch 32), train_loss = 1.163, time/batch = 0.019
+>> sample mode:
+She looks preased. Reath right.
+Smill done, she’s ever for a longing contract me with an iPe. Do
+you hav
+----------------------------------
+5609/16500 (epoch 33), train_loss = 1.159, time/batch = 0.020
+>> sample mode:
+She thinks.
+Perhaps I was ad her, and if
+I fell iethorger in her clone for all the
+home—wo’s back, and f
+----------------------------------
+5774/16500 (epoch 34), train_loss = 1.156, time/batch = 0.019
+>> sample mode:
+She soundwarewates, I
+take a sip her from of dissises with things.”
+“What afait, he’s disbelieg
+taythot 
+----------------------------------
+5939/16500 (epoch 35), train_loss = 1.154, time/batch = 0.019
+>> sample mode:
+She know what you taken leaves agreen changent beneath
+me. Holding you.
+“How are you e-mail?
+“Yes,” she 
+----------------------------------
+6104/16500 (epoch 36), train_loss = 1.154, time/batch = 0.019
+>> sample mode:
+She love yelike our assake.
+Fuck. Her
+expression to kiss each it on times with
+one kight, and behind her
+----------------------------------
+6269/16500 (epoch 37), train_loss = 1.151, time/batch = 0.023
+>> sample mode:
+She baby,” I mution to calle for a moment plobably
+really knighternal. How was her back in tweately at f
+----------------------------------
+6434/16500 (epoch 38), train_loss = 1.148, time/batch = 0.019
+>> sample mode:
+She Even Could call zing and
+hangs with breably I’ll have to go each more, tension as her out acrossment
+----------------------------------
+6599/16500 (epoch 39), train_loss = 1.145, time/batch = 0.020
+>> sample mode:
+She straineder her lip?”)s hift
+with at the
+tensial preseat, overwhere up
+relieved?” she asks, her tomor
+----------------------------------
+6764/16500 (epoch 40), train_loss = 1.143, time/batch = 0.020
+>> sample mode:
+She stopping at my inbove, allumble. “Sure, sir, I pull exemble.“I’m self...andidial.
+When we
+are just d
+----------------------------------
+6929/16500 (epoch 41), train_loss = 1.141, time/batch = 0.019
+>> sample mode:
+She looks desict, stell
+might need dinner,” she says. She’s longly and where we exit, and it makes me un
+----------------------------------
+7094/16500 (epoch 42), train_loss = 1.139, time/batch = 0.019
+>> sample mode:
+She shrugh in face me so angry with me.”
+“Taylor
+taste. I’ve come up. That they sose and recure through 
+----------------------------------
+7259/16500 (epoch 43), train_loss = 1.137, time/batch = 0.019
+>> sample mode:
+She let’slow “I want to come up.”
+I hang up slowlers me from my hands to
+going to scourage catchssive in
+----------------------------------
+7424/16500 (epoch 44), train_loss = 1.135, time/batch = 0.020
+>> sample mode:
+She studden is study pat and her phone good. Does your jayourself.”
+I didn’t move of the passing a kiss 
+----------------------------------
+7589/16500 (epoch 45), train_loss = 1.132, time/batch = 0.019
+>> sample mode:
+She now,
+baby,” she bring it’s probably surprised to say.
+“Yes, sir.”
+“Are you get you wenk of this,” I 
+----------------------------------
+7754/16500 (epoch 46), train_loss = 1.130, time/batch = 0.022
+>> sample mode:
+She love
+than 201 mear through pown. I’ve fool
+a sooth, attractive, hears. This is a few for you respond
+----------------------------------
+7919/16500 (epoch 47), train_loss = 1.128, time/batch = 0.019
+>> sample mode:
+She now. But bitision, as Turning Sconsidens after a compin for some everything I
+want to know.
+“My fing
+----------------------------------
+8084/16500 (epoch 48), train_loss = 1.126, time/batch = 0.019
+>> sample mode:
+She is liet.”
+“Why?”
+“You like
+a happy women order, my
+opprilment.
+Come.”
+She exits you have said shit.
+
+----------------------------------
+8249/16500 (epoch 49), train_loss = 1.124, time/batch = 0.020
+>> sample mode:
+She esand,
+distrughten down
+yestical relationship.
+“Not foace—word.”
+And
+she’ll never think that she doe
+----------------------------------
+8414/16500 (epoch 50), train_loss = 1.123, time/batch = 0.020
+>> sample mode:
+She lets me.
+Well, as my T-shirt.
+As been a deep breath a little this parts, my expression. She doesn’t
+
+----------------------------------
+8579/16500 (epoch 51), train_loss = 1.122, time/batch = 0.020
+>> sample mode:
+She says it both
+from insirn
+whole the young woman
+innocence. And I feel my
+office—”
+She likes
+the Submi
+----------------------------------
+8744/16500 (epoch 52), train_loss = 1.121, time/batch = 0.019
+>> sample mode:
+She ease hungry.
+Learing her mother. That didn agree the line dicopt forward in the
+cloced glanag last w
+----------------------------------
+8909/16500 (epoch 53), train_loss = 1.119, time/batch = 0.019
+>> sample mode:
+She she’s going agree upsia Anastasia.”
+“Cure run.
+Mommy masted, fast. She’s alone—
+of your choir.”
+“You
+----------------------------------
+9074/16500 (epoch 54), train_loss = 1.119, time/batch = 0.019
+>> sample mode:
+She rugs,” he conlish so all.
+Her curiosity. No. Charlum, and nund let me needs.
+Howprise,” I
+say, What’
+----------------------------------
+9239/16500 (epoch 55), train_loss = 1.118, time/batch = 0.019
+>> sample mode:
+She straight-” I kiss her fast me this
+just yourself, and the same darkness and with pleasure. Not the d
+----------------------------------
+9404/16500 (epoch 56), train_loss = 1.118, time/batch = 0.020
+>> sample mode:
+She stares at that
+her eatening. You could loon—even the Dominant. 15. Why did I
+ask that?
+“If we atreel
+----------------------------------
+9569/16500 (epoch 57), train_loss = 1.118, time/batch = 0.020
+>> sample mode:
+She let’s happen never do. I see you and so in a crawle
+questions
+as I sit up to mind in a Revilion of h
+----------------------------------
+9734/16500 (epoch 58), train_loss = 1.118, time/batch = 0.019
+>> sample mode:
+She shrull when I open the qualified, I pull
+Ana would waist. She’d because slow no sayed through the ba
+----------------------------------
+9899/16500 (epoch 59), train_loss = 1.118, time/batch = 0.020
+>> sample mode:
+She shrugh I
+reach her rerumpubs my mother
+off so
+sheets to
+maybe
+Benson cless around her
+fingers from
+t
+----------------------------------
+10064/16500 (epoch 60), train_loss = 1.117, time/batch = 0.020
+>> sample mode:
+She tells me brought the hose?
+Pull how you don’t? We decomporter through my
+pants down at ripples only 
+----------------------------------
+10229/16500 (epoch 61), train_loss = 1.115, time/batch = 0.027
+>> sample mode:
+She shrugh in a
+depork or
+Ana.
+“We rederailing her. It has far.
+“Christian,” she whimpers.
+She does as I
+----------------------------------
+10394/16500 (epoch 62), train_loss = 1.114, time/batch = 0.020
+>> sample mode:
+She raimagemawaybes.
+Andryaw, Christian Grey
+Smeligations’s to hear to my dress, delicate to her hair ov
+----------------------------------
+10559/16500 (epoch 63), train_loss = 1.112, time/batch = 0.020
+>> sample mode:
+She foulth
+honest mades of Elliot!
+Placing me with a
+codar: time to think as a buzzs.”
+He
+pance no.
+Ther
+----------------------------------
+10724/16500 (epoch 64), train_loss = 1.111, time/batch = 0.020
+>> sample mode:
+She shrugh out and
+loces on the radio all decide this woman. From: Christian Grey
+Subject: Expleded,
+all
+----------------------------------
+10889/16500 (epoch 65), train_loss = 1.109, time/batch = 0.019
+>> sample mode:
+She shrugs down to the
+sofa.
+I take and sessed. “I
+don’t want because you too.
+Both hurt to move?
+This i
+----------------------------------
+11054/16500 (epoch 66), train_loss = 1.108, time/batch = 0.020
+>> sample mode:
+She gashed lups. Ana she writhes in pipper all my mouth.” But it’s
+sound ba; my
+tongue
+around her waist.
+----------------------------------
+11219/16500 (epoch 67), train_loss = 1.106, time/batch = 0.019
+>> sample mode:
+She has are detail
+packed her mouth.
+She knows as she’s
+offering out her gucks—I smile. But Ros. She’s b
+----------------------------------
+11384/16500 (epoch 68), train_loss = 1.104, time/batch = 0.020
+>> sample mode:
+She loved down her first and
+fot
+and
+a submissive. I laugh a quick on my body rispleases.
+I try to
+recoi
+----------------------------------
+11549/16500 (epoch 69), train_loss = 1.103, time/batch = 0.019
+>> sample mode:
+She tells me. I pushes from
+his. Why.
+“Oh yes.”
+“Yes.
+And the rumbling to inside her, our from the
+grici
+----------------------------------
+11714/16500 (epoch 70), train_loss = 1.102, time/batch = 0.019
+>> sample mode:
+She now.
+The back. How loud,
+Anastasia.”
+She’s hungry.
+“It’s a pleasure at Mommy warm Ana’s already...
+T
+----------------------------------
+11879/16500 (epoch 71), train_loss = 1.101, time/batch = 0.019
+>> sample mode:
+She tells me in going? The thought minutes to take her
+like between her skin.
+“Since except that we’ve m
+----------------------------------
+12044/16500 (epoch 72), train_loss = 1.100, time/batch = 0.020
+>> sample mode:
+She shrugh some parts of
+hers, all against me well family. Interney nervoor
+past on dinner, distraction 
+----------------------------------
+12209/16500 (epoch 73), train_loss = 1.099, time/batch = 0.020
+>> sample mode:
+She told the chawes shit for the feel of
+her sinks up her head soft late, sir.”
+“What’s for the color I’
+----------------------------------
+12374/16500 (epoch 74), train_loss = 1.098, time/batch = 0.020
+>> sample mode:
+She exits calm? Then I play then the maître dire.
+For he talk about her reaction.
+“Are you. I can make t
+----------------------------------
+12539/16500 (epoch 75), train_loss = 1.097, time/batch = 0.020
+>> sample mode:
+She has a reland?
+Why? That’s his beside her tone.
+Something agond?”
+“Teet or was like this? Anastasia i
+----------------------------------
+12704/16500 (epoch 76), train_loss = 1.096, time/batch = 0.019
+>> sample mode:
+She fouch her lips are book so I tell you than my tongue informs is
+shopping. To
+intento her subsering
+i
+----------------------------------
+12869/16500 (epoch 77), train_loss = 1.096, time/batch = 0.019
+>> sample mode:
+She said she’s his erey,
+suruzzled, no idea of the set
+beneath me.“What’s what?”
+“Where’s your.”
+“What i
+----------------------------------
+13034/16500 (epoch 78), train_loss = 1.096, time/batch = 0.020
+>> sample mode:
+She love. Have you love again. Come.”
+Ah souns.
+“I thought you were from
+any has been the Katheroming ov
+----------------------------------
+13199/16500 (epoch 79), train_loss = 1.096, time/batch = 0.020
+>> sample mode:
+She explain them up and down to advie. The
+thought is enco of her just
+start on my vialst enough.”kiss. 
+----------------------------------
+13364/16500 (epoch 80), train_loss = 1.096, time/batch = 0.021
+>> sample mode:
+She shitag tle
+round. “Mr. Grey. Eat Angive Ros.
+“Cur?”
+“Elliot of the fitty, bends.
+The longer.
+Today w
+----------------------------------
+13529/16500 (epoch 81), train_loss = 1.096, time/batch = 0.019
+>> sample mode:
+She shrugh as I doubt the Submissive, I have a hidens.
+“Yes.”
+“I fish to seny her backgringly, arranged 
+----------------------------------
+13694/16500 (epoch 82), train_loss = 1.096, time/batch = 0.019
+>> sample mode:
+She exems her the time...
+convently serunt even finance!
+No one thing she is disturns wall unated homing
+----------------------------------
+13859/16500 (epoch 83), train_loss = 1.095, time/batch = 0.019
+>> sample mode:
+She concentray to the submissive pink and glance across the palm
+is
+pride: right now
+Taylor is expressio
+----------------------------------
+14024/16500 (epoch 84), train_loss = 1.094, time/batch = 0.019
+>> sample mode:
+She kisses her rounding
+generiod, just
+looking anticipation.
+“I need you a few minutes back to you, the 
+----------------------------------
+14189/16500 (epoch 85), train_loss = 1.092, time/batch = 0.021
+>> sample mode:
+She shakes her hips.
+He’s on her backing crop. She’s go not looking out a quick nigh-ound.”
+I don’t
+want
+----------------------------------
+14354/16500 (epoch 86), train_loss = 1.091, time/batch = 0.019
+>> sample mode:
+She remotish, her hair sideberoment
+I hip you
+the Submissive stuff the resomes through it. In her seat. 
+----------------------------------
+14519/16500 (epoch 87), train_loss = 1.089, time/batch = 0.020
+>> sample mode:
+She has any overries, I send
+any“Date: May 24 2011 00:12
+To: Junk? Fuck you do so.”
+“Quidence I’ve much 
+----------------------------------
+14684/16500 (epoch 88), train_loss = 1.088, time/batch = 0.020
+>> sample mode:
+She eyes homensaves. Mia grabs. “I think us an our
+writted about
+with me and I’ll read.
+This didget
+arri
+----------------------------------
+14849/16500 (epoch 89), train_loss = 1.087, time/batch = 0.019
+>> sample mode:
+She looks control
+Youch hastendide can stay.
+“Hey”
+I put on her tone
+for her bed, sprinning.
+“And it’s h
+----------------------------------
+15014/16500 (epoch 90), train_loss = 1.086, time/batch = 0.020
+>> sample mode:
+She refresper. I’m sorey.
+I’m sure, too. I run my deter, and
+kissing my e-mail back.
+“Oh, navely of her 
+----------------------------------
+15179/16500 (epoch 91), train_loss = 1.085, time/batch = 0.020
+>> sample mode:
+She shrugs.“You shocked her through the grown breath except she’s proseveyon at eMarination.
+“Christian,
+----------------------------------
+15344/16500 (epoch 92), train_loss = 1.084, time/batch = 0.019
+>> sample mode:
+She blue eyes and warm a read hurts to my room afternoon Judy thaters
+and this more close.
+I want
+to sle
+----------------------------------
+15509/16500 (epoch 93), train_loss = 1.084, time/batch = 0.020
+>> sample mode:
+She homeen her lips.
+“What was you
+pind to unipper. Yanners.”
+She does, I take a shared shim into her or
+----------------------------------
+15674/16500 (epoch 94), train_loss = 1.083, time/batch = 0.021
+>> sample mode:
+She has been
+out
+of my own. Filler
+wine while what’s times,” she says.
+“Mis back to me, hard.
+Well, I
+tu
+----------------------------------
+15839/16500 (epoch 95), train_loss = 1.082, time/batch = 0.020
+>> sample mode:
+She looks put and how her ear
+of information.
+“Wea Way, hands this to the safe.
+Not for a bottle I colle
+----------------------------------
+16004/16500 (epoch 96), train_loss = 1.082, time/batch = 0.020
+>> sample mode:
+She love her off man—and of my conference clarming
+out of her, are a big definition or doctor hearms wit
+----------------------------------
+16169/16500 (epoch 97), train_loss = 1.081, time/batch = 0.020
+>> sample mode:
+She sighs. As he slees. “Okay.” Her
+voice is send myself, and hurt my face from
+Ana.
+What?”
+“Because you
+----------------------------------
+16334/16500 (epoch 98), train_loss = 1.080, time/batch = 0.019
+>> sample mode:
+She examines Anastasia shout yell her to her pant tomon.”
+I pull her soft, she knows Meather I’d elow
+sh
+----------------------------------
+16499/16500 (epoch 99), train_loss = 1.079, time/batch = 0.019
+>> sample mode:
+She NEx.
+The aronds, surprised.
+Closing my havilaws where This
+is it?
+“Pe,
+Miss Steele.
+Best frown. Her 
+----------------------------------

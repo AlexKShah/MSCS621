@@ -10,8 +10,8 @@ from six.moves import cPickle
 import numpy as np
 
 ## Change for midterm
-hidden_units = 128
-sequence_length = 75
+rnn_size = 512
+seq_length = 250
 ##
 
 # class to load in text and process input
@@ -81,14 +81,14 @@ class TextLoader():
 
 # Parameters
 
-batch_size = 60  # minibatch size, i.e. size of data in each epoch
-num_epochs = 125 # you should increase it if you want to see relatively good results
+batch_size = 100  # minibatch size, i.e. size of data in each epoch
+num_epochs = 500 # you should increase it if you want to see relatively good results
 learning_rate = 0.002
 decay_rate = 0.97
 num_layers = 2 #number of layers in the RNN
 ## Values set from above
-rnn_size = hidden_units # size of RNN hidden state (output dimension)
-seq_length = sequence_length # RNN sequence length
+#rnn_size = hidden_units # size of RNN hidden state (output dimension)
+#seq_length = sequence_length # RNN sequence length
 
 # Read in 
 with open('input.txt', 'r') as f:
@@ -150,11 +150,11 @@ tvars = tf.trainable_variables()
 
 class LSTMModel():
     def __init__(self,sample=False):
-        rnn_size = hidden_units # size of RNN hidden state vector
-        batch_size = 60 # minibatch size, i.e. size of dataset in each epoch
-        seq_length = sequence_length # RNN sequence length
+        rnn_size = 256 # size of RNN hidden state vector
+        batch_size = 50 # minibatch size, i.e. size of dataset in each epoch
+        seq_length = 100 # RNN sequence length
         num_layers = 2 # number of layers in the RNN
-        vocab_size = 65
+        #vocab_size = 65
         grad_clip = 5.
         if sample:
             print(">> sample mode:")
@@ -253,6 +253,6 @@ with tf.Session() as sess:
 		print("{}/{} (epoch {}), train_loss = {:.3f}, time/batch = {:.3f}" .format(e * data_loader.num_batches + b, num_epochs * data_loader.num_batches, e, train_loss, end - start))
 		with tf.variable_scope("rnn", reuse=True):
 			sample_model = LSTMModel(sample=True)
-			print (sample_model.sample(sess, data_loader.chars , data_loader.vocab, num=25, prime='The ', sampling_type=1))
+			print (sample_model.sample(sess, data_loader.chars , data_loader.vocab, num=100, prime='She ', sampling_type=1))
 			print ('----------------------------------')
 #END

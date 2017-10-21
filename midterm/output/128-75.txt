@@ -1,611 +1,621 @@
-loading preprocessed files
-246/30875 (epoch 0), train_loss = 2.123, time/batch = 0.011
+reading text file
+246/30875 (epoch 0), train_loss = 2.008, time/batch = 0.011
 >> sample mode:
-The meece inst:
-Ther twe be s
+The with I arjuetoon your, aw
 ----------------------------------
-493/30875 (epoch 1), train_loss = 1.884, time/batch = 0.011
+493/30875 (epoch 1), train_loss = 1.805, time/batch = 0.011
 >> sample mode:
-The shall gasather.
-My.
-Whink
+The prefund like be: now thee
 ----------------------------------
-740/30875 (epoch 2), train_loss = 1.761, time/batch = 0.012
+740/30875 (epoch 2), train_loss = 1.706, time/batch = 0.012
 >> sample mode:
-The even stens rothet mashar.
+The pickes we nor all.
+Now yo
 ----------------------------------
-987/30875 (epoch 3), train_loss = 1.686, time/batch = 0.012
+987/30875 (epoch 3), train_loss = 1.639, time/batch = 0.011
 >> sample mode:
-The for you dishoul hamself.
+The canst she reveir thy herd
+----------------------------------
+1234/30875 (epoch 4), train_loss = 1.595, time/batch = 0.011
+>> sample mode:
+The shall newlidil,
+To me.
+We
+----------------------------------
+1481/30875 (epoch 5), train_loss = 1.564, time/batch = 0.013
+>> sample mode:
+The was to caries?
+And surboy
+----------------------------------
+1728/30875 (epoch 6), train_loss = 1.544, time/batch = 0.012
+>> sample mode:
+The marry, beitabalidy,
+What 
+----------------------------------
+1975/30875 (epoch 7), train_loss = 1.526, time/batch = 0.011
+>> sample mode:
+The thrue being my fusiting o
+----------------------------------
+2222/30875 (epoch 8), train_loss = 1.513, time/batch = 0.011
+>> sample mode:
+The not; yed God:--
+
+QUEEN EL
+----------------------------------
+2469/30875 (epoch 9), train_loss = 1.502, time/batch = 0.012
+>> sample mode:
+The large
+That heart some bee
+----------------------------------
+2716/30875 (epoch 10), train_loss = 1.492, time/batch = 0.011
+>> sample mode:
+The might is beit
+Lialiage ta
+----------------------------------
+2963/30875 (epoch 11), train_loss = 1.483, time/batch = 0.012
+>> sample mode:
+The made a breating babina:
+W
+----------------------------------
+3210/30875 (epoch 12), train_loss = 1.474, time/batch = 0.012
+>> sample mode:
+The bids,
+At thou heart to, m
+----------------------------------
+3457/30875 (epoch 13), train_loss = 1.467, time/batch = 0.011
+>> sample mode:
+The flemence: by accusain, bu
+----------------------------------
+3704/30875 (epoch 14), train_loss = 1.460, time/batch = 0.012
+>> sample mode:
+The death, Rimestion all the 
+----------------------------------
+3951/30875 (epoch 15), train_loss = 1.454, time/batch = 0.013
+>> sample mode:
+The the livis.
+Good, lecks th
+----------------------------------
+4198/30875 (epoch 16), train_loss = 1.449, time/batch = 0.012
+>> sample mode:
+The thoughts my juphinen your
+----------------------------------
+4445/30875 (epoch 17), train_loss = 1.444, time/batch = 0.012
+>> sample mode:
+The tear is born stamp's in t
+----------------------------------
+4692/30875 (epoch 18), train_loss = 1.440, time/batch = 0.011
+>> sample mode:
+The night, like the watch an 
+----------------------------------
+4939/30875 (epoch 19), train_loss = 1.436, time/batch = 0.011
+>> sample mode:
+The chase, if you or whink me
+----------------------------------
+5186/30875 (epoch 20), train_loss = 1.432, time/batch = 0.012
+>> sample mode:
+The purds?
+
+LORD FEWISS:
+What
+----------------------------------
+5433/30875 (epoch 21), train_loss = 1.429, time/batch = 0.012
+>> sample mode:
+The tears, no arm
+To thy moth
+----------------------------------
+5680/30875 (epoch 22), train_loss = 1.425, time/batch = 0.012
+>> sample mode:
+The thou like to women nor so
+----------------------------------
+5927/30875 (epoch 23), train_loss = 1.423, time/batch = 0.012
+>> sample mode:
+The the, but
+off her.
+
+LEONTE
+----------------------------------
+6174/30875 (epoch 24), train_loss = 1.420, time/batch = 0.012
+>> sample mode:
+The neckly, beseep, for your 
+----------------------------------
+6421/30875 (epoch 25), train_loss = 1.417, time/batch = 0.013
+>> sample mode:
+The were fils,
+Wronging too r
+----------------------------------
+6668/30875 (epoch 26), train_loss = 1.415, time/batch = 0.012
+>> sample mode:
+The face this wift:
+To brough
+----------------------------------
+6915/30875 (epoch 27), train_loss = 1.413, time/batch = 0.012
+>> sample mode:
+The other with as of abority,
+----------------------------------
+7162/30875 (epoch 28), train_loss = 1.411, time/batch = 0.011
+>> sample mode:
+The truth:
+You on my masters 
+----------------------------------
+7409/30875 (epoch 29), train_loss = 1.409, time/batch = 0.012
+>> sample mode:
+The ratient, for, sir:
+I do C
+----------------------------------
+7656/30875 (epoch 30), train_loss = 1.407, time/batch = 0.011
+>> sample mode:
+The kis little, love King Cli
+----------------------------------
+7903/30875 (epoch 31), train_loss = 1.405, time/batch = 0.012
+>> sample mode:
+The daughter little loss fast
+----------------------------------
+8150/30875 (epoch 32), train_loss = 1.403, time/batch = 0.011
+>> sample mode:
+The swallow.
+
+First Gentleman
+----------------------------------
+8397/30875 (epoch 33), train_loss = 1.402, time/batch = 0.012
+>> sample mode:
+The love,' a holy knave that 
+----------------------------------
+8644/30875 (epoch 34), train_loss = 1.400, time/batch = 0.012
+>> sample mode:
+The heatent diot which, he wa
+----------------------------------
+8891/30875 (epoch 35), train_loss = 1.398, time/batch = 0.011
+>> sample mode:
+The fair to him;
+And I kill o
+----------------------------------
+9138/30875 (epoch 36), train_loss = 1.397, time/batch = 0.012
+>> sample mode:
+The luch deceived courchited
 
 ----------------------------------
-1234/30875 (epoch 4), train_loss = 1.635, time/batch = 0.011
+9385/30875 (epoch 37), train_loss = 1.395, time/batch = 0.015
 >> sample mode:
-The Samany:
-For how frown's s
+The eat;
+And law himfus,
+That
 ----------------------------------
-1481/30875 (epoch 5), train_loss = 1.599, time/batch = 0.011
+9632/30875 (epoch 38), train_loss = 1.394, time/batch = 0.012
 >> sample mode:
-The merence the is
-the rature
+The dare, Richmand,
+Which we 
 ----------------------------------
-1728/30875 (epoch 6), train_loss = 1.575, time/batch = 0.012
+9879/30875 (epoch 39), train_loss = 1.393, time/batch = 0.011
 >> sample mode:
-The else the truets, and and 
-----------------------------------
-1975/30875 (epoch 7), train_loss = 1.555, time/batch = 0.011
->> sample mode:
-The wack'd most lifat whose I
-----------------------------------
-2222/30875 (epoch 8), train_loss = 1.538, time/batch = 0.012
->> sample mode:
-The Fare
-IV heaver furman
-Of 
-----------------------------------
-2469/30875 (epoch 9), train_loss = 1.523, time/batch = 0.012
->> sample mode:
-The namensason. a known of he
-----------------------------------
-2716/30875 (epoch 10), train_loss = 1.509, time/batch = 0.013
->> sample mode:
-The fair
-To come preasors.
+The ready it.
 
-P
+PRINCE EDWARD:
 ----------------------------------
-2963/30875 (epoch 11), train_loss = 1.497, time/batch = 0.013
+10126/30875 (epoch 40), train_loss = 1.391, time/batch = 0.012
 >> sample mode:
-The without.
-How lambla, letc
+The youst, seed, friends? 'ti
 ----------------------------------
-3210/30875 (epoch 12), train_loss = 1.487, time/batch = 0.013
+10373/30875 (epoch 41), train_loss = 1.390, time/batch = 0.012
 >> sample mode:
-The pursoler,
-I though thy sh
+The both not withful, I have 
 ----------------------------------
-3457/30875 (epoch 13), train_loss = 1.478, time/batch = 0.012
+10620/30875 (epoch 42), train_loss = 1.389, time/batch = 0.024
 >> sample mode:
-The for the common a upon:
-Th
+The sluke help-squaridier adv
 ----------------------------------
-3704/30875 (epoch 14), train_loss = 1.471, time/batch = 0.011
+10867/30875 (epoch 43), train_loss = 1.388, time/batch = 0.012
 >> sample mode:
-The constiard
-Upon the tyranc
+The Richard with is loss; If 
 ----------------------------------
-3951/30875 (epoch 15), train_loss = 1.465, time/batch = 0.014
+11114/30875 (epoch 44), train_loss = 1.387, time/batch = 0.011
 >> sample mode:
-The not win heart.
-
-ANGizE:
-O
+The by son. Then a very compl
 ----------------------------------
-4198/30875 (epoch 16), train_loss = 1.460, time/batch = 0.012
+11361/30875 (epoch 45), train_loss = 1.386, time/batch = 0.012
 >> sample mode:
-The the true your freetain!
-B
+The lurfuly thanks, though I 
 ----------------------------------
-4445/30875 (epoch 17), train_loss = 1.455, time/batch = 0.013
+11608/30875 (epoch 46), train_loss = 1.385, time/batch = 0.012
 >> sample mode:
-The comfort
-End, other bue th
+The likene! Cominius.
+Pray fr
 ----------------------------------
-4692/30875 (epoch 18), train_loss = 1.450, time/batch = 0.012
+11855/30875 (epoch 47), train_loss = 1.384, time/batch = 0.012
 >> sample mode:
-The fire.
-
-RITEMISHA:
-They fo
-----------------------------------
-4939/30875 (epoch 19), train_loss = 1.446, time/batch = 0.012
->> sample mode:
-The that the painss! we done.
-----------------------------------
-5186/30875 (epoch 20), train_loss = 1.442, time/batch = 0.015
->> sample mode:
-The he done.
-So stops this pa
-----------------------------------
-5433/30875 (epoch 21), train_loss = 1.438, time/batch = 0.014
->> sample mode:
-The the formal's power:
-Come,
-----------------------------------
-5680/30875 (epoch 22), train_loss = 1.435, time/batch = 0.013
->> sample mode:
-The trudsest.
-May renown
-ot
-c
-----------------------------------
-5927/30875 (epoch 23), train_loss = 1.432, time/batch = 0.013
->> sample mode:
-The thou lark, I pray's child
-----------------------------------
-6174/30875 (epoch 24), train_loss = 1.428, time/batch = 0.012
->> sample mode:
-The fam'
-lely.
-
-TRANIO:
-Not n
-----------------------------------
-6421/30875 (epoch 25), train_loss = 1.426, time/batch = 0.013
->> sample mode:
-The throne, they comest will 
-----------------------------------
-6668/30875 (epoch 26), train_loss = 1.423, time/batch = 0.011
->> sample mode:
-The Kate;
-And they shall leav
-----------------------------------
-6915/30875 (epoch 27), train_loss = 1.420, time/batch = 0.013
->> sample mode:
-The indeer's deproam.
-But and
-----------------------------------
-7162/30875 (epoch 28), train_loss = 1.418, time/batch = 0.011
->> sample mode:
-The Wern thou, and foulity me
-----------------------------------
-7409/30875 (epoch 29), train_loss = 1.416, time/batch = 0.012
->> sample mode:
-The it is fought a name it i'
-----------------------------------
-7656/30875 (epoch 30), train_loss = 1.414, time/batch = 0.012
->> sample mode:
-The Virse, 'See whom I have s
-----------------------------------
-7903/30875 (epoch 31), train_loss = 1.412, time/batch = 0.012
->> sample mode:
-The in hurroine. For mankest 
-----------------------------------
-8150/30875 (epoch 32), train_loss = 1.410, time/batch = 0.012
->> sample mode:
-The hather, fair uncle ears, 
-----------------------------------
-8397/30875 (epoch 33), train_loss = 1.408, time/batch = 0.012
->> sample mode:
-The good wooph,
-And do
-lay, s
-----------------------------------
-8644/30875 (epoch 34), train_loss = 1.407, time/batch = 0.012
->> sample mode:
-The had the eyes,
-were no mor
-----------------------------------
-8891/30875 (epoch 35), train_loss = 1.405, time/batch = 0.011
->> sample mode:
-The where is you,
-I auch
-And 
-----------------------------------
-9138/30875 (epoch 36), train_loss = 1.404, time/batch = 0.012
->> sample mode:
-The mes reconjuremia's, I do 
-----------------------------------
-9385/30875 (epoch 37), train_loss = 1.402, time/batch = 0.012
->> sample mode:
-The love to
-Raived will say
-T
-----------------------------------
-9632/30875 (epoch 38), train_loss = 1.401, time/batch = 0.012
->> sample mode:
-The not which is not shall, m
-----------------------------------
-9879/30875 (epoch 39), train_loss = 1.400, time/batch = 0.011
->> sample mode:
-The think in guster's mador, 
-----------------------------------
-10126/30875 (epoch 40), train_loss = 1.398, time/batch = 0.019
->> sample mode:
-The much, in Ausin-late an wi
-----------------------------------
-10373/30875 (epoch 41), train_loss = 1.397, time/batch = 0.012
->> sample mode:
-The aim threou not I makes th
-----------------------------------
-10620/30875 (epoch 42), train_loss = 1.396, time/batch = 0.012
->> sample mode:
-The best my dursur faint,
-Whi
-----------------------------------
-10867/30875 (epoch 43), train_loss = 1.394, time/batch = 0.011
->> sample mode:
-The prayers, son, and thus ar
-----------------------------------
-11114/30875 (epoch 44), train_loss = 1.393, time/batch = 0.011
->> sample mode:
-The capt to the head, with hi
-----------------------------------
-11361/30875 (epoch 45), train_loss = 1.392, time/batch = 0.011
->> sample mode:
-The too find?
-My issers and b
-----------------------------------
-11608/30875 (epoch 46), train_loss = 1.391, time/batch = 0.013
->> sample mode:
-The free?
-O Angelo, good spee
-----------------------------------
-11855/30875 (epoch 47), train_loss = 1.390, time/batch = 0.014
->> sample mode:
-The feedhus fair sway, at now
-----------------------------------
-12102/30875 (epoch 48), train_loss = 1.389, time/batch = 0.013
->> sample mode:
-The dost thou been win, with 
-----------------------------------
-12349/30875 (epoch 49), train_loss = 1.388, time/batch = 0.013
->> sample mode:
-The vain'd, 'Tis as igno to h
-----------------------------------
-12596/30875 (epoch 50), train_loss = 1.387, time/batch = 0.012
->> sample mode:
-The the health:
-'Tis in read 
-----------------------------------
-12843/30875 (epoch 51), train_loss = 1.386, time/batch = 0.012
->> sample mode:
-The faven.
-
-Clown:
-Shewllome 
-----------------------------------
-13090/30875 (epoch 52), train_loss = 1.385, time/batch = 0.013
->> sample mode:
-The no new let it slaughter.
+The law, if we not hot after
 
 ----------------------------------
-13337/30875 (epoch 53), train_loss = 1.384, time/batch = 0.014
+12102/30875 (epoch 48), train_loss = 1.383, time/batch = 0.012
 >> sample mode:
-The viSe,
-I should bear me hi
+The come threating still that
 ----------------------------------
-13584/30875 (epoch 54), train_loss = 1.383, time/batch = 0.012
+12349/30875 (epoch 49), train_loss = 1.382, time/batch = 0.012
 >> sample mode:
-The God-kyell
-reget comes dot
+The confess jest foreward, as
 ----------------------------------
-13831/30875 (epoch 55), train_loss = 1.382, time/batch = 0.012
+12596/30875 (epoch 50), train_loss = 1.381, time/batch = 0.012
 >> sample mode:
-The doth of leaves, you have 
+The known given advise come t
 ----------------------------------
-14078/30875 (epoch 56), train_loss = 1.381, time/batch = 0.012
+12843/30875 (epoch 51), train_loss = 1.380, time/batch = 0.013
 >> sample mode:
-The fleece the consubgle Miad
+The news;
+That droak ut
+it, n
 ----------------------------------
-14325/30875 (epoch 57), train_loss = 1.381, time/batch = 0.012
+13090/30875 (epoch 52), train_loss = 1.379, time/batch = 0.012
 >> sample mode:
-The virtues,
-To beat,
-With th
+The since well
+Repose, hiss. 
 ----------------------------------
-14572/30875 (epoch 58), train_loss = 1.380, time/batch = 0.012
+13337/30875 (epoch 53), train_loss = 1.378, time/batch = 0.013
 >> sample mode:
-The inverson is before, not p
+The heardy more place of in't
 ----------------------------------
-14819/30875 (epoch 59), train_loss = 1.379, time/batch = 0.012
+13584/30875 (epoch 54), train_loss = 1.378, time/batch = 0.012
 >> sample mode:
-The people atchest or queen
-H
+The are which mean you say, c
 ----------------------------------
-15066/30875 (epoch 60), train_loss = 1.379, time/batch = 0.012
+13831/30875 (epoch 55), train_loss = 1.377, time/batch = 0.012
 >> sample mode:
-The heart, beseef,
-How I walk
+The doth name! Get have woman
 ----------------------------------
-15313/30875 (epoch 61), train_loss = 1.378, time/batch = 0.012
+14078/30875 (epoch 56), train_loss = 1.376, time/batch = 0.012
 >> sample mode:
-The ever turns.
-Betide,
-And b
+The maid fool,
+Discious heave
 ----------------------------------
-15560/30875 (epoch 62), train_loss = 1.377, time/batch = 0.011
+14325/30875 (epoch 57), train_loss = 1.375, time/batch = 0.012
 >> sample mode:
-The carry two pibectings dowa
+The plant not so, perital wid
 ----------------------------------
-15807/30875 (epoch 63), train_loss = 1.377, time/batch = 0.011
+14572/30875 (epoch 58), train_loss = 1.375, time/batch = 0.012
 >> sample mode:
-The perforced conded
-Than tha
+The soul, that there, and the
 ----------------------------------
-16054/30875 (epoch 64), train_loss = 1.376, time/batch = 0.011
+14819/30875 (epoch 59), train_loss = 1.374, time/batch = 0.012
 >> sample mode:
-The friend-head, and she you 
+The services to be bloodly! S
 ----------------------------------
-16301/30875 (epoch 65), train_loss = 1.376, time/batch = 0.012
+15066/30875 (epoch 60), train_loss = 1.374, time/batch = 0.012
 >> sample mode:
-The had, sir; by your sold me
+The heart' preshal, glant thy
 ----------------------------------
-16548/30875 (epoch 66), train_loss = 1.375, time/batch = 0.011
+15313/30875 (epoch 61), train_loss = 1.373, time/batch = 0.012
 >> sample mode:
-The noor unwarray;
-Conce of t
+The fault of your sons. Why, 
 ----------------------------------
-16795/30875 (epoch 67), train_loss = 1.375, time/batch = 0.011
+15560/30875 (epoch 62), train_loss = 1.372, time/batch = 0.012
 >> sample mode:
-The object whose wounds. Engl
+The office an odd burst up, t
 ----------------------------------
-17042/30875 (epoch 68), train_loss = 1.374, time/batch = 0.011
+15807/30875 (epoch 63), train_loss = 1.372, time/batch = 0.012
 >> sample mode:
-The Lancaster,
-Her Lord Threw
+The be then not
+Durable's sea
 ----------------------------------
-17289/30875 (epoch 69), train_loss = 1.374, time/batch = 0.011
+16054/30875 (epoch 64), train_loss = 1.371, time/batch = 0.013
 >> sample mode:
-The thoo. O he were much: lev
-----------------------------------
-17536/30875 (epoch 70), train_loss = 1.373, time/batch = 0.012
->> sample mode:
-The as advices God, it consee
-----------------------------------
-17783/30875 (epoch 71), train_loss = 1.373, time/batch = 0.012
->> sample mode:
-The To lusting
-Of strong well
-----------------------------------
-18030/30875 (epoch 72), train_loss = 1.372, time/batch = 0.012
->> sample mode:
-The never to were fathers? no
-----------------------------------
-18277/30875 (epoch 73), train_loss = 1.372, time/batch = 0.011
->> sample mode:
-The dark.
+The since of your joy.
 
-First Tence shall 
+QUEEN
 ----------------------------------
-18524/30875 (epoch 74), train_loss = 1.372, time/batch = 0.011
+16301/30875 (epoch 65), train_loss = 1.371, time/batch = 0.012
 >> sample mode:
-The Caculting some heaving pu
+The heart within art
+More.
+
+C
 ----------------------------------
-18771/30875 (epoch 75), train_loss = 1.371, time/batch = 0.012
+16548/30875 (epoch 66), train_loss = 1.370, time/batch = 0.012
 >> sample mode:
-The tear her.
+The the might;
+Are here,
+Dabe
+----------------------------------
+16795/30875 (epoch 67), train_loss = 1.370, time/batch = 0.012
+>> sample mode:
+The Duke other
+haste fall'st 
+----------------------------------
+17042/30875 (epoch 68), train_loss = 1.369, time/batch = 0.012
+>> sample mode:
+The inboot
+to the proft-palth
+----------------------------------
+17289/30875 (epoch 69), train_loss = 1.369, time/batch = 0.012
+>> sample mode:
+The killing play,
+Or whyo wor
+----------------------------------
+17536/30875 (epoch 70), train_loss = 1.368, time/batch = 0.012
+>> sample mode:
+The Were cousin allowing erru
+----------------------------------
+17783/30875 (epoch 71), train_loss = 1.368, time/batch = 0.012
+>> sample mode:
+The Twoe:
+Their head's daught
+----------------------------------
+18030/30875 (epoch 72), train_loss = 1.368, time/batch = 0.012
+>> sample mode:
+The thinks in the city is sto
+----------------------------------
+18277/30875 (epoch 73), train_loss = 1.367, time/batch = 0.012
+>> sample mode:
+The taking;
+But that, is thei
+----------------------------------
+18524/30875 (epoch 74), train_loss = 1.367, time/batch = 0.012
+>> sample mode:
+The redengrement duging.
+
+MEN
+----------------------------------
+18771/30875 (epoch 75), train_loss = 1.366, time/batch = 0.012
+>> sample mode:
+The deed.
+
+GLOUCESTER:
+That y
+----------------------------------
+19018/30875 (epoch 76), train_loss = 1.366, time/batch = 0.011
+>> sample mode:
+The war.
+
+LUCIO:
+More.
+
+Rich 
+----------------------------------
+19265/30875 (epoch 77), train_loss = 1.366, time/batch = 0.012
+>> sample mode:
+The that servant I wild of ha
+----------------------------------
+19512/30875 (epoch 78), train_loss = 1.365, time/batch = 0.012
+>> sample mode:
+The name, to needs maty.
+
+Mes
+----------------------------------
+19759/30875 (epoch 79), train_loss = 1.365, time/batch = 0.012
+>> sample mode:
+The ancausure untloushter.
+Wh
+----------------------------------
+20006/30875 (epoch 80), train_loss = 1.365, time/batch = 0.012
+>> sample mode:
+The coastave on endeed me, wh
+----------------------------------
+20253/30875 (epoch 81), train_loss = 1.364, time/batch = 0.012
+>> sample mode:
+The Bolingbroke content strio
+----------------------------------
+20500/30875 (epoch 82), train_loss = 1.364, time/batch = 0.012
+>> sample mode:
+The my spoke and spater's vol
+----------------------------------
+20747/30875 (epoch 83), train_loss = 1.364, time/batch = 0.012
+>> sample mode:
+The ourself,
+Thou hast
+That a
+----------------------------------
+20994/30875 (epoch 84), train_loss = 1.363, time/batch = 0.012
+>> sample mode:
+The gist throw the swere a fe
+----------------------------------
+21241/30875 (epoch 85), train_loss = 1.363, time/batch = 0.013
+>> sample mode:
+The us!
 
 GONZALO:
-Thoug
+As not hear
 ----------------------------------
-19018/30875 (epoch 76), train_loss = 1.371, time/batch = 0.011
+21488/30875 (epoch 86), train_loss = 1.363, time/batch = 0.013
 >> sample mode:
-The Pirtinemine loves.
+The for this?
 
-GLOUC
-----------------------------------
-19265/30875 (epoch 77), train_loss = 1.370, time/batch = 0.011
->> sample mode:
-The better as in the drunking
-----------------------------------
-19512/30875 (epoch 78), train_loss = 1.370, time/batch = 0.012
->> sample mode:
-The prince on prey woman.
+GLOUCESTER:
 
-DU
+L
 ----------------------------------
-19759/30875 (epoch 79), train_loss = 1.370, time/batch = 0.012
+21735/30875 (epoch 87), train_loss = 1.362, time/batch = 0.013
 >> sample mode:
-The from her preasonation
-As 
+The eye! the glister, all lou
 ----------------------------------
-20006/30875 (epoch 80), train_loss = 1.369, time/batch = 0.012
+21982/30875 (epoch 88), train_loss = 1.362, time/batch = 0.012
 >> sample mode:
-The for you
-Come good in love
+The quit as both was my lord:
 ----------------------------------
-20253/30875 (epoch 81), train_loss = 1.369, time/batch = 0.011
+22229/30875 (epoch 89), train_loss = 1.362, time/batch = 0.014
 >> sample mode:
-The neck in bredoum?'
-And me 
+The proceive me in
+bleed as S
 ----------------------------------
-20500/30875 (epoch 82), train_loss = 1.369, time/batch = 0.012
+22476/30875 (epoch 90), train_loss = 1.362, time/batch = 0.012
 >> sample mode:
-The wit not your command brea
+The better,
+And speak. Brand 
 ----------------------------------
-20747/30875 (epoch 83), train_loss = 1.368, time/batch = 0.011
+22723/30875 (epoch 91), train_loss = 1.361, time/batch = 0.012
 >> sample mode:
-The too priess.
-Faulther's cr
+The eye
+Grain she
+Stief'ter f
 ----------------------------------
-20994/30875 (epoch 84), train_loss = 1.368, time/batch = 0.011
+22970/30875 (epoch 92), train_loss = 1.361, time/batch = 0.012
 >> sample mode:
-The have:
-I thank o'er or the
-----------------------------------
-21241/30875 (epoch 85), train_loss = 1.368, time/batch = 0.011
->> sample mode:
-The Morthings to there's here
-----------------------------------
-21488/30875 (epoch 86), train_loss = 1.367, time/batch = 0.012
->> sample mode:
-The remembat with a bark, to 
-----------------------------------
-21735/30875 (epoch 87), train_loss = 1.367, time/batch = 0.011
->> sample mode:
-The honesty to the our a gied
-----------------------------------
-21982/30875 (epoch 88), train_loss = 1.367, time/batch = 0.012
->> sample mode:
-The untolour govern and care 
-----------------------------------
-22229/30875 (epoch 89), train_loss = 1.366, time/batch = 0.011
->> sample mode:
-The heads or side,
-Quich many
-----------------------------------
-22476/30875 (epoch 90), train_loss = 1.366, time/batch = 0.012
->> sample mode:
-The poor.
+The gods;
+But.
 
-LEONTES:
-There is 
+P:
+with thine
 ----------------------------------
-22723/30875 (epoch 91), train_loss = 1.366, time/batch = 0.011
+23217/30875 (epoch 93), train_loss = 1.361, time/batch = 0.012
 >> sample mode:
-The that's the king is my not
-----------------------------------
-22970/30875 (epoch 92), train_loss = 1.366, time/batch = 0.012
->> sample mode:
-The for behinly
-The pawitius 
-----------------------------------
-23217/30875 (epoch 93), train_loss = 1.365, time/batch = 0.011
->> sample mode:
-The were these law let me hum
-----------------------------------
-23464/30875 (epoch 94), train_loss = 1.365, time/batch = 0.012
->> sample mode:
-The wit of the Duke with age;
-----------------------------------
-23711/30875 (epoch 95), train_loss = 1.365, time/batch = 0.012
->> sample mode:
-The Duke, when he's night; yo
-----------------------------------
-23958/30875 (epoch 96), train_loss = 1.365, time/batch = 0.011
->> sample mode:
-The with your isle.
+The the sleep.
 
-BUCKINGH
+Second Murder
 ----------------------------------
-24205/30875 (epoch 97), train_loss = 1.364, time/batch = 0.012
+23464/30875 (epoch 94), train_loss = 1.361, time/batch = 0.013
 >> sample mode:
-The servant:
-Spakes of thee,
+The the who's remol's thing e
+----------------------------------
+23711/30875 (epoch 95), train_loss = 1.361, time/batch = 0.012
+>> sample mode:
+The news.
 
+DUKE VINCENTIO:
+Th
 ----------------------------------
-24452/30875 (epoch 98), train_loss = 1.364, time/batch = 0.012
+23958/30875 (epoch 96), train_loss = 1.360, time/batch = 0.012
 >> sample mode:
-The to be patrite
-Living sad 
+The dugnifies the soll, I mea
 ----------------------------------
-24699/30875 (epoch 99), train_loss = 1.364, time/batch = 0.012
+24205/30875 (epoch 97), train_loss = 1.360, time/batch = 0.012
 >> sample mode:
-The violexlign leed woful som
+The myself, to an our voile-f
 ----------------------------------
-24946/30875 (epoch 100), train_loss = 1.364, time/batch = 0.011
+24452/30875 (epoch 98), train_loss = 1.360, time/batch = 0.012
 >> sample mode:
-The frey, at not for my good 
-----------------------------------
-25193/30875 (epoch 101), train_loss = 1.364, time/batch = 0.011
->> sample mode:
-The un anow;
-And look a world
-----------------------------------
-25440/30875 (epoch 102), train_loss = 1.364, time/batch = 0.011
->> sample mode:
-The vengeaction and see to th
-----------------------------------
-25687/30875 (epoch 103), train_loss = 1.363, time/batch = 0.012
->> sample mode:
-The invower.
+The that rage', what well.
 
-VALUMIO:
-She' t
+C
 ----------------------------------
-25934/30875 (epoch 104), train_loss = 1.363, time/batch = 0.012
+24699/30875 (epoch 99), train_loss = 1.360, time/batch = 0.012
 >> sample mode:
-The forwarness;
-And thou foul
+The men here's.
+! inviting be
 ----------------------------------
-26181/30875 (epoch 105), train_loss = 1.363, time/batch = 0.011
+24946/30875 (epoch 100), train_loss = 1.360, time/batch = 0.013
 >> sample mode:
-The two limed.
+The joyfull spory the name,
+T
+----------------------------------
+25193/30875 (epoch 101), train_loss = 1.360, time/batch = 0.012
+>> sample mode:
+The made;' yet not with my ci
+----------------------------------
+25440/30875 (epoch 102), train_loss = 1.359, time/batch = 0.012
+>> sample mode:
+The end this?
 
-CORIOLEN:
+BIONDELLO:
+Say
+----------------------------------
+25687/30875 (epoch 103), train_loss = 1.359, time/batch = 0.012
+>> sample mode:
+The onfinavy: there act.
 
-CL
+GLO
 ----------------------------------
-26428/30875 (epoch 106), train_loss = 1.363, time/batch = 0.012
+25934/30875 (epoch 104), train_loss = 1.359, time/batch = 0.014
 >> sample mode:
-The use on
-Hour to you.
-When 
+The found live?
+My lord,
+I pl
 ----------------------------------
-26675/30875 (epoch 107), train_loss = 1.363, time/batch = 0.011
+26181/30875 (epoch 105), train_loss = 1.359, time/batch = 0.011
 >> sample mode:
-The leave.
+The faltheman;
+Nor subat Norf
+----------------------------------
+26428/30875 (epoch 106), train_loss = 1.359, time/batch = 0.011
+>> sample mode:
+The from myself.
 
-Provost:
+KING RICHAR
+----------------------------------
+26675/30875 (epoch 107), train_loss = 1.359, time/batch = 0.013
+>> sample mode:
+The not his dugght's
+'dom fri
+----------------------------------
+26922/30875 (epoch 108), train_loss = 1.359, time/batch = 0.012
+>> sample mode:
+The lawning both will let him
+----------------------------------
+27169/30875 (epoch 109), train_loss = 1.358, time/batch = 0.013
+>> sample mode:
+The remidy a good sleep himse
+----------------------------------
+27416/30875 (epoch 110), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The Montemption; she slew thy
+----------------------------------
+27663/30875 (epoch 111), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The poison.
 
-ROMEO:
+PETRUCHIO:
+Say w
+----------------------------------
+27910/30875 (epoch 112), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The tribune discourager, our 
+----------------------------------
+28157/30875 (epoch 113), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The WarraD I never
+But it wou
+----------------------------------
+28404/30875 (epoch 114), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The that come to break stays 
+----------------------------------
+28651/30875 (epoch 115), train_loss = 1.358, time/batch = 0.012
+>> sample mode:
+The be;
+And few.
 
+Nurse:
+Such
 ----------------------------------
-26922/30875 (epoch 108), train_loss = 1.363, time/batch = 0.011
+28898/30875 (epoch 116), train_loss = 1.358, time/batch = 0.020
 >> sample mode:
-The king the field and let me
+The truckled to be so;
+I am, 
 ----------------------------------
-27169/30875 (epoch 109), train_loss = 1.363, time/batch = 0.012
+29145/30875 (epoch 117), train_loss = 1.358, time/batch = 0.012
 >> sample mode:
-The enter'd had and sovereigh
-----------------------------------
-27416/30875 (epoch 110), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The bend; Do serve thee,
-I'll
-----------------------------------
-27663/30875 (epoch 111), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The flesh is uncle, and louti
-----------------------------------
-27910/30875 (epoch 112), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The Neppel'd! or joy, were he
-----------------------------------
-28157/30875 (epoch 113), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The noble prove that your lor
-----------------------------------
-28404/30875 (epoch 114), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The sworn proceed: but you th
-----------------------------------
-28651/30875 (epoch 115), train_loss = 1.362, time/batch = 0.012
->> sample mode:
-The off this highness should 
-----------------------------------
-28898/30875 (epoch 116), train_loss = 1.362, time/batch = 0.011
->> sample mode:
-The hence,
-That I fully to th
-----------------------------------
-29145/30875 (epoch 117), train_loss = 1.362, time/batch = 0.011
->> sample mode:
-The Jove me here up:
-You use 
-----------------------------------
-29392/30875 (epoch 118), train_loss = 1.362, time/batch = 0.011
->> sample mode:
-The more like title.
+The enemies?
 
-LEONTES
+BENVOLIO:
+Peck 
 ----------------------------------
-29639/30875 (epoch 119), train_loss = 1.361, time/batch = 0.012
+29392/30875 (epoch 118), train_loss = 1.358, time/batch = 0.012
 >> sample mode:
-The most a deart?
+The mornify, 'Tis anrion?
 
-DUCHESS OF
+LA
 ----------------------------------
-29886/30875 (epoch 120), train_loss = 1.361, time/batch = 0.012
+29639/30875 (epoch 119), train_loss = 1.358, time/batch = 0.012
 >> sample mode:
-The not be
-he makes believe b
+The morning pards was your br
 ----------------------------------
-30133/30875 (epoch 121), train_loss = 1.361, time/batch = 0.012
+29886/30875 (epoch 120), train_loss = 1.357, time/batch = 0.012
 >> sample mode:
-The shame think his mirtian.
+The truth on thy sen, I take 
+----------------------------------
+30133/30875 (epoch 121), train_loss = 1.357, time/batch = 0.011
+>> sample mode:
+The my need.
 
+AUTOLYCUS:
+Very
 ----------------------------------
-30380/30875 (epoch 122), train_loss = 1.361, time/batch = 0.012
+30380/30875 (epoch 122), train_loss = 1.357, time/batch = 0.013
 >> sample mode:
-The he heard you that take hi
+The time-mastiest: he is deat
 ----------------------------------
-30627/30875 (epoch 123), train_loss = 1.361, time/batch = 0.011
+30627/30875 (epoch 123), train_loss = 1.357, time/batch = 0.013
 >> sample mode:
-The on thee, that I will ever
+The note
+drown'd,
+Unxerist! w
 ----------------------------------
-30874/30875 (epoch 124), train_loss = 1.361, time/batch = 0.011
+30874/30875 (epoch 124), train_loss = 1.357, time/batch = 0.013
 >> sample mode:
-The as hands rajuscer, palace
+The prince we downded and bec
 ----------------------------------
