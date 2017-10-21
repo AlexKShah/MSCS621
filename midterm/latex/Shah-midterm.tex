@@ -1,0 +1,58 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+
+\title{Midterm: Character RNN}
+\author{Alex Shah - MSCS 692}
+\date{10/20/17}
+
+\begin{document}
+
+\lstset{language=Python}
+\maketitle
+
+\section{Code}
+\lstinputlisting[language=Python,frame=single, breaklines=true]{characterRNN.py}
+
+\clearpage
+
+\section{Part 1: Hidden Units}
+
+\begin{table}[h]
+ \caption{Hidden Units effect on Perplexity}
+ \label{tbl:aTable}
+ \begin{center}
+  \begin{tabular}{lccrrrrrr}
+    \hline 
+	Hidden Units & Perplexity\\
+	\hline
+	32 & 1.829\\
+	64 & 1.632\\
+	128 & 1.412\\
+	256 & 1.248\\
+	512 & 0.990\\
+  \end{tabular}
+ \end{center}
+\end{table}
+
+\section{Part 2: Sequence Length}
+
+\begin{table}[h]
+ \caption{Sequence Length effect on Perplexity}
+ \label{tbl:bTable}
+ \begin{center}
+  \begin{tabular}{lccrrr}
+    \hline 
+	Sequence Length & Perplexity\\
+	\hline
+	25 & 1.336\\
+	50 & 1.412\\
+	75 & 1.361\\
+  \end{tabular}
+ \end{center}
+\end{table}
+
+\end{document}

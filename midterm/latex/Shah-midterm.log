@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  21 OCT 2017 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  21 OCT 2017 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**shah-hw2.tex
-(./shah-hw2.tex
+**Shah-midterm.tex
+(./Shah-midterm.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -431,8 +431,8 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./shah-hw2.aux)
-\openout1 = `shah-hw2.aux'.
+(./Shah-midterm.aux)
+\openout1 = `Shah-midterm.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -447,11 +447,13 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 \c@lstlisting=\count108
- (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 15.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 15.
@@ -460,52 +462,50 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 15.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./mnist3.py
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./characterRNN.py [1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
- [1]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 69.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+ [2] [3]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
+ [4]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 160.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 69.
- [2]) [3]
-Overfull \hbox (14.11185pt too wide) in paragraph at lines 29--44
- [] 
- []
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 160.
+ [5] [6] [7]) [8]
+[9
 
-[4
-
-] (./shah-hw2.aux) ) 
+] (./Shah-midterm.aux) ) 
 Here is how much of TeX's memory you used:
- 3396 strings out of 494910
- 40542 string characters out of 6179837
- 260768 words of memory out of 5000000
- 6679 multiletter control sequences out of 15000+600000
- 11849 words of font info for 46 fonts, out of 8000000 for 9000
+ 3465 strings out of 494910
+ 41423 string characters out of 6179837
+ 297783 words of memory out of 5000000
+ 6748 multiletter control sequences out of 15000+600000
+ 11542 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 31i,7n,40p,731b,1765s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on shah-hw2.pdf (5 pages, 119043 bytes).
+ 32i,7n,40p,301b,1765s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Shah-midterm.pdf (10 pages, 133124 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
