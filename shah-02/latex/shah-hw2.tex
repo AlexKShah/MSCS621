@@ -47,11 +47,7 @@
 \subsection{Explanation}
 
 \paragraph{
-What is this telling you about the training of an LSTM with respect to the number of neurons or learning rate or both? What can you learn from this?
-}
-
-\paragraph{
-We can see as the number of neurons increases the accuracy tends to rise. As another general case we can see that the best performance for learning rate is a "goldilocks" zone, varying with the neuron count, where the learning rate is not too small that the steps are inefficient, but not too large that it's leaping past finding it's mark. 
+We can see as the number of neurons increases the accuracy tends to rise. As another general case we can see that the best performance for learning rate is a goldilocks zone, varying with the neuron count, where the learning rate is not too small that the steps are inefficient, but not too large that it's leaping past finding it's mark. 
 }
 
 \paragraph{
@@ -59,7 +55,7 @@ What's also interesting is how neuron count affects a larger learning rate. A sm
 }
 
 \paragraph{
- A very large number of hidden units can take advantage of very tiny steps in the smallest learning rates. Whereas less hidden units requires a larger learning rate. My GPU could only run up to 2048 hidden units before running out of memory, and it took 122 seconds to complete each pass. The best accuracy it could accomplish with 2048 hidden units was 0.9707. Comparatively, 32 hidden units achieved a comparable accuracy of 0.9703 but only took 16 seconds to run. While increasing the hidden units was sometimes able exceed this value, the advantage to using a very high number of hidden units is lost to time and is computationally wasteful.
+ A very large number of hidden units can take advantage of very tiny steps in the smallest learning rates. Whereas less hidden units requires a larger learning rate. My GPU could only run up to 2048 hidden units before running out of memory, and it took 122 seconds to complete each pass. The best accuracy with 2048 hidden units was 0.9707. However, 32 hidden units achieved a comparable accuracy of 0.9703 which only took 16 seconds to run. While increasing the hidden units was sometimes able exceed this value, the advantage to using a very high number of hidden units is lost to time and is computationally intesive and can overall be inneffective due to the exploding/vanishing gradient problem.
 }
 
 \end{document}
