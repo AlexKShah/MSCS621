@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  12 NOV 2017 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  12 NOV 2017 12:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,22 +428,21 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1
-
-] (./shah_milestone.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] (./shah_milestone.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 1436 strings out of 494910
- 15100 string characters out of 6179837
- 64231 words of memory out of 5000000
- 4753 multiletter control sequences out of 15000+600000
- 9189 words of font info for 35 fonts, out of 8000000 for 9000
+ 1437 strings out of 494910
+ 15115 string characters out of 6179837
+ 65231 words of memory out of 5000000
+ 4754 multiletter control sequences out of 15000+600000
+ 9496 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 27i,6n,24p,445b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on shah_milestone.pdf (2 pages, 51823 bytes).
+ 27i,6n,24p,583b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on shah_milestone.pdf (2 pages, 56188 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream

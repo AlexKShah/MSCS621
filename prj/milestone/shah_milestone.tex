@@ -9,21 +9,29 @@
 \date{11/12/17}
 
 \maketitle
-\clearpage
 
-\section{Abstract}
-This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language. The resulting product combines a convolutional neural network to classify the input language with two sequence to sequence based recurrent neural networks for learning contextually aware translation.
+%\null
+%\vfill
+\section{Abstract} ~ 10 lines
+This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language. The resulting product combines a convolutional neural network to classify the input language with a sequence to sequence based recurrent neural networks for creating contextually aware translations.
+%\clearpage
 
 \section{Introduction}
-Recurrent neural networks (RNNs) for Language Classification
 
-Convolutional neural networks (CNNs) for contextually aware translation
-	seq2seq
-	nmt
-	
+\subsection{Language Classification}
+Classifying a given input is handled by an RNN. Using a recurrence based network is more efficient to train than a convolutional network for classification purposes. While it is crucial to quickly determine the input language, identifying the language will point the direction the translation needs to proceed. Therefore it is important that the classification network is able to quickly but accurately detect the input language.
+
+\subsection{Contextually Aware Translation}
+Strides have been made using deep learning and deep network models for Machine Translation (MT) accuracy, bringing MT ever closer to true contextually aware translators. Sequence to Sequence networks (Seq2Seq) are built like an encoder/decoder. The encoded input text can be considered partially or entirely to determine the decoded output in the target language. An attention mechanism is used to limit the amount of backward and forward information sharing. Too much information or too little while determining context can have adverse effects on translation. 
+
+Neural Machine Translation (NMT)
+
+seq2seq diagram
+nmt diagram
 
 \section{Datasets and Training}
-NLTK
+NLTK En-Es
 
+Train Classifier; Train translation both ways at once
 
 \end{document}
