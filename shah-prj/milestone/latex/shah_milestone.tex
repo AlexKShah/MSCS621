@@ -4,7 +4,9 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+
 \begin{document}
+
 \title{English/Spanish Translation \\ with Language Identification - \\ Project Milestone}
 \author{Alex Shah}
 \date{11/12/17}
@@ -13,9 +15,15 @@
 
 \section{Abstract}
 This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language. The resulting product combines a network to classify the input language with a sequence to sequence based recurrent neural networks for creating contextually aware translations.
+
 \clearpage
 
-\section{Introduction}
+\section{Introduction} Describes the motivation of this work and outlines the rest of the paper.
+
+\clearpage
+
+\section{Background} Describes what other researchers in the same area have done,
+and how they perhaps could be improved.
 
 \subsection{Language Classification}
 Classifying a given input is handled by a Convolutional Neural Network (CNN). It is crucial to quickly determine the input language as identifying the language is an intermediary step before translation. However, incorrectly determining the input language will create incorrect translations. Therefore it is important that the classification network is able to quickly but accurately detect the input language.
@@ -24,6 +32,7 @@ Classifying a given input is handled by a Convolutional Neural Network (CNN). It
 Strides have been made using deep learning and deep network models for Machine Translation (MT) accuracy, making MT ever more accurate in contextually aware translation. Sequence to Sequence networks (Seq2Seq) are built like an encoder/decoder. The encoded input text is examined to determine the decoded output in the target language. An attention mechanism is used to limit the amount of backward and forward information sharing. Too much or too little information while determining context can have adverse effects on translation. 
 
 Neural Machine Translation (NMT) is a specifically derivated method of Seq2Seq focusing on accuracy and efficiency of training translation models.
+
 \clearpage
 
 \begin{figure}
@@ -41,14 +50,33 @@ Neural Machine Translation (NMT) is a specifically derivated method of Seq2Seq f
 \end{figure}
 
 \clearpage
-\section{Datasets and Training}
+
+\section{Methodology}  Describes what is the approach taken in this paper.
+
+\clearpage
+
+\section{Experiments} Describes the experiments performed, including details on the data used.
 NLTK
 Statmt - European parliament - En-Es
 
 Train Classifier; Train translation both ways at once
 
-\section{References}
-\subsection{Resources}
+\clearpage
+
+\section{Analysis} Examines the results of the experiments and draws some conclusions
+about their significance.
+
+\clearpage
+
+\section{Conclusion} Summarizes the paper and its findings.
+
+\clearpage
+
+\section{References} Gives properly formatted references to other scholarly work that this
+work is built on
+
+
+\subsection{Further Reading}
 
 https://github.com/tensorflow/nmt
 
