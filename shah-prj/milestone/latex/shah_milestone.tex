@@ -1,9 +1,8 @@
-\documentclass[10pt,a4paper]{report}
+\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
 \usepackage{amsfonts}
-\usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{indentfirst}
 
 \begin{document}
 
@@ -15,15 +14,14 @@
 
 \section{Abstract}
 
-  This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language. The resulting product combines a network to classify the input language with a sequence to sequence based recurrent neural networks for creating contextually aware translations.
+   This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language. The resulting product combines a network to classify the input language with a sequence to sequence based recurrent neural networks for creating contextually aware translations.
 
 \section{Introduction}
-
   Software translation is a massively useful tool to bridge the gap between cultures. Providing a software implementation for translation does not require the entire computation to occur on the device, but rather through training ahead of time. In this way, your cell phone does not need a desktop PC's compute power to leverage neural networks and the advances such technologies have made in machine translation. However, training the network, and the preparation for making a translator, does require a large amount of compute power and time.
 
   In order to minimize the amount of time required, we can make training more efficient in software translation by training both translation directions simultaneously. By using encoder/decoder as a basis for our model, there is an interim step (or steps) by which languages and context are broken down into mathematical representations that the network is able to use to translate any language to any other. A neural network does not specifically need to train translation from language A to language B and vice versa, but can learn language A to any language based on language A's learned features. 
 
-	By utilizing language agnostic training, we can improve the speed at which we train. Because it's necessary for the model to learn abstracted features of a language, we can train any language in the same time, without needing to retrain or cross train various languages when a need language is added.
+  By utilizing language agnostic training, we can improve the speed at which we train. Because it's necessary for the model to learn abstracted features of a language, we can train any language in the same time, without needing to retrain or cross train various languages when a need language is added.
 
 \clearpage
 
@@ -95,19 +93,35 @@ https://google.github.io/seq2seq/data/
 
 \subsection{Papers}
 
-https://arxiv.org/pdf/1611.04558v1.pdf
+Johnson, Melvin, et al. "Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation." Arxiv. 2016.
+(https://arxiv.org/pdf/1611.04558v1.pdf)
+\newline
 
-https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf
+Sutskever, Ilya, et al. "Sequence to Sequence Learning with Neural Networks." NIPS. 2015.
+(https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf)
+\newline
 
-http://aclweb.org/anthology/D/D14/D14-1179.pdf
+Cho, Kyunghyun, et al. "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation." ACLweb. 2014.
 
-https://arxiv.org/pdf/1409.0473.pdf
+(http://aclweb.org/anthology/D/D14/D14-1179.pdf)
+\newline
 
-https://arxiv.org/pdf/1508.04025.pdf
+Bahdanau, Dzmitry, et al. "Neural Machine Translation By Jointly Learning To Align and Translate." Arxiv. 2016.
+(https://arxiv.org/pdf/1409.0473.pdf)
+\newline
 
-https://arxiv.org/abs/1609.08144
+Luong, Minh-Thang, et al. "Effective Approaches to Attention-based Neural Machine Translation." Arxiv. 2015.
+(https://arxiv.org/pdf/1508.04025.pdf)
+\newline
 
-https://arxiv.org/abs/1703.01619
+Wu, Yonghui, et al. "Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation." Arvix. 2016.
+(https://arxiv.org/abs/1609.08144)
+\newline
+
+Neubig, Graham, et al. "Neural Machine Translation and Sequence-to-sequence Models: A Tutorial." Arvix. 2017.
+(https://arxiv.org/abs/1703.01619)
+\newline
+
 
 \subsection{Data}
 
