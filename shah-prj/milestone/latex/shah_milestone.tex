@@ -35,7 +35,7 @@
 
   Strides have been made using deep learning and deep network models for Machine Translation (MT) accuracy, making MT ever more accurate in contextually aware translation. Sequence to Sequence networks (Seq2Seq) are built like an encoder/decoder. The encoded input text is examined to determine the decoded output in the target language. An attention mechanism is used to share information from previous input steps to help better inform output decoding. This is more efficient than bidirectionally sharing input and output values, but is also more accurate than less computationally intensive methods such as reversing input strings. Specifically, attention shares memory between the encoder steps and decoder to produce more contextually aware output.
 
-  Neural Machine Translation (NMT) is a specifically derivated set of Seq2Seq and RNN based models focusing on accuracy and efficiency of training translation models. The encoder mechanisms in NMT models are used to build a thought vector from a given input. This contextual capturing vector of sentence meaning is then decoded into the target language translation. The context captured in this thought vector, in addition to the attention mechanism determining how much is enough or too much context, thus enables the translation to capture and translate advanced syntactical structures such as gender agreement and other "long range dependencies"
+  Neural Machine Translation (NMT) is a specifically derived set of Seq2Seq and RNN based models focusing on accuracy and efficiency of training translation models. The encoder mechanisms in NMT models are used to build a thought vector from a given input. This contextual capturing vector of sentence meaning is then decoded into the target language translation. The context captured in this thought vector, in addition to the attention mechanism determining how much is enough or too much context, thus enables the translation to capture and translate advanced syntactical structures such as gender agreement and other "long range dependencies"
 
 \clearpage
 
@@ -61,7 +61,7 @@
 
 \section{Experiments}
 
-  Datasets in Spanish were difficult to find, but there are many datasets in other languages. In order to train translation, the model needs to study the target language and human corrected translations. In order to translate from one language to another, it is not necesary to train the model withthe input language and human corrected translations of the target language, but rather any human corrected language. In this way a trained model can train on multiple languages without need for datasets to overlap languages, or even add a new language at a later date.
+  Datasets in Spanish were difficult to find, but there are many datasets in other languages. In order to train translation, the model needs to study the target language and human corrected translations. In order to translate from one language to another, it is not necessary to train the model with the input language and human corrected translations of the target language, but rather any human corrected language. In this way a trained model can train on multiple languages without need for datasets to overlap languages, or even add a new language at a later date.
 
   The data used in this project comes from hand translated European Parliament records dating from 1996 to 2011. The dataset contains nearly 2 million sentences hand translated between English and Spanish.
 
