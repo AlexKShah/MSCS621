@@ -95,7 +95,7 @@ class RBM(object):
                     prv_hb = cur_hb
                     prv_vb = cur_vb
                 error=sess.run(err, feed_dict={v0: X, _w: cur_w, _vb: cur_vb, _hb: cur_hb})
-                print 'Epoch: %d' % epoch,'reconstruction error: %f' % error
+                print ('Epoch: %d' % epoch,'reconstruction error: %f' % error)
             self.w = prv_w
             self.hb = prv_hb
             self.vb = prv_vb
@@ -131,13 +131,13 @@ input_size = inpX.shape[1]
 
 #For each RBM we want to generate
 for i, size in enumerate(RBM_hidden_sizes):
-    print 'RBM: ',i,' ',input_size,'->', size
+    print ('RBM: ',i,' ',input_size,'->', size)
     rbm_list.append(RBM(input_size, size))
     input_size = size
 
 #For each RBM in our list
 for rbm in rbm_list:
-    print 'New RBM:'
+    print ('New RBM:')
     #Train a new one
     rbm.train(inpX)
     #Return the output layer
@@ -232,8 +232,8 @@ class NN(object):
                     self.w_list[j] = sess.run(_w[j])
                     self.b_list[j] = sess.run(_b[j])
 
-                print "Accuracy rating for epoch " + str(i) + ": " + str(np.mean(np.argmax(self._Y, axis=1) ==
-                              sess.run(predict_op, feed_dict={_a[0]: self._X, y: self._Y})))
+                print ("Accuracy rating for epoch " + str(i) + ": " + str(np.mean(np.argmax(self._Y, axis=1) ==
+                              sess.run(predict_op, feed_dict={_a[0]: self._X, y: self._Y}))))
 
 nNet = NN(RBM_hidden_sizes, trX, trY)
 nNet.load_from_rbms(RBM_hidden_sizes,rbm_list)
