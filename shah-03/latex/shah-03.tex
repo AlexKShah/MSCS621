@@ -1,0 +1,63 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[letterpaper, margin=1in]{geometry} % page format
+\usepackage{listings} % this package is for including code
+\usepackage{amsmath}  % this package is for math and matrices
+\usepackage{tikz} % for drawings
+\usepackage{hyperref} % for urls
+\usepackage{indentfirst}
+\usepackage{tikz,pgfplots}
+
+\begin{document}
+
+\title{HW3: \\ Autoencoder used on a custom dataset}
+\author{Alex Shah}
+\date{11/22/17}
+
+\maketitle
+
+
+\section{Results}
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis}[%
+	scatter/classes={%
+    	a={mark=x,draw=black}}]
+	\addplot[scatter,only marks,%
+	    scatter src=explicit symbolic]%
+	table[meta=label] {
+	x y label
+	1.05 512 a
+	1.07 256 a
+	1.06 128 a
+	1.13 64  a
+	1.13 32  a
+	    };
+	\end{axis}
+	\end{tikzpicture}
+	\caption{For layer 1 hidden units = 1024, x=hidden units2, y=loss}
+\end{figure}
+
+\begin{figure}[h]
+	\begin{tikzpicture}
+	\begin{axis}[%
+	scatter/classes={%
+	    a={mark=x,draw=black}}]
+	\addplot[scatter,only marks,%
+	    scatter src=explicit symbolic]%
+	table[meta=label] {
+	x y label
+	0.6667 512 a
+	0.7667 256 a
+	0.7833 128 a
+	0.6667 64  a
+	0.7000 32  a
+	    };
+	\end{axis}
+	\end{tikzpicture}
+	\caption{For layer 1 hidden units = 1024, x=hidden units2, y=error}
+\end{figure}
+
+\end{document}
