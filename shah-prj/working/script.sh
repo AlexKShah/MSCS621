@@ -2,11 +2,9 @@
 #pip3 install tensor2tensor[tensorflow_gpu] --user
 #pip3 install tensor2tensor[tensorflow] --user
 
-# See what problems, models, and hyperparameter sets are available.
-# You can easily swap between them (and add new ones).
 t2t-trainer --registry_help
 
-HERE="~/git/MSCS/shah-prj/working/"
+HERE="~/git/MSCS692/shah-prj/working/"
 
 PROBLEM=translate_enfr_wmt32k
 MODEL=transformer
@@ -18,14 +16,14 @@ TRAIN_DIR=train/$PROBLEM/$MODEL-$HPARAMS/
 
 mkdir -p $DATA_DIR $TMP_DIR $TRAIN_DIR
 
-# Generate data
+# Generate
 t2t-datagen \
   --data_dir=$DATA_DIR \
   --tmp_dir=$TMP_DIR \
   --problem=$PROBLEM
 
 # Train
-# *  If you run out of memory, add --hparams='batch_size=1024'.
+# OOM: --hparams='batch_size=1024'.
 t2t-trainer \
   --data_dir=$DATA_DIR \
   --problems=$PROBLEM \
@@ -34,7 +32,6 @@ t2t-trainer \
   --output_dir=$TRAIN_DIR \
   
 # Decode
-
 DECODE_FILE=$DATA_DIR/decode_this.txt
 echo "Hello world" >> $DECODE_FILE
 echo "Goodbye world" >> $DECODE_FILE
