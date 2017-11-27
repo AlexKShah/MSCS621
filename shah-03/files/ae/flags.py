@@ -18,9 +18,9 @@ FLAGS = flags.FLAGS
 # Autoencoder Architecture Specific Flags
 flags.DEFINE_integer("num_hidden_layers", 2, "Number of hidden layers")
 
-flags.DEFINE_integer('hidden1_units', 64,
+flags.DEFINE_integer('hidden1_units', 1024,
                      'Number of units in hidden layer 1.')
-flags.DEFINE_integer('hidden2_units', 64,
+flags.DEFINE_integer('hidden2_units', 512,
                      'Number of units in hidden layer 2.')
 #flags.DEFINE_integer('hidden3_units', 25,
 #                     'Number of units in hidden layer 3.')
@@ -28,16 +28,16 @@ flags.DEFINE_integer('hidden2_units', 64,
 flags.DEFINE_integer('image_pixels', IMAGE_PIXELS, 'Total number of pixels')
 flags.DEFINE_integer('num_classes', 6, 'Number of classes')
 
-flags.DEFINE_float('pre_layer1_learning_rate', 0.0001,
+flags.DEFINE_float('pre_layer1_learning_rate', 0.001,
                    'Initial learning rate.')
-flags.DEFINE_float('pre_layer2_learning_rate', 0.0001,
+flags.DEFINE_float('pre_layer2_learning_rate', 0.001,
                    'Initial learning rate.')
-flags.DEFINE_float('pre_layer3_learning_rate', 0.0001,
-                   'Initial learning rate.')
+#flags.DEFINE_float('pre_layer3_learning_rate', 0.0001,
+#                   'Initial learning rate.')
 
 flags.DEFINE_float('noise_1', 0.0, 'Rate at which to set pixels to 0')
 flags.DEFINE_float('noise_2', 0.0, 'Rate at which to set pixels to 0')
-flags.DEFINE_float('noise_3', 0.0, 'Rate at which to set pixels to 0')
+#flags.DEFINE_float('noise_3', 0.0, 'Rate at which to set pixels to 0')
 
 # Constants
 flags.DEFINE_integer('seed', 1234, 'Random seed')
