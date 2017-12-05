@@ -17,16 +17,17 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
+from keras.callbacks import ModelCheckpoint
 import keras.optimizers
 from keras.utils import plot_model
 
 ## VARIABLES ##
 #languages
-languages_dict = {'en':0,'es':1}
+languages_dict = {'en':0,'fr':1}
 #sample length
-text_sample_size = 140
+text_sample_size = 70
 # number of samples per language
-num_lang_samples = 50000
+num_lang_samples = 1000000
 
 def decode_langid(langid):    
     for dname, did in languages_dict.items():
@@ -41,8 +42,8 @@ def size_mb(size):
 def define_alphabet():
     base_en = 'abcdefghijklmnopqrstuvwxyz'
     special_chars = ' !?¿¡'
-    spanish = 'áéíóúüñ'
-    all_lang_chars = base_en + spanish
+    french = 'àâæçéèêêîïôœùûüÿ'
+    all_lang_chars = base_en + french
     small_chars = list(set(list(all_lang_chars)))
     small_chars.sort() 
     big_chars = list(set(list(all_lang_chars.upper())))
@@ -62,10 +63,12 @@ source_directory = data_directory + 'source'
 cleaned_directory = data_directory + 'cleaned'
 samples_directory = data_directory + 'samples'
 train_test_directory = data_directory + 'train_test'
+chkpts_directory = data_directory + 'chkpts'
 
 for filename in os.listdir(source_directory):
     path = os.path.join(source_directory, filename)
     if not filename.startswith('.'):
+        print("Using:")
         print((path), "size : ",size_mb(os.path.getsize(path)))
 
 def remove_xml(text):
@@ -158,8 +161,8 @@ path_smpl = os.path.join(samples_directory,"lang_samples_"+str(input_size)+".npz
 dt = np.load(path_smpl)['data']
 random_index = random.randrange(0,dt.shape[0])
 bins = np.bincount(dt[:,input_size])
-for lang_code in languages_dict: 
-    print (lang_code,bins[languages_dict[lang_code]])
+#for lang_code in languages_dict: 
+#    print (lang_code,bins[languages_dict[lang_code]])
 
 dt = dt.astype(np.float64)
 X = dt[:,0:input_size]
@@ -167,7 +170,8 @@ Y = dt[:,input_size]
 del dt
 random_index = random.randrange(0,X.shape[0])
 
-time.sleep(120)
+#takes a while to generate
+time.sleep(10)
 
 standard_scaler = preprocessing.StandardScaler().fit(X)
 X = standard_scaler.transform(X)   
@@ -177,7 +181,9 @@ Y = keras.utils.to_categorical(Y, num_classes=len(languages_dict))
 seed = 42
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.20, random_state=seed)
 del X, Y
-time.sleep(120)
+
+#takes a while to clear
+time.sleep(10)
 path_tt = os.path.join(train_test_directory,"train_test_data_"+str(input_size)+".npz")
 np.savez_compressed(path_tt,X_train=X_train,Y_train=Y_train,X_test=X_test,Y_test=Y_test)
 del X_train,Y_train,X_test,Y_test
@@ -189,6 +195,8 @@ Y_train = train_test_data['Y_train']
 X_test = train_test_data['X_test']
 Y_test = train_test_data['Y_test']
 del train_test_data
+
+print("TRAINING")
 
 model = Sequential()
 model.add(Dense(500,input_dim=input_size,kernel_initializer="glorot_uniform",activation="sigmoid"))
@@ -202,9 +210,11 @@ model_optimizer = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsi
 model.compile(loss='categorical_crossentropy',
               optimizer=model_optimizer,
               metrics=['accuracy'])
-
+filepath="chkpts_directory/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+callbacks_list = [checkpoint]
 history = model.fit(X_train,Y_train,
-          epochs=12,
+          epochs=100,
           validation_split=0.10,
           batch_size=64,
           verbose=2,
@@ -221,6 +231,8 @@ print(classification_report(Y_test, Y_pred, target_names=target_names))
 
 en_text = "You are welcome, most noble Sorceress, to the land of the Munchkins. We are so grateful to you \
 for having killed the Wicked Witch of the East, and for setting our people free from bondage."
+fr_text = "Voilà cinq mois que j'en faisais fonction, et, ma foi, je supportais bien cette responsabilité et \
+goûtais fort cette indépendance. Je puis même affirmer, sans me flatter"
 
 text_texts_array = [en_text,es_text]
 test_array = []
