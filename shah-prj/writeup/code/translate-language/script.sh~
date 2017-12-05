@@ -6,7 +6,7 @@
 
 #HERE="~/git/MSCS692/shah-prj/translate-language/"
 
-PROBLEM=shah_en_es
+PROBLEM=translate_enfr_wmt_small8k
 MODEL=transformer
 HPARAMS=transformer_base_single_gpu
 
@@ -19,6 +19,7 @@ CUSTOM_DIR=~/git/MSCS692/shah-prj/translate-language/usr
 
 # Generate
 t2t-datagen \
+  --t2t_usr_dir=$CUSTOM_DIR \
   --data_dir=$DATA_DIR \
   --tmp_dir=$TMP_DIR \
   --problem=$PROBLEM \
@@ -27,12 +28,13 @@ t2t-datagen \
 # Train
 # OOM: --hparams='batch_size=1024'.
 t2t-trainer \
+  --t2t_usr_dir=$CUSTOM_DIR \
   --data_dir=$DATA_DIR \
   --problems=$PROBLEM \
   --model=$MODEL \
   --hparams_set=$HPARAMS \
   --output_dir=$TRAIN_DIR \
-  --t2t_usr_dir=$CUSTOM_DIR
+  
   
 # Decode
 DECODE_FILE=$DATA_DIR/decode_this.txt

@@ -4,42 +4,40 @@
 
 #t2t-trainer --registry_help
 
-#HERE="~/git/MSCS692/shah-prj/translate-language/"
+#HERE="~/git/MSCS692/shah-prj/working/"
 
-PROBLEM=shah_en_es
+PROBLEM=translate_enfr_wmt_small8k
 MODEL=transformer
 HPARAMS=transformer_base_single_gpu
 
-DATA_DIR=~/git/MSCS692/shah-prj/translate-language/data
-TMP_DIR=~/git/MSCS692/shah-prj/translate-language/temp
-TRAIN_DIR=~/git/MSCS692/shah-prj/translate-language/train
-CUSTOM_DIR=~/git/MSCS692/shah-prj/translate-language/usr
+DATA_DIR=data/
+TMP_DIR=temp/
+TRAIN_DIR=train/
+#CUSTOM_DIR=custom
 
-#mkdir -p $DATA_DIR $TMP_DIR $TRAIN_DIR $CUSTOM_DIR
+mkdir -p $DATA_DIR $TMP_DIR $TRAIN_DIR $CUSTOM_DIR
 
 # Generate
 t2t-datagen \
-  --t2t_usr_dir=$CUSTOM_DIR \
   --data_dir=$DATA_DIR \
   --tmp_dir=$TMP_DIR \
   --problem=$PROBLEM \
-
+ # --t2t_usr_dir=$CUSTOM_DIR
 
 # Train
 # OOM: --hparams='batch_size=1024'.
 t2t-trainer \
-  --t2t_usr_dir=$CUSTOM_DIR \
   --data_dir=$DATA_DIR \
   --problems=$PROBLEM \
   --model=$MODEL \
   --hparams_set=$HPARAMS \
   --output_dir=$TRAIN_DIR \
-  
-  
+  #--t2t_usr_dir=$CUSTOM_DIR
+
 # Decode
 DECODE_FILE=$DATA_DIR/decode_this.txt
-#echo "Hello world" >> $DECODE_FILE
-#echo "Goodbye world" >> $DECODE_FILE
+echo "Hello world" >> $DECODE_FILE
+echo "Goodbye world" >> $DECODE_FILE
 
 BEAM_SIZE=4
 ALPHA=0.6
