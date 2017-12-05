@@ -210,13 +210,14 @@ model_optimizer = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsi
 model.compile(loss='categorical_crossentropy',
               optimizer=model_optimizer,
               metrics=['accuracy'])
-filepath="chkpts_directory/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
-checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
+filepath="data/chkpts/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='auto', period=1)
 callbacks_list = [checkpoint]
 history = model.fit(X_train,Y_train,
           epochs=100,
           validation_split=0.10,
           batch_size=64,
+          callbacks=callbacks_list,
           verbose=2,
           shuffle=True)
 
