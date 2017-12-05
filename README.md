@@ -1,7 +1,11 @@
-### MSCS692
+# Alex Shah
+# 2017
 
-# Marist MSCS 692 - Tensorflow
-## Tested with:
+# Language Classifier and Contextual Translation
+## For Marist MSCS 692
+
+
+### Tested with:
 ### Ubuntu 16.04.3
 ### Tensorflow 1.4.0
 ### Keras 2.0.8
