@@ -1,6 +1,15 @@
 # Alex Shah
 # Language Classifier
 # Adapted under CC - Lucas KM
+
+## Tested with:
+## Tensorflow 1.4.0
+## Keras 2.0.8
+## Python 3.5.2
+## Checkpoint error resolved with:
+## sudo apt install libhdf5-dev
+## sudo pip3 install h5py
+
 import os
 import re
 import math
@@ -210,8 +219,8 @@ model_optimizer = keras.optimizers.Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsi
 model.compile(loss='categorical_crossentropy',
               optimizer=model_optimizer,
               metrics=['accuracy'])
-filepath="data/chkpts/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
-checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='auto', period=1)
+filepath="chkpts/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
+checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
 callbacks_list = [checkpoint]
 history = model.fit(X_train,Y_train,
           epochs=100,

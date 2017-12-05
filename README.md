@@ -1,7 +1,8 @@
 # MSCS692
 
-Marist MSCS 692 - Tensorflow
+## Marist MSCS 692 - Tensorflow
 
-Python version 3.5.2
-Tensorflow version 1.4.0
-
+# Tensorflow 1.4.0
+# Keras 2.0.8
+# Python 3.5.2
+# Tensor2Tensor 1.2.9
