@@ -13,7 +13,7 @@
 \maketitle
 
 \section{Abstract}
-   This project's goal is to combine different architectures of neural networks to form a functional English/Spanish translator with the ability to detect the input language and translate to the corresponding opposite language with contextual awareness. The resulting product combines a CNN classifier with tensor2tensor's transformer model for translation.
+   This project's goal is to combine different architectures of neural networks to form a functional translator with the ability to detect the input language and translate to the corresponding opposite language with contextual awareness. The resulting product combines a CNN classifier with tensor2tensor's transformer model for translation. Initially the languages chosen were English and Spanish but due to better availability of datasets in French, training was done with a French dataset. Any language with an appropriately processed dataset can be trained with.
 
 \section{Introduction}
   Software translation is a massively useful tool to bridge the gap between cultures. Providing a software implementation for translation does not require the entire computation to occur on the device, but rather through training ahead of time. In this way, your cell phone does not need a desktop PC's compute power to leverage neural networks and the advances such technologies have made in machine translation. However, training the network, and the preparation for making a translator, does require a large amount of compute power and time.
@@ -21,8 +21,6 @@
   In order to minimize the amount of time required, we can make training more efficient by training both translation directions simultaneously. By using encoder/decoder as a basis for our model, languages and context are broken down into mathematical representations that the network uses to translate any language to any other. We do not need to train translation from language A to language B and vice versa, but can learn language each language independently.
 
   By utilizing language agnostic training, we can improve the speed at which we train. We can train any language in the same time, without needing to retrain or cross train various languages when a need language is added. This concept applies to both the classifier and for translation. 
-
-\clearpage
 
 \section{Background}
 
@@ -35,8 +33,6 @@
   Strides have been made using deep learning and deep network models for Machine Translation (MT) accuracy, making MT ever more accurate in contextually aware translation. Sequence to Sequence networks (Seq2Seq) are built like an encoder/decoder. The encoded input text is examined to determine the decoded output in the target language. An attention mechanism is used to share information from previous input steps to help better inform output decoding. This is more efficient than bidirectionally sharing input and output values, but is also more accurate than less computationally intensive methods such as reversing input strings. Specifically, attention shares memory between the encoder steps and decoder to produce more contextually aware output.
 
   Neural Machine Translation (NMT) advances by Google's tensor2tensor library, a specifically derived set of Seq2Seq and RNN based models focusing on accuracy and efficiency of training translation models, have achieved some of the best accuracies in NMT. The encoder mechanisms in NMT models are used to build a thought vector from a given input. This vector captures context which is then decoded into the target language translation. The attention mechanism determines how much context is too little or too much, which enables the translation to capture and translate advanced syntactical structures such as gender agreement and other "long range dependencies" without overfit or poor context capture.
-
-\clearpage
 
 \begin{figure}
   \begin{center}
@@ -52,27 +48,27 @@
   \end{center}
 \end{figure}
 
-\clearpage
-
 \section{Methodology}
 
-  In this project there are two networks. A Convolutional Neural Network is used as a language classifier, to detect whether a given input is English or Spanish. Next, a tensor2tensor network, specifically using Google's transformer model, translates the given input to the opposite language. For example a given input is identified as English and translated to Spanish. And vice versa.
-  The convolutional network benefits in accuracy from specific characteristics of the input languages. For example, languages with special characters can be quickly identified. Spanish has accented characters which are concatenated to English characters to form an alphabet of expected characters. This allows the CNN to easily identify input characters that will only appear in a certain language.
+  In this project there are two networks. A Convolutional Neural Network is used as a language classifier, to detect whether a given input is English or French. Next, a tensor2tensor network, specifically using Google's transformer model, translates the given input to the opposite language. For example a given input is identified as English and translated to French. And vice versa.
+  
+  The convolutional network benefits in accuracy from specific characteristics of the input languages. For example, languages with special characters can be quickly identified. French has accented characters which are concatenated to English characters to form an alphabet of expected characters. This allows the CNN to easily identify input characters that will only appear in a certain language.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.8\textwidth] {transformer.jpg}
+    \caption{Transformer Model architecture}
+  \end{center}
+\end{figure}
 
 \section{Experiments}
 
-  Datasets in Spanish were difficult to find, but there are many datasets in other languages. In order to train translation, the model needs to study the target language and human corrected translations. It is not necessary to train the model with the input language and human corrected translations of the target language, but rather any human corrected language. In this way a trained model can train on multiple languages without need for datasets to overlap languages, this enables us to add a new language at a later date.
+  Datasets in Spanish were difficult to find, but there are many datasets in other languages. For training, the classifier and translation models were trained with WMT-small8k data set in English and French. In order to train translation, the model needs to study the target language and human corrected translations. It is not necessary to train the model with the input language and human corrected translations of the target language, but rather any human corrected language. In this way a trained model can train on multiple languages without need for datasets to overlap languages, this enables us to add a new language at a later date.
 
-  The data used in this project comes from hand translated European Parliament records dating from 1996 to 2011. The dataset contains nearly 2 million sentences hand translated between English and Spanish.
-
-  The classifier was trained on the same dataset. The Spanish and English corpuses reach almost 54 million words each. The classifer trains any number of target languages simultaneously, the only additional steps are to provide an input dataset, and define the special characters for the classifier's alphabet.
-  
-  The translation network ???
-
-\clearpage
+  The dataset is WMT's English-French small 8k vocab. This enabled both the translator and classifier to train using the same dataset. The small vocab size was necessary to train in time for submission.
 
 \section{Discussion}
-** FILL IN **
+	The classifier's Keras Sequential model was able to reach near maximum accuracy results in about 5 epochs.
 
 \section{Conclusion}
 ** FILL IN **
@@ -84,6 +80,8 @@
 https://github.com/tensorflow/nmt
 
 https://github.com/google/seq2seq
+
+https://github.com/tensorflow/tensor2tensor
 
 http://www.nltk.org/
 
@@ -110,6 +108,7 @@ Sutskever, Ilya, et al. "Sequence to Sequence Learning with Neural Networks." NI
 \newline
 
 Cho, Kyunghyun, et al. "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation." ACLweb. 2014.
+\newline
 
 (http://aclweb.org/anthology/D/D14/D14-1179.pdf)
 \newline
@@ -129,7 +128,6 @@ Wu, Yonghui, et al. "Google’s Neural Machine Translation System: Bridging the 
 Neubig, Graham, et al. "Neural Machine Translation and Sequence-to-sequence Models: A Tutorial." Arvix. 2017.
 (https://arxiv.org/abs/1703.01619)
 \newline
-
 
 \subsection{Data}
 
