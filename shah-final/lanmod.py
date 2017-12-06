@@ -1,15 +1,13 @@
 # modified by Dr. Pablo Rivas on the Fall of 2017
+# modified by Alex Shah for MSCS692 Final exam during the Fall of my sanity
 
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
 import time
 import numpy as np
 import tensorflow as tf
-
 import reader
-
 
 #Initial weight scale
 init_scale = 0.1
@@ -24,25 +22,22 @@ num_steps = 20
 #The number of processing units (neurons) in the hidden layers
 hidden_size = 200
 #The maximum number of epochs trained with the initial learning rate
-max_epoch = 4
+max_epoch = 1
 #The total number of epochs in training
-max_max_epoch = 13
+max_max_epoch = 3
 #The probability for keeping data in the Dropout Layer (This is an optimization, but is outside our scope for this lab! indecision)
 #At 1, we ignore the Dropout Layer wrapping.
-keep_prob = 1
+keep_prob = 0.75
 #The decay for the learning rate
 decay = 0.5
 #The size for each batch of data
 batch_size = 1
 #The size of our vocabulary
-vocab_size = 2722
+vocab_size = 10000
 #Training flag to separate training from testing
 is_training = 1
 #Data directory for our dataset
 data_dir = "./data/"
-
-
-
 
 class PTBModel(object):
 
@@ -348,8 +343,8 @@ with tf.Graph().as_default(), tf.Session() as session:
         valid_perplexity = run_epoch(session, mvalid, valid_data, tf.no_op())
         print("Epoch %d : Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
     
-        words = get_word(session, mtest, "The", 19, tf.no_op(), word_to_id, verbose=False)
-        print('Sample sentence: ' + ' '.join(words))
+        #words = get_word(session, mtest, 'The', 19, tf.no_op(), word_to_id, verbose=False)
+        #print('Sample sentence: ' + ' '.join(words))
 
     # Run the loop in the testing model to see how effective was our training
     test_perplexity = run_epoch(session, mtest, test_data, tf.no_op())

@@ -1,0 +1,237 @@
+Script started on Wed 06 Dec 2017 11:55:11 AM EST
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ py lanmod.py 
+2017-12-06 11:55:15.791594: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-06 11:55:15.873414: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-06 11:55:15.873641: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 10.91GiB freeMemory: 9.71GiB
+2017-12-06 11:55:15.873652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1 : Learning rate: 1.000
+0.000 perplexity: 16585.661 speed: 873 wps
+0.100 perplexity: 456.449 speed: 2544 wps
+0.200 perplexity: 380.261 speed: 2527 wps
+0.300 perplexity: 353.425 speed: 2517 wps
+0.400 perplexity: 330.258 speed: 2502 wps
+0.500 perplexity: 316.916 speed: 2496 wps
+0.600 perplexity: 301.695 speed: 2490 wps
+0.700 perplexity: 293.638 speed: 2481 wps
+0.800 perplexity: 287.898 speed: 2474 wps
+0.900 perplexity: 283.117 speed: 2475 wps
+Epoch 1 : Train Perplexity: 276.851
+Epoch 1 : Valid Perplexity: 308.633
+Traceback (most recent call last):
+  File "lanmod.py", line 351, in <module>
+    words = get_word(session, mtest, "The", 19, tf.no_op(), word_to_id, verbose=False)
+  File "lanmod.py", line 251, in get_word
+    x = word_to_id[primer]
+KeyError: 'The'
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ py lanmod.py 
+2017-12-06 12:29:04.943276: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-06 12:29:05.029333: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-06 12:29:05.029562: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 10.91GiB freeMemory: 9.71GiB
+2017-12-06 12:29:05.029575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1 : Learning rate: 1.000
+0.000 perplexity: 24178.312 speed: 948 wps
+0.100 perplexity: 455.023 speed: 2455 wps
+0.200 perplexity: 379.580 speed: 2487 wps
+0.300 perplexity: 352.669 speed: 2507 wps
+0.400 perplexity: 328.490 speed: 2491 wps
+0.500 perplexity: 314.299 speed: 2476 wps
+0.600 perplexity: 299.551 speed: 2471 wps
+0.700 perplexity: 291.578 speed: 2459 wps
+0.800 perplexity: 285.583 speed: 2456 wps
+0.900 perplexity: 280.651 speed: 2455 wps
+Epoch 1 : Train Perplexity: 274.017
+Epoch 1 : Valid Perplexity: 293.440
+Traceback (most recent call last):
+  File "lanmod.py", line 351, in <module>
+    words = get_word(session, mtest, 'The', 19, tf.no_op(), word_to_id, verbose=False)
+  File "lanmod.py", line 251, in get_word
+    x = word_to_id[primer]
+KeyError: 'The'
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ py lanmod.py 
+2017-12-06 12:43:09.957011: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-06 12:43:10.048131: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-06 12:43:10.048355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 10.91GiB freeMemory: 9.64GiB
+2017-12-06 12:43:10.048366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1 : Learning rate: 1.000
+0.000 perplexity: 9053.222 speed: 942 wps
+0.100 perplexity: 445.608 speed: 2458 wps
+0.200 perplexity: 373.799 speed: 2290 wps
+0.300 perplexity: 346.878 speed: 2236 wps
+0.400 perplexity: 323.311 speed: 2217 wps
+0.500 perplexity: 310.135 speed: 2200 wps
+0.600 perplexity: 295.696 speed: 2182 wps
+0.700 perplexity: 288.275 speed: 2166 wps
+0.800 perplexity: 282.949 speed: 2156 wps
+0.900 perplexity: 278.411 speed: 2148 wps
+Epoch 1 : Train Perplexity: 272.030
+Epoch 1 : Valid Perplexity: 302.010
+Epoch 2 : Learning rate: 1.000
+0.000 perplexity: 784.847 speed: 1676 wps
+0.100 perplexity: 243.121 speed: 2093 wps
+0.200 perplexity: 236.080 speed: 2093 wps
+0.300 perplexity: 238.235 speed: 2089 wps
+0.400 perplexity: 235.232 speed: 2090 wps
+0.500 perplexity: 234.565 speed: 2092 wps
+0.600 perplexity: 230.319 speed: 2101 wps
+0.700 perplexity: 229.243 speed: 2105 wps
+0.800 perplexity: 229.037 speed: 2119 wps
+0.900 perplexity: 228.408 speed: 2155 wps
+Epoch 2 : Train Perplexity: 225.664
+Epoch 2 : Valid Perplexity: 293.773
+Epoch 3 : Learning rate: 1.000
+0.000 perplexity: 769.462 speed: 1887 wps
+0.100 perplexity: 226.990 speed: 2494 wps
+0.200 perplexity: 222.545 speed: 2495 wps
+0.300 perplexity: 224.749 speed: 2496 wps
+0.400 perplexity: 222.050 speed: 2496 wps
+0.500 perplexity: 221.081 speed: 2497 wps
+0.600 perplexity: 217.120 speed: 2497 wps
+0.700 perplexity: 216.234 speed: 2497 wps
+0.800 perplexity: 216.412 speed: 2496 wps
+0.900 perplexity: 216.190 speed: 2496 wps
+Epoch 3 : Train Perplexity: 213.712
+Epoch 3 : Valid Perplexity: 286.589
+Epoch 4 : Learning rate: 1.000
+0.000 perplexity: 749.131 speed: 1534 wps
+0.100 perplexity: 218.122 speed: 2489 wps
+0.200 perplexity: 214.734 speed: 2493 wps
+0.300 perplexity: 217.410 speed: 2494 wps
+0.400 perplexity: 215.020 speed: 2493 wps
+0.500 perplexity: 214.313 speed: 2491 wps
+0.600 perplexity: 210.784 speed: 2491 wps
+0.700 perplexity: 210.314 speed: 2492 wps
+0.800 perplexity: 210.611 speed: 2492 wps
+0.900 perplexity: 210.647 speed: 2493 wps
+Epoch 4 : Train Perplexity: 208.479
+Epoch 4 : Valid Perplexity: 298.579
+Epoch 5 : Learning rate: 1.000
+0.000 perplexity: 624.292 speed: 1618 wps
+0.100 perplexity: 215.080 speed: 2205 wps
+0.200 perplexity: 212.747 speed: 2218 wps
+0.300 perplexity: 215.071 speed: 2223 wps
+0.400 perplexity: 212.131 speed: 2225 wps
+0.500 perplexity: 211.439 speed: 2210 wps
+0.600 perplexity: 207.320 speed: 2178 wps
+0.700 perplexity: 207.005 speed: 2161 wps
+0.800 perplexity: 207.534 speed: 2147 wps
+0.900 perplexity: 207.762 speed: 2135 wps
+Epoch 5 : Train Perplexity: 205.634
+Epoch 5 : Valid Perplexity: 302.889
+Epoch 6 : Learning rate: 0.500
+0.000 perplexity: 693.270 speed: 1632 wps
+0.100 perplexity: 202.039 speed: 2081 wps
+0.200 perplexity: 194.774 speed: 2103 wps
+0.300 perplexity: 194.830 speed: 2115 wps
+0.400 perplexity: 189.978 speed: 2111 wps
+0.500 perplexity: 187.618 speed: 2103 wps
+0.600 perplexity: 182.630 speed: 2099 wps
+0.700 perplexity: 180.665 speed: 2097 wps
+0.800 perplexity: 179.857 speed: 2097 wps
+0.900 perplexity: 178.636 speed: 2096 wps
+Epoch 6 : Train Perplexity: 175.575
+Epoch 6 : Valid Perplexity: 238.396
+Epoch 7 : Learning rate: 0.250
+0.000 perplexity: 557.812 speed: 1544 wps
+0.100 perplexity: 175.184 speed: 2107 wps
+0.200 perplexity: 169.972 speed: 2085 wps
+0.300 perplexity: 171.046 speed: 2082 wps
+0.400 perplexity: 167.260 speed: 2081 wps
+0.500 perplexity: 165.262 speed: 2081 wps
+0.600 perplexity: 161.010 speed: 2085 wps
+0.700 perplexity: 159.350 speed: 2090 wps
+0.800 perplexity: 158.750 speed: 2091 wps
+0.900 perplexity: 157.529 speed: 2098 wps
+Epoch 7 : Train Perplexity: 154.736
+Epoch 7 : Valid Perplexity: 212.272
+Epoch 8 : Learning rate: 0.125
+0.000 perplexity: 478.707 speed: 1810 wps
+0.100 perplexity: 161.543 speed: 2334 wps
+0.200 perplexity: 156.826 speed: 2335 wps
+0.300 perplexity: 158.054 speed: 2294 wps
+0.400 perplexity: 154.732 speed: 2273 wps
+0.500 perplexity: 152.936 speed: 2280 wps
+0.600 perplexity: 149.035 speed: 2277 wps
+0.700 perplexity: 147.445 speed: 2279 wps
+0.800 perplexity: 146.972 speed: 2292 wps
+0.900 perplexity: 145.734 speed: 2313 wps
+Epoch 8 : Train Perplexity: 143.117
+Epoch 8 : Valid Perplexity: 199.969
+Epoch 9 : Learning rate: 0.062
+0.000 perplexity: 443.488 speed: 1829 wps
+0.100 perplexity: 153.609 speed: 2501 wps
+0.200 perplexity: 149.165 speed: 2502 wps
+0.300 perplexity: 150.471 speed: 2501 wps
+0.400 perplexity: 147.412 speed: 2501 wps
+0.500 perplexity: 145.665 speed: 2501 wps
+0.600 perplexity: 142.007 speed: 2500 wps
+0.700 perplexity: 140.490 speed: 2497 wps
+0.800 perplexity: 140.083 speed: 2497 wps
+0.900 perplexity: 138.895 speed: 2496 wps
+Epoch 9 : Train Perplexity: 136.393
+Epoch 9 : Valid Perplexity: 193.691
+Epoch 10 : Learning rate: 0.031
+0.000 perplexity: 426.617 speed: 1873 wps
+0.100 perplexity: 148.846 speed: 2474 wps
+0.200 perplexity: 144.779 speed: 2476 wps
+0.300 perplexity: 146.096 speed: 2482 wps
+0.400 perplexity: 143.187 speed: 2485 wps
+0.500 perplexity: 141.513 speed: 2488 wps
+0.600 perplexity: 138.013 speed: 2489 wps
+0.700 perplexity: 136.549 speed: 2490 wps
+0.800 perplexity: 136.179 speed: 2491 wps
+0.900 perplexity: 135.034 speed: 2492 wps
+Epoch 10 : Train Perplexity: 132.622
+Epoch 10 : Valid Perplexity: 190.760
+Epoch 11 : Learning rate: 0.016
+0.000 perplexity: 415.105 speed: 1847 wps
+0.100 perplexity: 146.238 speed: 2496 wps
+0.200 perplexity: 142.388 speed: 2495 wps
+0.300 perplexity: 143.697 speed: 2497 wps
+0.400 perplexity: 140.883 speed: 2498 wps
+0.500 perplexity: 139.262 speed: 2498 wps
+0.600 perplexity: 135.845 speed: 2499 wps
+0.700 perplexity: 134.428 speed: 2500 wps
+0.800 perplexity: 134.081 speed: 2500 wps
+0.900 perplexity: 132.953 speed: 2498 wps
+Epoch 11 : Train Perplexity: 130.596
+Epoch 11 : Valid Perplexity: 189.339
+Epoch 12 : Learning rate: 0.008
+0.000 perplexity: 410.764 speed: 1854 wps
+0.100 perplexity: 144.720 speed: 2327 wps
+0.200 perplexity: 141.069 speed: 2282 wps
+0.300 perplexity: 142.381 speed: 2282 wps
+0.400 perplexity: 139.624 speed: 2281 wps
+0.500 perplexity: 138.031 speed: 2280 wps
+0.600 perplexity: 134.659 speed: 2280 wps
+0.700 perplexity: 133.277 speed: 2280 wps
+0.800 perplexity: 132.949 speed: 2280 wps
+0.900 perplexity: 131.828 speed: 2280 wps
+Epoch 12 : Train Perplexity: 129.504
+Epoch 12 : Valid Perplexity: 188.776
+Epoch 13 : Learning rate: 0.004
+0.000 perplexity: 409.973 speed: 1771 wps
+0.100 perplexity: 143.869 speed: 2279 wps
+0.200 perplexity: 140.303 speed: 2356 wps
+0.300 perplexity: 141.629 speed: 2329 wps
+0.400 perplexity: 138.917 speed: 2313 wps
+0.500 perplexity: 137.346 speed: 2306 wps
+0.600 perplexity: 134.002 speed: 2301 wps
+0.700 perplexity: 132.639 speed: 2298 wps
+0.800 perplexity: 132.328 speed: 2295 wps
+0.900 perplexity: 131.210 speed: 2294 wps
+Epoch 13 : Train Perplexity: 128.899
+Epoch 13 : Valid Perplexity: 188.549
+Test Perplexity: 179.442
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ exit
+exit
+
+Script done on Wed 06 Dec 2017 02:19:42 PM EST

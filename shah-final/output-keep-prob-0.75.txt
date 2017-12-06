@@ -1,0 +1,53 @@
+Script started on Wed 06 Dec 2017 05:26:57 PM EST
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ exit[1Pxitpy lanmod.py exit[Kpy lanmod.py 
+2017-12-06 17:27:00.566205: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-06 17:27:00.654054: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-06 17:27:00.654286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 10.91GiB freeMemory: 9.97GiB
+2017-12-06 17:27:00.654298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1 : Learning rate: 1.000
+0.000 perplexity: 14382.798 speed: 828 wps
+0.100 perplexity: 500.825 speed: 2004 wps
+0.200 perplexity: 441.686 speed: 1998 wps
+0.300 perplexity: 425.398 speed: 1996 wps
+0.400 perplexity: 407.898 speed: 1978 wps
+0.500 perplexity: 398.267 speed: 1961 wps
+0.600 perplexity: 385.598 speed: 1964 wps
+0.700 perplexity: 379.788 speed: 1967 wps
+0.800 perplexity: 375.615 speed: 1976 wps
+0.900 perplexity: 372.626 speed: 1980 wps
+Epoch 1 : Train Perplexity: 367.338
+Epoch 1 : Valid Perplexity: 345.204
+Epoch 2 : Learning rate: 1.000
+0.000 perplexity: 896.053 speed: 1561 wps
+0.100 perplexity: 352.913 speed: 2041 wps
+0.200 perplexity: 347.806 speed: 1980 wps
+0.300 perplexity: 351.610 speed: 1909 wps
+0.400 perplexity: 346.538 speed: 1900 wps
+0.500 perplexity: 345.442 speed: 1897 wps
+330.600 perplexity: 339.755 speed: 1894 wps
+0.700 perplexity: 338.749 speed: 1874 wps
+0.800 perplexity: 338.160 speed: 1873 wps
+0.900 perplexity: 338.011 speed: 1877 wps
+Epoch 2 : Train Perplexity: 335.178
+Epoch 2 : Valid Perplexity: 340.129
+Epoch 3 : Learning rate: 0.500
+0.000 perplexity: 1012.399 speed: 1509 wps
+0.100 perplexity: 332.721 speed: 1915 wps
+0.200 perplexity: 323.354 speed: 1910 wps
+0.300 perplexity: 323.714 speed: 1912 wps
+0.400 perplexity: 316.567 speed: 1914 wps
+0.500 perplexity: 313.156 speed: 1915 wps
+0.600 perplexity: 305.941 speed: 1917 wps
+0.700 perplexity: 303.097 speed: 1919 wps
+0.800 perplexity: 301.352 speed: 1916 wps
+0.900 perplexity: 299.406 speed: 1910 wps
+Epoch 3 : Train Perplexity: 295.344
+Epoch 3 : Valid Perplexity: 277.639
+Test Perplexity: 267.113
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final[00m$ 33[K[Kexit
+exit
+
+Script done on Wed 06 Dec 2017 05:52:06 PM EST
