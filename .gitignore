@@ -2,5 +2,7 @@
 ._DS_Store
 
 /shah-prj/writeup/code/identify-language/data/*
+/shah-prj/writeup/code/identify-language/Graph/*
+
 /shah-prj/writeup/code/translate-language/data/*
 /shah-prj/writeup/code/translate-language/train/*

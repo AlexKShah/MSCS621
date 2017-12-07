@@ -27,6 +27,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.layers import Dropout
 from keras.callbacks import ModelCheckpoint
+from keras.callbacks import TensorBoard
 import keras.optimizers
 from keras.utils import plot_model
 
@@ -221,9 +222,10 @@ model.compile(loss='categorical_crossentropy',
               metrics=['accuracy'])
 filepath="chkpts/weights-improvement-{epoch:02d}-{val_acc:.2f}.hdf5"
 checkpoint = ModelCheckpoint(filepath, monitor='val_acc', verbose=1, save_best_only=True, mode='max')
-callbacks_list = [checkpoint]
+tensorboard = TensorBoard(log_dir='./Graph', histogram_freq=1, write_graph=True, write_grads=True, write_images=True)
+callbacks_list = [checkpoint,tensorboard]
 history = model.fit(X_train,Y_train,
-          epochs=100,
+          epochs=5,
           validation_split=0.10,
           batch_size=64,
           callbacks=callbacks_list,
@@ -244,7 +246,7 @@ for having killed the Wicked Witch of the East, and for setting our people free 
 fr_text = "Voilà cinq mois que j'en faisais fonction, et, ma foi, je supportais bien cette responsabilité et \
 goûtais fort cette indépendance. Je puis même affirmer, sans me flatter"
 
-text_texts_array = [en_text,es_text]
+text_texts_array = [en_text,fr_text]
 test_array = []
 for item in text_texts_array:
     cleaned_text = clean_text(item)
