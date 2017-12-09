@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  7 DEC 2017 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  9 DEC 2017 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,18 +387,18 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (./shah_ID_translate.aux)
 \openout1 = `shah_ID_translate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -461,12 +461,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -476,96 +476,99 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <seq2seq.jpg, id=13, 793.96625pt x 653.44125pt>
 File: seq2seq.jpg Graphic file (type jpg)
  <use seq2seq.jpg>
-Package pdftex.def Info: seq2seq.jpg used on input line 42.
-(pdftex.def)             Requested size: 258.75pt x 212.95416pt.
+Package pdftex.def Info: seq2seq.jpg used on input line 61.
+(pdftex.def)             Requested size: 310.4979pt x 255.54898pt.
 
 <attention_mechanism.jpg, id=14, 668.4975pt x 495.8525pt>
 File: attention_mechanism.jpg Graphic file (type jpg)
 
 <use attention_mechanism.jpg>
-Package pdftex.def Info: attention_mechanism.jpg used on input line 49.
-(pdftex.def)             Requested size: 258.75pt x 191.929pt.
+Package pdftex.def Info: attention_mechanism.jpg used on input line 69.
+(pdftex.def)             Requested size: 310.4979pt x 230.31178pt.
  [3
 
  <./seq2seq.jpg> <./attention_mechanism.jpg>]
 <transformer.jpg, id=18, 981.6675pt x 1102.1175pt>
 File: transformer.jpg Graphic file (type jpg)
  <use transformer.jpg>
-Package pdftex.def Info: transformer.jpg used on input line 64.
-(pdftex.def)             Requested size: 276.00105pt x 309.86888pt.
+Package pdftex.def Info: transformer.jpg used on input line 91.
+(pdftex.def)             Requested size: 269.09958pt x 302.11627pt.
 
 [4
 
- <./transformer.jpg>] <BLEU.png, id=22, 1295.84125pt x 427.5975pt>
+] [5 <./transformer.jpg>] <BLEU.png, id=25, 1813.77625pt x 743.77875pt>
 File: BLEU.png Graphic file (type png)
 
 <use BLEU.png>
-Package pdftex.def Info: BLEU.png used on input line 83.
-(pdftex.def)             Requested size: 276.00105pt x 91.07042pt.
- <loss.png, id=23, 1306.8825pt x 430.60875pt>
+Package pdftex.def Info: BLEU.png used on input line 116.
+(pdftex.def)             Requested size: 310.4979pt x 127.32594pt.
+ <loss.png, id=26, 1815.78375pt x 747.79375pt>
 File: loss.png Graphic file (type png)
  <use loss.png>
-Package pdftex.def Info: loss.png used on input line 90.
-(pdftex.def)             Requested size: 276.00105pt x 90.93643pt.
+Package pdftex.def Info: loss.png used on input line 124.
+(pdftex.def)             Requested size: 310.4979pt x 127.86493pt.
 
-<neg_log_perp.png, id=24, 1289.81876pt x 427.5975pt>
+<neg_log_perp.png, id=27, 1817.79124pt x 743.77875pt>
 File: neg_log_perp.png Graphic file (type png)
  <use neg_log_perp.png>
-Package pdftex.def Info: neg_log_perp.png used on input line 97.
-(pdftex.def)             Requested size: 276.00105pt x 91.49452pt.
+Package pdftex.def Info: neg_log_perp.png used on input line 132.
+(pdftex.def)             Requested size: 310.4979pt x 127.0422pt.
 
-[5
+[6
 
- <./BLEU.png> <./loss.png>] [6 <./neg_log_perp.png>]
-Overfull \hbox (26.8897pt too wide) in paragraph at lines 122--123
+ <./BLEU.png> <./loss.png>]
+Overfull \hbox (26.8897pt too wide) in paragraph at lines 160--161
 []\OT1/cmr/m/n/10 https://research.googleblog.com/2017/07/building-your-own-neu
 ral-machine.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Overfull \hbox (15.11172pt too wide) in paragraph at lines 145--147
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+
+Overfull \hbox (15.11172pt too wide) in paragraph at lines 188--190
 []\OT1/cmr/m/n/10 (https://papers.nips.cc/paper/5346-sequence-to-sequence-learn
 ing-with-neural-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+[7 <./neg_log_perp.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--152
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
-
- []
-
-[7
-
-] (./shah_ID_translate.aux) ) 
+[8] (./shah_ID_translate.aux) ) 
 Here is how much of TeX's memory you used:
  1963 strings out of 494910
  26367 string characters out of 6179837
@@ -573,16 +576,16 @@ Here is how much of TeX's memory you used:
  5220 multiletter control sequences out of 15000+600000
  9496 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,24p,1226b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b>
-Output written on shah_ID_translate.pdf (7 pages, 347241 bytes).
+ 37i,6n,24p,1240b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb>
+Output written on shah_ID_translate.pdf (8 pages, 481863 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
