@@ -16,11 +16,11 @@ learning_rate = 1.0
 #Maximum permissible norm for the gradient (For gradient clipping -- another measure against Exploding Gradients)
 max_grad_norm = 5
 #The number of layers in our model
-num_layers = 2
+num_layers = 3
 #The total number of recurrence steps, also known as the number of layers when our RNN is "unfolded"
 num_steps = 100
 #The number of processing units (neurons) in the hidden layers
-hidden_size = 200
+hidden_size = 512
 #The maximum number of epochs trained with the initial learning rate
 max_epoch = 1
 #The total number of epochs in training
@@ -277,7 +277,7 @@ def get_word(session, m, primer, words_len, eval_op, word_to_id, verbose=False):
                                   m.initial_state: state})
     out = proba[-1,:]
     idx_out = np.argmax(out)
-    for a_word, word_index in word_to_id.iteritems():
+    for a_word, word_index in word_to_id.items():
         if word_index == idx_out:
             words_out.append(a_word)
             break
@@ -308,7 +308,7 @@ def get_word(session, m, primer, words_len, eval_op, word_to_id, verbose=False):
 
         out = proba[-1,:]
         idx_out = np.argmax(out)
-        for a_word, word_index in word_to_id.iteritems():
+        for a_word, word_index in word_to_id.items():
             if word_index == idx_out:
                 words_out.append(a_word)
     
@@ -356,8 +356,8 @@ with tf.Graph().as_default(), tf.Session() as session:
         valid_perplexity = run_epoch(session, mvalid, valid_data, tf.no_op())
         print("Epoch %d : Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
     
-        #words = get_word(session, mtest, 'The', 19, tf.no_op(), word_to_id, verbose=False)
-        #print('Sample sentence: ' + ' '.join(words))
+        words = get_word(session, mtest, 'the', 19, tf.no_op(), word_to_id, verbose=False)
+        print('Sample sentence: ' + ' '.join(words))
 
     # Run the loop in the testing model to see how effective was our training
     test_perplexity = run_epoch(session, mtest, test_data, tf.no_op())

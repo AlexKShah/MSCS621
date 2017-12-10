@@ -1,0 +1,58 @@
+Script started on Sun 10 Dec 2017 03:15:34 PM EST
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final/files[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final/files[00m$ py lanmod.py 
+2017-12-10 15:15:37.785570: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-12-10 15:15:37.883750: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-12-10 15:15:37.883978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.683
+pciBusID: 0000:01:00.0
+totalMemory: 10.91GiB freeMemory: 9.47GiB
+2017-12-10 15:15:37.883989: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch 1 : Learning rate: 1.000
+0.000 perplexity: 17027.056 speed: 774 wps
+0.100 perplexity: 452.714 speed: 2341 wps
+0.200 perplexity: 379.197 speed: 2355 wps
+0.300 perplexity: 350.346 speed: 2340 wps
+0.400 perplexity: 326.567 speed: 2343 wps
+0.500 perplexity: 312.975 speed: 2337 wps
+0.600 perplexity: 297.884 speed: 2318 wps
+0.700 perplexity: 290.109 speed: 2299 wps
+0.800 perplexity: 284.481 speed: 2291 wps
+0.900 perplexity: 279.931 speed: 2284 wps
+Epoch 1 : Train Perplexity: 273.428
+Epoch 1 : Valid Perplexity: 311.307
+Sample sentence: the company will be used in a <unk> test in a <unk> test in a <unk> test in a <unk> test
+Epoch 2 : Learning rate: 1.000
+0.000 perplexity: 785.348 speed: 1673 wps
+0.100 perplexity: 241.020 speed: 2232 wps
+0.200 perplexity: 234.859 speed: 2271 wps
+0.300 perplexity: 236.787 speed: 2316 wps
+0.400 perplexity: 233.516 speed: 2331 wps
+0.500 perplexity: 232.069 speed: 2338 wps
+0.600 perplexity: 227.736 speed: 2346 wps
+0.700 perplexity: 226.930 speed: 2355 wps
+0.800 perplexity: 226.926 speed: 2365 wps
+0.900 perplexity: 226.558 speed: 2373 wps
+Epoch 2 : Train Perplexity: 224.126
+Epoch 2 : Valid Perplexity: 294.604
+Sample sentence: the company said <eos> <unk> said it will be used in a <unk> test in a <unk> test in a <unk>
+Epoch 3 : Learning rate: 0.500
+0.000 perplexity: 647.619 speed: 1845 wps
+0.100 perplexity: 214.325 speed: 2438 wps
+0.200 perplexity: 204.728 speed: 2432 wps
+^@50.300 perplexity: 203.809 speed: 2441 wps
+0.400 perplexity: 198.359 speed: 2459 wps
+0.500 perplexity: 195.409 speed: 2467 wps
+0.600 perplexity: 190.061 speed: 2474 wps
+0.700 perplexity: 187.829 speed: 2480 wps
+0.800 perplexity: 186.719 speed: 2485 wps
+0.900 perplexity: 185.067 speed: 2488 wps
+Epoch 3 : Train Perplexity: 181.681
+Epoch 3 : Valid Perplexity: 231.615
+Sample sentence: the company said <eos> <unk> said it will be a <unk> in a <unk> <unk> in a <unk> <unk> in a
+Test Perplexity: 220.851
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final/files[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final/files[00m$ 5exit
+5exit: command not found
+]0;alex@alex-obsidubuntu: ~/git/MSCS692/shah-final/files[01;32malex@alex-obsidubuntu[00m:[01;34m~/git/MSCS692/shah-final/files[00m$ exit
+exit
+
+Script done on Sun 10 Dec 2017 04:01:32 PM EST

@@ -1,0 +1,44 @@
+Script started on Sun 10 Dec 2017 02:33:33 PM EST
+
+Epoch 1 : Learning rate: 1.000
+0.001 perplexity: 5129.263 speed: 1948 wps
+0.101 perplexity: 571.263 speed: 2651 wps
+0.201 perplexity: 435.745 speed: 2665 wps
+0.301 perplexity: 381.378 speed: 2671 wps
+0.401 perplexity: 340.088 speed: 2673 wps
+0.501 perplexity: 314.035 speed: 2667 wps
+0.601 perplexity: 289.410 speed: 2663 wps
+0.701 perplexity: 274.036 speed: 2661 wps
+0.801 perplexity: 262.128 speed: 2660 wps
+0.901 perplexity: 252.541 speed: 2658 wps
+Epoch 1 : Train Perplexity: 241.522
+Epoch 1 : Valid Perplexity: 196.052
+Epoch 2 : Learning rate: 1.000
+0.001 perplexity: 225.161 speed: 2467 wps
+0.101 perplexity: 176.920 speed: 2660 wps
+0.201 perplexity: 171.669 speed: 2644 wps
+0.301 perplexity: 171.223 speed: 2646 wps
+0.401 perplexity: 166.628 speed: 2645 wps
+0.501 perplexity: 163.920 speed: 2643 wps
+0.601 perplexity: 158.604 speed: 2643 wps
+0.701 perplexity: 156.358 speed: 2640 wps
+0.801 perplexity: 154.946 speed: 2640 wps
+0.901 perplexity: 153.649 speed: 2640 wps
+Epoch 2 : Train Perplexity: 150.572
+Epoch 2 : Valid Perplexity: 174.508
+Epoch 3 : Learning rate: 0.500
+0.001 perplexity: 182.807 speed: 2451 wps
+0.101 perplexity: 135.296 speed: 2639 wps
+0.201 perplexity: 130.701 speed: 2627 wps
+0.301 perplexity: 129.720 speed: 2626 wps
+0.401 perplexity: 125.671 speed: 2641 wps
+0.501 perplexity: 122.724 speed: 2650 wps
+0.601 perplexity: 118.272 speed: 2654 wps
+0.701 perplexity: 116.014 speed: 2657 wps
+0.801 perplexity: 114.669 speed: 2661 wps
+0.901 perplexity: 113.022 speed: 2661 wps
+Epoch 3 : Train Perplexity: 109.895
+Epoch 3 : Valid Perplexity: 141.067
+Test Perplexity: 136.709
+
+Script done on Sun 10 Dec 2017 02:55:36 PM EST
