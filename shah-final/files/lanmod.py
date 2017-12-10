@@ -18,7 +18,7 @@ max_grad_norm = 5
 #The number of layers in our model
 num_layers = 2
 #The total number of recurrence steps, also known as the number of layers when our RNN is "unfolded"
-num_steps = 20
+num_steps = 100
 #The number of processing units (neurons) in the hidden layers
 hidden_size = 200
 #The maximum number of epochs trained with the initial learning rate
@@ -27,7 +27,7 @@ max_epoch = 1
 max_max_epoch = 3
 #The probability for keeping data in the Dropout Layer (This is an optimization, but is outside our scope for this lab! indecision)
 #At 1, we ignore the Dropout Layer wrapping.
-keep_prob = 0.75
+keep_prob = 1
 #The decay for the learning rate
 decay = 0.5
 #The size for each batch of data
@@ -38,9 +38,6 @@ vocab_size = 10000
 is_training = 1
 #Data directory for our dataset
 data_dir = "./data/"
-
-
-writer = tf.summary.FileWriter('./summaries', graph=tf.get_default_graph())
 
 class PTBModel(object):
 
@@ -56,10 +53,8 @@ class PTBModel(object):
         ###############################################################################
         # Creating placeholders for our input data and expected outputs (target data) #
         ###############################################################################
-       
-        with tf.name_scope('input'):
-            self._input_data = tf.placeholder(tf.int32, [batch_size, num_steps],name="input_data") #[30#20]
-            self._targets = tf.placeholder(tf.int32, [batch_size, num_steps],name="targets") #[30#20]
+        self._input_data = tf.placeholder(tf.int32, [batch_size, num_steps]) #[30#20]
+        self._targets = tf.placeholder(tf.int32, [batch_size, num_steps]) #[30#20]
 
         ##########################################################################
         # Creating the LSTM cell structure and connect it with the RNN structure #
@@ -87,7 +82,7 @@ class PTBModel(object):
         ####################################################################
         # Creating the word embeddings and pointing them to the input data #
         ####################################################################
-        with tf.device("/gpu:0"):
+        with tf.device("/cpu:0"):
             # Create the embeddings for our input data. Size is hidden size.
             embedding = tf.get_variable("embedding", [vocab_size, size])  #[10000x200]
             # Define where to get the data for our embeddings from
@@ -132,8 +127,7 @@ class PTBModel(object):
         loss = tf.contrib.legacy_seq2seq.sequence_loss_by_example([logits], [tf.reshape(self._targets, [-1])],
                                                       [tf.ones([batch_size * num_steps])])
         self._cost = cost = tf.reduce_sum(loss) / batch_size
-        tf.summary.scalar("cost", cost)
-        tf.summary.scalar("loss", loss)
+
         # Store the final state
         self._final_state = state
 
@@ -154,10 +148,9 @@ class PTBModel(object):
         # Define the gradient clipping threshold
         grads, _ = tf.clip_by_global_norm(tf.gradients(cost, tvars), max_grad_norm)
         # Create the gradient descent optimizer with our learning rate
-        with tf.name_scope('train'):
-            optimizer = tf.train.GradientDescentOptimizer(self.lr)
-            # Create the training TensorFlow Operation through our optimizer
-            train_op = self._train_op = optimizer.apply_gradients(zip(grads, tvars))
+        optimizer = tf.train.GradientDescentOptimizer(self.lr)
+        # Create the training TensorFlow Operation through our optimizer
+        self._train_op = optimizer.apply_gradients(zip(grads, tvars))
 
     # Helper functions for our LSTM RNN class
 
@@ -242,6 +235,13 @@ def run_epoch(session, m, data, eval_op, verbose=False):
     # Returns the Perplexity rating for us to keep track of how the model is evolving
     return np.exp(costs / iters)
 
+
+
+
+
+
+
+
 ##########################################################################################################################
 # trying to test the network based on a primer word #
 ##########################################################################################################################
@@ -252,6 +252,12 @@ def get_word(session, m, primer, words_len, eval_op, word_to_id, verbose=False):
     
     x = word_to_id[primer]
 
+    # Mike test:
+    # foundThe = [x for x in word_to_id.keys() if x == "The"]
+    # print(foundThe)
+    # exit(0)
+    
+    
     raw_data = np.array(x, dtype=np.int32)
 
     data_len = num_steps
@@ -314,7 +320,6 @@ raw_data = reader.ptb_raw_data(data_dir)
 train_data, valid_data, test_data, vocabulary, word_to_id = raw_data
 
 
-
 #Initializes the Execution Graph and the Session
 with tf.Graph().as_default(), tf.Session() as session:
     initializer = tf.random_uniform_initializer(-init_scale,init_scale)
@@ -330,10 +335,6 @@ with tf.Graph().as_default(), tf.Session() as session:
         mvalid = PTBModel(is_training=False)
         mtest = PTBModel(is_training=False)
 
-    summary_op = tf.summary.merge_all
-    _, summary = session.run([train_op, summary_op])
-    # write log
-    writer.add_summary(summary, epoch * batch_count + i)
     #Initialize all variables
     tf.global_variables_initializer().run()
 
@@ -349,12 +350,10 @@ with tf.Graph().as_default(), tf.Session() as session:
         # Run the loop for this epoch in the training model
         train_perplexity = run_epoch(session, m, train_data, m.train_op,
                                    verbose=True)
-        tf.summary.scalar("train_perplexity", train_perplexity)
         print("Epoch %d : Train Perplexity: %.3f" % (i + 1, train_perplexity))
         
         # Run the loop for this epoch in the validation model
         valid_perplexity = run_epoch(session, mvalid, valid_data, tf.no_op())
-        tf.summary.scalar("valid_perplexity", valid_perplexity)
         print("Epoch %d : Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
     
         #words = get_word(session, mtest, 'The', 19, tf.no_op(), word_to_id, verbose=False)
@@ -362,10 +361,5 @@ with tf.Graph().as_default(), tf.Session() as session:
 
     # Run the loop in the testing model to see how effective was our training
     test_perplexity = run_epoch(session, mtest, test_data, tf.no_op())
-    tf.summary.scalar("test_perplexity", test_perplexity)
     
     print("Test Perplexity: %.3f" % test_perplexity)
-
-
-
-
