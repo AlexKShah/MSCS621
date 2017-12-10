@@ -9,6 +9,4 @@
 ### Python 3.5.2
 ### Tensor2Tensor 1.2.9
 
-## Note on branches:
-### Pull branch "master" to only pull project files
-### Only pull branch "LFS" to pull pretrained data
+Datasets and training files too large to push with git, contact to get more info.
