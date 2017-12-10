@@ -31,7 +31,7 @@ Most likely this code was not optimized for changing the dropout layer. It was i
 
 \begin{figure}[t]
   \begin{center}
-    \includegraphics[width=0.75\textwidth]{epochs.png}
+    \includegraphics[width=0.75\textwidth]{epochs1.png}
     \caption{Test parameters over third epoch}
   \end{center}
 \end{figure}
@@ -39,7 +39,7 @@ Most likely this code was not optimized for changing the dropout layer. It was i
 
 \begin{figure}[b]
   \begin{center}
-    \includegraphics[width=0.75\textwidth] {train-valid-test.png}
+    \includegraphics[width=0.75\textwidth] {train-valid-test1.png}
     \caption{Training, Validation, and Test Perplexity}
   \end{center}
 \end{figure}
@@ -48,36 +48,60 @@ Most likely this code was not optimized for changing the dropout layer. It was i
 
 \section{Best Runs Combined}
 
+Combining the three best attributes proved to have excellent results. The changes made to the default settings were:
 
-\begin{figure}[t]
+Number of Layers: 3
+
+Number of Steps: 100
+
+Hidden Size: 512
+
+\begin{figure}[H]
   \begin{center}
-    \includegraphics[width=0.75\textwidth] {best.png}
+    \includegraphics[width=0.75\textwidth] {epochs2.png}
     \caption{Combining Best hyperparameter changes}
   \end{center}
 \end{figure}
 
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.75\textwidth] {train-valid-test2.png}
+    \caption{Combining Best hyperparameter changes}
+  \end{center}
+\end{figure}
+
+\clearpage
 
 \section{Sentences}
 
+\subsection{}
+
 The default settings produced the following output:
 
-Epoch 1 : Learning rate: 1.000
-Epoch 1 : Train Perplexity: 273.428
-Epoch 1 : Valid Perplexity: 311.307
-Sample sentence: the company will be used in a <unk> test in a <unk> test in a <unk> test in a <unk> test
-Epoch 2 : Learning rate: 1.000
-Epoch 2 : Train Perplexity: 224.126
-Epoch 2 : Valid Perplexity: 294.604
-Sample sentence: the company said <eos> <unk> said it will be used in a <unk> test in a <unk> test in a <unk>
-Epoch 3 : Learning rate: 0.500
-Epoch 3 : Train Perplexity: 181.681
-Epoch 3 : Valid Perplexity: 231.615
-Sample sentence: the company said <eos> <unk> said it will be a <unk> in a <unk> <unk> in a <unk> <unk> in a
+Epoch 1: the company will be used in a [unk] test in a [unk] test in a [unk] test in a [unk] test
+
+Epoch 2: the company said eos unk said it will be used in a [unk] test in a [unk] test in a [unk]
+
+Epoch 3: the company said [eos] [unk] said it will be a [unk] in a [unk] [unk] in a [unk] [unk] in a
+
 Test Perplexity: 220.851
+
+-----
 
 The sentences the default settings generated seemed to get stuck in a loop. Maybe from the limited number of epochs it was unable to capture significant information to make 20 words worth of text. The initial 3 to 5 words were more sentence-like, but quickly reverted to repetition.
 
+\subsection{}
 
+The combination of best factors produced the following sentences:
 
+Epoch 1: the fed 's largest trade deficit [eos] the [unk] of the [unk] of the [unk] of the [unk] of the [unk]
+
+Epoch 2: the largest trade index is n't expected to be in the u.s. market [eos] the fed has n't been able to
+
+Epoch 3: the largest largest west german national league of the u.s. intelligence committee [eos] the fed has been [unk] with the u.s.
+
+-----
+
+The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repitiion like the default settings runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
 
 \end{document}

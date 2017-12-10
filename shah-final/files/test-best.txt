@@ -1,0 +1,48 @@
+Script started on Sun 10 Dec 2017 04:02:16 PM EST
+
+Epoch 1 : Learning rate: 1.000
+0.001 perplexity: 13228.059 speed: 1288 wps
+110.101 perplexity: 618.161 speed: 1587 wps
+0.201 perplexity: 460.459 speed: 1604 wps
+0.301 perplexity: 397.148 speed: 1602 wps
+0.401 perplexity: 349.951 speed: 1597 wps
+0.501 perplexity: 320.203 speed: 1581 wps
+0.601 perplexity: 292.254 speed: 1585 wps
+0.701 perplexity: 274.640 speed: 1590 wps
+0.801 perplexity: 260.756 speed: 1594 wps
+0.901 perplexity: 249.563 speed: 1598 wps
+Epoch 1 : Train Perplexity: 237.099
+Epoch 1 : Valid Perplexity: 183.310
+Sample sentence: the fed 's largest trade deficit <eos> the <unk> of the <unk> of the <unk> of the <unk> of the <unk>
+Epoch 2 : Learning rate: 1.000
+0.001 perplexity: 212.204 speed: 1562 wps
+0.101 perplexity: 162.698 speed: 1645 wps
+0.201 perplexity: 157.128 speed: 1640 wps
+0.301 perplexity: 155.918 speed: 1639 wps
+0.401 perplexity: 150.621 speed: 1640 wps
+0.501 perplexity: 147.118 speed: 1640 wps
+0.601 perplexity: 141.377 speed: 1642 wps
+0.701 perplexity: 138.601 speed: 1641 wps
+0.801 perplexity: 136.691 speed: 1639 wps
+0.901 perplexity: 134.751 speed: 1635 wps
+Epoch 2 : Train Perplexity: 131.096
+Epoch 2 : Valid Perplexity: 146.598
+Sample sentence: the largest trade index is n't expected to be in the u.s. market <eos> the fed has n't been able to
+Epoch 3 : Learning rate: 0.500
+0.001 perplexity: 148.113 speed: 1589 wps
+0.101 perplexity: 110.123 speed: 1646 wps
+0.201 perplexity: 106.469 speed: 1642 wps
+0.301 perplexity: 105.323 speed: 1643 wps
+0.401 perplexity: 101.872 speed: 1643 wps
+0.501 perplexity: 98.956 speed: 1643 wps
+0.601 perplexity: 94.892 speed: 1639 wps
+0.701 perplexity: 92.616 speed: 1638 wps
+0.801 perplexity: 91.111 speed: 1639 wps
+0.901 perplexity: 89.145 speed: 1639 wps
+Epoch 3 : Train Perplexity: 85.990
+Epoch 3 : Valid Perplexity: 123.949
+Sample sentence: the largest largest west german national league of the u.s. intelligence committee <eos> the fed has been <unk> with the u.s.
+Test Perplexity: 119.681
+
+
+Script done on Sun 10 Dec 2017 04:32:00 PM EST
