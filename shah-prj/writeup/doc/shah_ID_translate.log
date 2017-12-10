@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  9 DEC 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  10 DEC 2017 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,14 +476,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <seq2seq.jpg, id=13, 793.96625pt x 653.44125pt>
 File: seq2seq.jpg Graphic file (type jpg)
  <use seq2seq.jpg>
-Package pdftex.def Info: seq2seq.jpg used on input line 61.
+Package pdftex.def Info: seq2seq.jpg used on input line 58.
 (pdftex.def)             Requested size: 310.4979pt x 255.54898pt.
 
 <attention_mechanism.jpg, id=14, 668.4975pt x 495.8525pt>
 File: attention_mechanism.jpg Graphic file (type jpg)
 
 <use attention_mechanism.jpg>
-Package pdftex.def Info: attention_mechanism.jpg used on input line 69.
+Package pdftex.def Info: attention_mechanism.jpg used on input line 66.
 (pdftex.def)             Requested size: 310.4979pt x 230.31178pt.
  [3
 
@@ -491,84 +491,98 @@ Package pdftex.def Info: attention_mechanism.jpg used on input line 69.
 <transformer.jpg, id=18, 981.6675pt x 1102.1175pt>
 File: transformer.jpg Graphic file (type jpg)
  <use transformer.jpg>
-Package pdftex.def Info: transformer.jpg used on input line 91.
-(pdftex.def)             Requested size: 269.09958pt x 302.11627pt.
+Package pdftex.def Info: transformer.jpg used on input line 88.
+(pdftex.def)             Requested size: 241.49895pt x 271.12265pt.
 
 [4
 
-] [5 <./transformer.jpg>] <BLEU.png, id=25, 1813.77625pt x 743.77875pt>
+ <./transformer.jpg>] <BLEU.png, id=22, 1813.77625pt x 743.77875pt>
 File: BLEU.png Graphic file (type png)
 
 <use BLEU.png>
-Package pdftex.def Info: BLEU.png used on input line 116.
+Package pdftex.def Info: BLEU.png used on input line 112.
 (pdftex.def)             Requested size: 310.4979pt x 127.32594pt.
- <loss.png, id=26, 1815.78375pt x 747.79375pt>
+ <loss.png, id=23, 1815.78375pt x 747.79375pt>
 File: loss.png Graphic file (type png)
  <use loss.png>
-Package pdftex.def Info: loss.png used on input line 124.
+Package pdftex.def Info: loss.png used on input line 120.
 (pdftex.def)             Requested size: 310.4979pt x 127.86493pt.
 
-<neg_log_perp.png, id=27, 1817.79124pt x 743.77875pt>
+[5
+
+ <./BLEU.png>] <neg_log_perp.png, id=27, 1817.79124pt x 743.77875pt>
 File: neg_log_perp.png Graphic file (type png)
- <use neg_log_perp.png>
-Package pdftex.def Info: neg_log_perp.png used on input line 132.
+
+<use neg_log_perp.png>
+Package pdftex.def Info: neg_log_perp.png used on input line 128.
 (pdftex.def)             Requested size: 310.4979pt x 127.0422pt.
-
-[6
-
- <./BLEU.png> <./loss.png>]
-Overfull \hbox (26.8897pt too wide) in paragraph at lines 160--161
+ [6 <./loss.png> <./neg_log_perp.png>]
+Overfull \hbox (26.8897pt too wide) in paragraph at lines 152--153
 []\OT1/cmr/m/n/10 https://research.googleblog.com/2017/07/building-your-own-neu
 ral-machine.html 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 168--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
+Overfull \hbox (80.20483pt too wide) in paragraph at lines 172--175
+\OT1/cmr/m/n/10 Sys-tem: En-abling Zero-Shot Trans-la-tion." Arxiv. 2016. (http
+s://arxiv.org/pdf/1611.04558v1.pdf) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
 
-Overfull \hbox (15.11172pt too wide) in paragraph at lines 188--190
-[]\OT1/cmr/m/n/10 (https://papers.nips.cc/paper/5346-sequence-to-sequence-learn
-ing-with-neural-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
-
- []
-
-[7 <./neg_log_perp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 176--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 185--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+Overfull \hbox (93.21858pt too wide) in paragraph at lines 193--196
+\OT1/cmr/m/n/10 the Gap be-tween Hu-man and Ma-chine Trans-la-tion." Arvix. 201
+6. (https://arxiv.org/abs/1609.08144) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
  []
 
-[8] (./shah_ID_translate.aux) ) 
+
+Overfull \hbox (0.98119pt too wide) in paragraph at lines 197--200
+\OT1/cmr/m/n/10 sequence Mod-els: A Tu-to-rial." Arvix. 2017. (https://arxiv.or
+g/abs/1703.01619) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--200
+
+ []
+
+[7
+
+] (./shah_ID_translate.aux) ) 
 Here is how much of TeX's memory you used:
  1963 strings out of 494910
  26367 string characters out of 6179837
@@ -576,16 +590,16 @@ Here is how much of TeX's memory you used:
  5220 multiletter control sequences out of 15000+600000
  9496 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,6n,24p,1240b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
-pfb>
-Output written on shah_ID_translate.pdf (8 pages, 481863 bytes).
+ 37i,6n,24p,1242b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b>
+Output written on shah_ID_translate.pdf (7 pages, 482220 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
