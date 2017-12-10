@@ -9,6 +9,6 @@
 ### Python 3.5.2
 ### Tensor2Tensor 1.2.9
 
-## Instructions:
-### Pull branch master to test files
-### Only pull branch LFS to pull 70+GB of pretrained data
+## Note on branches:
+### Pull branch "master" to only pull project files
+### Only pull branch "LFS" to pull pretrained data
