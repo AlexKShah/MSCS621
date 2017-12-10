@@ -1,15 +1,10 @@
-#Alex Shah
-#T2T translation script
-
-#install tensor2tensor:
-
 #pip3 install tensor2tensor --user
 #pip3 install tensor2tensor[tensorflow_gpu] --user
-#OR
 #pip3 install tensor2tensor[tensorflow] --user
 
-#view registered problems:
 #t2t-trainer --registry_help
+
+#HERE="~/git/MSCS692/shah-prj/working/"
 
 PROBLEM=translate_enfr_wmt_small8k
 MODEL=transformer
@@ -18,7 +13,7 @@ HPARAMS=transformer_base_single_gpu
 DATA_DIR=data/
 TMP_DIR=temp/
 TRAIN_DIR=train/
-CUSTOM_DIR=usr/
+#CUSTOM_DIR=custom
 
 mkdir -p $DATA_DIR $TMP_DIR $TRAIN_DIR $CUSTOM_DIR
 
@@ -37,10 +32,14 @@ t2t-trainer \
   --model=$MODEL \
   --hparams_set=$HPARAMS \
   --output_dir=$TRAIN_DIR \
+  --train_steps=58000 \
+  --hparams='batch_size=1024'
   #--t2t_usr_dir=$CUSTOM_DIR
 
 # Decode
 DECODE_FILE=$DATA_DIR/decode_this.txt
+echo "Hello world" >> $DECODE_FILE
+echo "Goodbye world" >> $DECODE_FILE
 
 BEAM_SIZE=4
 ALPHA=0.6

@@ -6,6 +6,7 @@
 
 /shah-prj/writeup/code/translate-language/data/*
 /shah-prj/writeup/code/translate-language/train/*
+/shah-prj/writeup/code/translate-language/train/model.ckpt*
 /shah-prj/writeup/code/translate-language/temp/*
 
 /shah-prj/writeup/data/*
