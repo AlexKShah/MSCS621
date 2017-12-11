@@ -17,15 +17,15 @@
 
 \section{Strategy}
 
-My strategy to determine which parameters to change was to research and recall the effects of each parameter on the data. For example I knew batch size would have little effect on the end results but may speed up the processing of the dataset, depending on the hardware. Since time was not of the essence to train a few epochs, I decided to focus my attention on other parameters. In this model, the only parameters which have an affect other than epochs, are the hidden units, number of recurrent steps, number of layers, and keep probability.
+In order to determine which hyperparameters had the greatest influence, I researched the effects and recalled previous experiments on each parameter and how it changed the results. For example, I knew batch size would have no effect on the end results, but may speed up training. In this model, the parameters which have an effect on the perplexity are hidden units, number of recurrent steps, number of layers, and keep probability.
 
 \section{Most Influential Parameters}
 
-I knew right away that some of the most influential parameters would be the number of hidden units and number of layers. Increasing these parameters would increase the overall computation space therefore increasing training time, but would most likely improve perplexity (ie decrease the value). I did not expect the best results to be from increasing the number of steps to 50. In retrospect it does make sense that increasing the number of recurrence steps would improve results. By combining the three most influential parameters the results improved even more dramatically. I also did not expect that the number of layers made nearly no difference to the training, validation, and test perplexities. The only change made by increasing the number of layers was lowering the initial perplexity which quickly fell into step with the default run.
+From my research and previous experiments I predicted the most influential parameters would be the number of hidden units and number of layers. Increasing these parameters would increase the overall computation space (and training time) but would most likely improve perplexity (decrease the value). However, the best results came from increasing the number of recurrent steps, or hidden layer folds. In retrospect it does make sense that increasing the number of recurrence steps would improve results. The number of layers had less effect than anticipated, and mostly improved the initial perplexities before providing diminishing returns, as the default number of layers quickly caught up. As an added experiment, I created a "combo" set of the top three hyperparameters to see how the stacked changes would effect perplexity. In general, the perplexity was the lowest with the combo of hyperparameters.
 
 \section{Least Influential Parameters}
 
-Most likely this code was not optimized for changing the dropout layer. It was initially set to 1 and the results of decreasing the keep probability were adverse at worst and roughly the same at best. It would not effect results to change some of the other parameters, other than causing vanishing/exploding gradient or other related problems. Initial weight scale would not change the results. Increasing the initial learning rate would make results worse until the learning rate begins to drop, and starting low would adversely affect the model. The max gradient norm just prevents against exploding gradient. Epoch related parameters involve the number of epochs at the initial training rate, then the amount of training epochs. As with any mode, more epochs would approach a better perplexity at the cost of time. Batch size, vocab size, etc, are related to processing the data and would not affect results. So the least influential of the parameters which affect perplexity was keep probability, which was only 2.
+Most likely this code was not optimized for changing the dropout layer.The default value was 1 and the results of decreasing the keep probability were adverse at worst and roughly the same at best. This was the only value left to change that would not have obvious adverse effects on perplexity. Most other parameters were based on the data, or preventing the vanishing/exploding gradient or other related problems. Initial weight scale would not change the results. Increasing the initial learning rate would make results worse until the learning rate begins to drop, and starting low would adversely affect the model. The max gradient norm just prevents against exploding gradient. Epoch related parameters would only shorten or extend training length. Batch size, vocab size, etc, are related to processing the data and would not affect results. So the least influential hyperparameter which could affect perplexity was keep probability.
 
 
 
@@ -48,11 +48,14 @@ Most likely this code was not optimized for changing the dropout layer. It was i
 
 \section{Best Runs Combined}
 
-Combining the three best attributes proved to have excellent results. The changes made to the default hyperparameters were:
+Combining the three best attributes into a "combo" set of hyperparameters proved to have excellent results. The changes made to the default hyperparameters were:
+
 
 Number of Layers: 3
 
+
 Number of Steps: 100
+
 
 Hidden Size: 512
 
@@ -76,7 +79,7 @@ Hidden Size: 512
 
 \subsection{}
 
-The default hyperparameters produced the following output:
+The default hyperparameters produced the following sentences:
 
 Epoch 1: the company will be used in a [unk] test in a [unk] test in a [unk] test in a [unk] test
 
@@ -92,7 +95,7 @@ The sentences the default hyperparameters generated seemed to get stuck in a loo
 
 \subsection{}
 
-The combination of best factors produced the following sentences:
+The combo hyperparameters produced the following sentences:
 
 Epoch 1: the fed 's largest trade deficit [eos] the [unk] of the [unk] of the [unk] of the [unk] of the [unk]
 
@@ -102,7 +105,7 @@ Epoch 3: the largest largest west german national league of the u.s. intelligenc
 
 -----
 
-The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repetition like the default hyperparameters runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
+The  combo hyperparameters which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repetition like the default hyperparameters did, however the second and third epochs had longer strings of words which made logical sense.
 
 \section{Mark/Trump Datasets}
 
@@ -119,7 +122,7 @@ Combo hyperparameters:
 - Recurrent steps: 100
 
 
-Running the default and combo hyperparameters gave the following results:
+Running the default and combo hyperparameters on the Mark dataset gave the following results:
 
 
 
@@ -137,7 +140,7 @@ Running the default and combo hyperparameters gave the following results:
   \end{center}
 \end{figure}
 
-We can see from the perplexity results in figures 5 and 6 that the combo hyperparameters proved effective in decreasing perplexity, though not by as much as the PTB dataset.
+We can see from the perplexity results in figures 5 and 6 that the combo hyperparameters proved moderately effective in decreasing perplexity compared to the default hyperparameters. Mostly the difference was noticeable in validation and test perplexity. It is interesting to note that the results aren't nearly as remarkable as the PTB dataset.
 
 \subsection{Mark Sentences}
 Default:
@@ -149,7 +152,7 @@ Epoch 2: the right news the right will be right will be right will be right will
 
 Epoch 3: the news and the Lord who will not been one who will not believe the good news the right news out
 
-The default hyperparameters were able to capture some semblance of sentence structure or at least variation in words output.
+The default hyperparameters were able to capture some semblance of sentence structure or at least variation in words generated.
 
 -----
 
@@ -162,7 +165,7 @@ Epoch 2: the the the the the the the the the the the the the the the the the the
 
 Epoch 3: the chief they will not the whole he will be the whole the whole they will not the whole he will
 
-The combo hyperparameters seemed to get stuck more easily, early on. For 2 epochs the strongest association to "the" was "the" leading to an infinite loop. It was able to break out of this by epoch 3.
+The combo hyperparameters seemed to get stuck early on. For 2 epochs the strongest association to "the" was "the" leading to an infinite loop. It was able to break out of this by epoch 3 and produce more variation, but is not very sentence-like. The very small vocabulary and dataset size could cause such effects on the generated output, as well as the diminished effect the combo hyperparameters had on the perplexity.
 
 \subsection{Trump Results}
 
@@ -180,7 +183,7 @@ The combo hyperparameters seemed to get stuck more easily, early on. For 2 epoch
   \end{center}
 \end{figure}
 
-Changing hyperparameters had less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the results we see with diminished effect of the combo hyperparameters compared to the previous datasets.
+Changing hyperparameters had even less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. Wheras the Mark dataset vocabulary was too small, this dataset had too large a vocabulary to form meaningful relationships between words. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the  diminished effect of the combo hyperparameters compared to the previous datasets.
 
 \subsection{Trump Sentences}
 Default:
@@ -205,6 +208,6 @@ Epoch 2: the @Yankees in the world is a total in the debate of the next season o
 
 Epoch 3: the most most years of the world in the world is the most important in the world in the debate he
 
-The combo hyperparameters led to more structured sentences but, like in the Mark dataset, was initially more repetitive. 
+The combo hyperparameters led to more structured sentences but, like in the Mark dataset, were initially more repetitive. 
 
 \end{document}
