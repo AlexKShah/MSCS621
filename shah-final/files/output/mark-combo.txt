@@ -1,0 +1,47 @@
+Script started on Mon 11 Dec 2017 01:28:47 PM EST
+
+Epoch 1 : Learning rate: 1.000
+0.079 perplexity: 2666.399 speed: 1294 wps
+0.175 perplexity: 2510.911 speed: 1416 wps
+0.270 perplexity: 1845.987 speed: 1483 wps
+0.365 perplexity: 1453.394 speed: 1523 wps
+0.460 perplexity: 1269.331 speed: 1528 wps
+0.556 perplexity: 1148.229 speed: 1533 wps
+0.651 perplexity: 1048.663 speed: 1505 wps
+0.746 perplexity: 970.056 speed: 1510 wps
+0.841 perplexity: 921.830 speed: 1511 wps
+0.937 perplexity: 883.881 speed: 1512 wps
+Epoch 1 : Train Perplexity: 858.073
+Epoch 1 : Valid Perplexity: 265.184
+Sample sentence: the the the the the the the the the the the the the the the the the the the the the
+Epoch 2 : Learning rate: 1.000
+0.079 perplexity: 553.422 speed: 1585 wps
+0.175 perplexity: 581.926 speed: 1587 wps
+0.270 perplexity: 568.577 speed: 1588 wps
+0.365 perplexity: 546.285 speed: 1592 wps
+0.460 perplexity: 528.211 speed: 1598 wps
+0.556 perplexity: 522.647 speed: 1597 wps
+0.651 perplexity: 502.432 speed: 1603 wps
+0.746 perplexity: 492.368 speed: 1600 wps
+0.841 perplexity: 488.699 speed: 1593 wps
+0.937 perplexity: 483.040 speed: 1590 wps
+Epoch 2 : Train Perplexity: 476.919
+Epoch 2 : Valid Perplexity: 228.268
+Sample sentence: the the the the the the the the the the the the the the the the the the the the the
+Epoch 3 : Learning rate: 0.500
+0.079 perplexity: 353.840 speed: 1653 wps
+0.175 perplexity: 363.146 speed: 1642 wps
+0.270 perplexity: 355.774 speed: 1644 wps
+0.365 perplexity: 342.188 speed: 1643 wps
+0.460 perplexity: 327.310 speed: 1647 wps
+0.556 perplexity: 321.315 speed: 1647 wps
+0.651 perplexity: 306.970 speed: 1648 wps
+0.746 perplexity: 303.098 speed: 1644 wps
+0.841 perplexity: 298.600 speed: 1645 wps
+0.937 perplexity: 292.655 speed: 1645 wps
+Epoch 3 : Train Perplexity: 286.791
+Epoch 3 : Valid Perplexity: 256.665
+Sample sentence: the chief they will not the whole he will be the whole the whole they will not the whole he will
+Test Perplexity: 249.996
+
+Script done on Mon 11 Dec 2017 01:29:43 PM EST
