@@ -26,10 +26,13 @@ This project's goal is to combine different state of the art neural network arch
 \section{Introduction}
 
 
-Providing a software implementation for translation does not require the entire computation to occur on device, but rather through training ahead of time. In this way, your cell phone does not need a desktop PC's compute power to leverage neural networks and the advances such technologies have made in machine translation. However, training the network does require a large amount of compute power and time.
+Pretrained models provide inference which reduces computation on less powerful devices since performing those costly backpropagation calculations has been done in advance. However, training the network does require a large amount of compute power and time.
 
 
-In order to minimize the amount of time required, we can make training more efficient by training both translation directions simultaneously. By using encoder/decoder as a basis for our model, languages and context are broken down into mathematical representations that the network uses to translate any language to any other. We do not need to train translation from language A to language B and vice versa, but can learn each language independently. By utilizing language agnostic training, we can improve the speed at which we train. We can train any language in the same time, without needing to retrain or cross train various languages when a new language is added. This concept applies to both the classifier and translation.
+In order to minimize the amount of time required, we can make training more efficient by training both translation directions simultaneously. By using encoder/decoder as a basis for our model, languages and context are broken down into mathematical representations that the network uses to translate any language to any other. We do not need to train translation from language A to language B and vice versa, but can learn each language independently. By utilizing language agnostic training, we can improve the speed at which we train. 
+
+
+We store this knowledge and apply it to our problem as can be seen in Figure 2. Tensor2Tensor, the framework for machine translation in this project, works similar to Seq2Seq by mapping the words in different languages to a universal machine language allowing the model to encode and decode from the source language (regardless of the source language) to the target language.
 
 
 \section{Background}
@@ -47,7 +50,7 @@ Classifying a given input is handled by a Convolutional Neural Network (CNN). It
 Strides have been made using deep learning models for Machine Translation (MT).  MT research grows ever more accurate in contextually aware translation. Sequence to Sequence networks (Seq2Seq) are built like an encoder/decoder. The encoded input text is examined to determine the decoded output in the target language. Adding an attention mechanism is used to share information from previous input steps to better decode output. This is more efficient than bidirectionally sharing input and output values and is also more accurate than methods that require less computation such as reversing input strings. Specifically, attention shares memory between the encoder steps and decoder to produce more contextually aware output. The encoder mechanisms in NMT models are used to build a thought vector from a given input. This vector captures context which is then decoded into the target language translation. Furthermore, an attention mechanism coupled with dropout determines how much context is too little or too much. This enables the translation to capture and translate advanced syntactic structures such as gender agreement and other "long range dependencies" without overfit or poor context capture (Luong, 2015).
 
 
-Neural Machine Translation (NMT) advances even further with Google's tensor2tensor library,. T2T is a specifically derived set of Seq2Seq and RNN based models focusing on accuracy and efficiency of training translation models. Models like Transformer have achieved some of the best accuracies in NMT (Luong, 2015).
+Neural Machine Translation (NMT) advances even further with Google's tensor2tensor library. T2T is a specifically derived set of Seq2Seq and RNN based models focusing on accuracy and efficiency of training translation models (Luong, 2015). Models like Transformer have achieved some of the best accuracies in NMT.
   
   
 \clearpage
@@ -80,12 +83,12 @@ In this project there are two networks. A Convolutional Neural Network is used a
 In order to improve classifier accuracy, each language’s specific characteristics are identified manually ahead of time. For example French has accented characters which allows the CNN to easily identify input characters that will only appear in a certain language (K.M. 2016).
   
   
- Transformer is the latest from Google's research into efficient and accurate multipurpose models. Transformer is able to work with a range of inputs such as images, text, and audio with a focus on scalability and efficient training. As such, transformer is able to achieve accuracy greater than previous models. In particular, Transformer employs an RNN with attention, and a specifically designed encoder/decoder. An encoder forms a representation of the input language without needing to train translation from one language to another. The decoder translates from representations of languages to human readable output accurately and quickly (Britz, 2017).
+ Transformer is the latest from Google's research into efficient and accurate multipurpose models. Transformer is able to work with a range of inputs such as images, text, and audio with a focus on scalability and efficient training. As such, transformer is able to achieve accuracy greater than previous models. In this text based project, Transformer takes in word embeddings and uses these vectorized representations of languages with multiple RNN layers wheree a feed forward encoder and an attention mechanism. The decoder also uses feed forward but while the encoder uses self-attention, the decoder is also uses source-target or encoder-decoder attention. This multihead attention is used to combat problems generalizing, namely forming relationships between different attention heads. An encoder forms a representation of the input language without needing to train translation from one language to another. The decoder translates from representations of languages to human readable output accurately and quickly (Britz, 2017).
    
    
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[width=0.9\textwidth] {transformer.jpg}
+    \includegraphics[width=0.7\textwidth] {transformer.jpg}
     \caption{Transformer Model architecture}
   \end{center}
 \end{figure}
@@ -96,7 +99,7 @@ In order to improve classifier accuracy, each language’s specific characterist
 
 \section{Experiments}
 
-
+\subsection{Classifier}
 Datasets in Spanish were difficult to find, but there are many datasets in other languages. For training, the classifier and translation models were trained with the WMT17-small8k dataset in English and French. In order to train translation, the model needs to study the target language and human corrected translations. It is not necessary to train the model with the input language and human corrected translations of the target language, but rather any human corrected language. In this way a trained model can train on multiple languages without need for datasets to overlap languages, this enables us to add a new language at a later date.
 
 
@@ -120,6 +123,8 @@ The classifier's Keras Sequential model was able to reach near perfect validatio
 \end{figure}
 
 \clearpage
+
+\subsection{Translation}
   
 The translation net takes significantly longer to train. After 5 days, the validation estimated BLEU score was over 50. At the time of writing the estimated validation BLEU score is 51.232. Although the approximate scores showed great promise, training on a single GPU did not complete in time to run actual tests and t2t decoding could not function without reaching the target iterations. Unfortunately, training cannot be foreshortened or resumed. Therefore, while each component of the project proved to be highly accurate during training and validation steps, there was not enough time to train the translation network in time for a functional demonstration or a test version of the final product to be produced. On a single GPU (Nvidia GTX 980 Ti), the estimated time to complete training exceeds one month.
 
