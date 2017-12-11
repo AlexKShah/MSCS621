@@ -25,7 +25,7 @@ I knew right away that some of the most influential parameters would be the numb
 
 \section{Least Influential Parameters}
 
-Most likely this code was not optimized for changing the dropout layer. It was intially set to 1 and the results of decreasing the keep probability were adverse at worst and roughly the same at best. It would not effect results to change some of the other paramaters, other than causing vanishing/exploding gradient or other related problems. Initial weight scale would not change the results. IIncreasing the initial learning rate would make results worse until the learning rate begins to drop, and starting low would adversely affect the model. The max gradient norm just prevents against exploding gradient. Epoch related parameters involve the number of epochs at the initial training rate, then the amount of training epochs. As with any mode, more epochs would approach a better perplexity at the cost of time. Batch size, vocab size, etc, are related to processing the data and would not affect results. So the least influential of the parameters which affect perplexity was keep probability, which was only 2.
+Most likely this code was not optimized for changing the dropout layer. It was initially set to 1 and the results of decreasing the keep probability were adverse at worst and roughly the same at best. It would not effect results to change some of the other parameters, other than causing vanishing/exploding gradient or other related problems. Initial weight scale would not change the results. Increasing the initial learning rate would make results worse until the learning rate begins to drop, and starting low would adversely affect the model. The max gradient norm just prevents against exploding gradient. Epoch related parameters involve the number of epochs at the initial training rate, then the amount of training epochs. As with any mode, more epochs would approach a better perplexity at the cost of time. Batch size, vocab size, etc, are related to processing the data and would not affect results. So the least influential of the parameters which affect perplexity was keep probability, which was only 2.
 
 
 
@@ -102,7 +102,7 @@ Epoch 3: the largest largest west german national league of the u.s. intelligenc
 
 -----
 
-The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repitiion like the default hyperparameters runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
+The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repetition like the default hyperparameters runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
 
 \section{Mark/Trump Datasets}
 
