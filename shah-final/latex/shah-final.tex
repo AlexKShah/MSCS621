@@ -17,11 +17,11 @@
 
 \section{Strategy}
 
-In order to determine which hyperparameters had the greatest influence, I researched the effects and recalled previous experiments on each parameter and how it changed the results. For example, I knew batch size would have no effect on the end results, but may speed up training. In this model, the parameters which have an effect on the perplexity are hidden units, number of recurrent steps, number of layers, and keep probability.
+In order to determine which hyperparameters had the greatest influence, I researched the effects and recalled previous experiments on each parameter and how it changed the results. For example, I knew batch size would have no effect on the end results, but may speed up training. In this model, the parameters which have an affect on the perplexity are hidden units, number of recurrent steps, number of layers, and keep probability.
 
 \section{Most Influential Parameters}
 
-From my research and previous experiments I predicted the most influential parameters would be the number of hidden units and number of layers. Increasing these parameters would increase the overall computation space (and training time) but would most likely improve perplexity (decrease the value). However, the best results came from increasing the number of recurrent steps, or hidden layer folds. In retrospect it does make sense that increasing the number of recurrence steps would improve results. The number of layers had less effect than anticipated, and mostly improved the initial perplexities before providing diminishing returns, as the default number of layers quickly caught up. As an added experiment, I created a "combo" set of the top three hyperparameters to see how the stacked changes would effect perplexity. In general, the perplexity was the lowest with the combo of hyperparameters.
+From my research and previous experiments I predicted the most influential parameters would be the number of hidden units and number of layers. Increasing these parameters would increase the overall computation space (and training time) but would most likely improve perplexity (decrease the value). However, the best results came from increasing the number of recurrent steps, or hidden layer folds. In retrospect it does make sense that increasing the number of recurrence steps would improve results. The number of layers had less effect than anticipated, and mostly improved the initial perplexities before providing diminishing returns, as the default number of layers quickly caught up. As an added experiment, I created a "combo" set of the top three hyperparameters to see how the stacked changes would affect perplexity. In general, the perplexity was the lowest with the combo of hyperparameters.
 
 \section{Least Influential Parameters}
 
@@ -165,7 +165,7 @@ Epoch 2: the the the the the the the the the the the the the the the the the the
 
 Epoch 3: the chief they will not the whole he will be the whole the whole they will not the whole he will
 
-The combo hyperparameters seemed to get stuck early on. For 2 epochs the strongest association to "the" was "the" leading to an infinite loop. It was able to break out of this by epoch 3 and produce more variation, but is not very sentence-like. The very small vocabulary and dataset size could cause such effects on the generated output, as well as the diminished effect the combo hyperparameters had on the perplexity.
+The combo hyperparameters seemed to get stuck early on. For 2 epochs the strongest association to "the" was "the" leading to an infinite loop. It was able to break out of this by epoch 3 and produce more variation, but is not very sentence-like. The very small vocabulary and dataset size could cause such effects on the generated output, as well as the diminished affect the combo hyperparameters had on the perplexity.
 
 \subsection{Trump Results}
 
@@ -183,7 +183,7 @@ The combo hyperparameters seemed to get stuck early on. For 2 epochs the stronge
   \end{center}
 \end{figure}
 
-Changing hyperparameters had even less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. Wheras the Mark dataset vocabulary was too small, this dataset had too large a vocabulary to form meaningful relationships between words. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the  diminished effect of the combo hyperparameters compared to the previous datasets.
+Changing hyperparameters had even less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. Whereas the Mark dataset vocabulary was too small, this dataset had too large a vocabulary to form meaningful relationships between words. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the  diminished effect of the combo hyperparameters compared to the previous datasets.
 
 \subsection{Trump Sentences}
 Default:
