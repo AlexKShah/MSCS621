@@ -104,6 +104,22 @@ The dataset is WMT's English-French small 8k vocab. This enabled both the transl
 
 
 The classifier's Keras Sequential model was able to reach near perfect validation accuracy in the first epoch. The test accuracy after 5 epochs was 0.99, effectively not able to improve from further training.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.9\textwidth] {val_acc1.png}
+    \caption{Classifier Validation accuracy}
+  \end{center}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.9\textwidth] {val_loss1.png}
+    \caption{Classifier Validation loss}
+  \end{center}
+\end{figure}
+
+\clearpage
   
 The translation net takes significantly longer to train. After 5 days, the validation estimated BLEU score was over 50. At the time of writing the estimated validation BLEU score is 51.232. Although the approximate scores showed great promise, training on a single GPU did not complete in time to run actual tests and t2t decoding could not function without reaching the target iterations. Unfortunately, training cannot be foreshortened or resumed. Therefore, while each component of the project proved to be highly accurate during training and validation steps, there was not enough time to train the translation network in time for a functional demonstration or a test version of the final product to be produced. On a single GPU (Nvidia GTX 980 Ti), the estimated time to complete training exceeds one month.
 
