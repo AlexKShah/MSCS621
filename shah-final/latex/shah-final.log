@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  11 DEC 2017 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.7)  11 DEC 2017 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,30 +961,30 @@ Package pdftex.def Info: train-valid-test2.png used on input line 68.
 d=23, 455.45157pt x 255.95625pt>
 File: mark1.png Graphic file (type png)
  <use mark1.png>
-Package pdftex.def Info: mark1.png used on input line 126.
+Package pdftex.def Info: mark1.png used on input line 128.
 (pdftex.def)             Requested size: 352.31625pt x 198.00081pt.
 
-<mark2.png, id=24, 454.69875pt x 255.95625pt>
+[4
+
+] <mark2.png, id=27, 454.69875pt x 255.95625pt>
 File: mark2.png Graphic file (type png)
  <use mark2.png>
-Package pdftex.def Info: mark2.png used on input line 133.
+Package pdftex.def Info: mark2.png used on input line 135.
 (pdftex.def)             Requested size: 352.31625pt x 198.32497pt.
- [4
-
- <./mark1.png (PNG copy)>] <trump1.png, id=28, 454.69875pt x 255.95625pt>
+ [5 <./mark1.png (PNG copy)> <./mark2.png (PNG copy)>]
+<trump1.png, id=31, 454.69875pt x 255.95625pt>
 File: trump1.png Graphic file (type png)
  <use trump1.png>
-Package pdftex.def Info: trump1.png used on input line 142.
+Package pdftex.def Info: trump1.png used on input line 171.
 (pdftex.def)             Requested size: 352.31625pt x 198.32497pt.
 
-<trump2.png, id=29, 454.69875pt x 255.95625pt>
+<trump2.png, id=32, 454.69875pt x 255.95625pt>
 File: trump2.png Graphic file (type png)
  <use trump2.png>
-Package pdftex.def Info: trump2.png used on input line 149.
+Package pdftex.def Info: trump2.png used on input line 178.
 (pdftex.def)             Requested size: 352.31625pt x 198.32497pt.
- [5 <./mark2.png (PNG copy)> <./trump1.png (PNG copy)>] [6 <./trump2.png (PNG c
-opy)>]
-(./shah-final.aux) ) 
+ [6 <./trump1.png (PNG copy)> <./trump2.png (PNG copy)>] [7] (./shah-final.aux)
+ ) 
 Here is how much of TeX's memory you used:
  21585 strings out of 494910
  556081 string characters out of 6179837
@@ -993,14 +993,14 @@ Here is how much of TeX's memory you used:
  9496 words of font info for 36 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  55i,6n,77p,1035b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on shah-final.pdf (6 pages, 299158 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on shah-final.pdf (7 pages, 302036 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 55 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

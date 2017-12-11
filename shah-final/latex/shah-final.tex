@@ -48,7 +48,7 @@ Most likely this code was not optimized for changing the dropout layer. It was i
 
 \section{Best Runs Combined}
 
-Combining the three best attributes proved to have excellent results. The changes made to the default settings were:
+Combining the three best attributes proved to have excellent results. The changes made to the default hyperparameters were:
 
 Number of Layers: 3
 
@@ -76,7 +76,7 @@ Hidden Size: 512
 
 \subsection{}
 
-The default settings produced the following output:
+The default hyperparameters produced the following output:
 
 Epoch 1: the company will be used in a [unk] test in a [unk] test in a [unk] test in a [unk] test
 
@@ -88,7 +88,7 @@ Test Perplexity: 220.851
 
 -----
 
-The sentences the default settings generated seemed to get stuck in a loop. Maybe from the limited number of epochs it was unable to capture significant information to make 20 words worth of text. The initial 3 to 5 words were more sentence-like, but quickly reverted to repetition.
+The sentences the default hyperparameters generated seemed to get stuck in a loop. Maybe from the limited number of epochs it was unable to capture significant information to make 20 words worth of text. The initial 3 to 5 words were more sentence-like, but quickly reverted to repetition.
 
 \subsection{}
 
@@ -102,10 +102,12 @@ Epoch 3: the largest largest west german national league of the u.s. intelligenc
 
 -----
 
-The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repitiion like the default settings runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
+The combination of factors which produced the lowest perplexity also produced the most comprehensible sentences. The first sentence had repitiion like the default hyperparameters runs, however by the second and third epochs the sentences contained longer strings of words which made logically sense.
 
 \section{Mark/Trump Datasets}
-Combo settings:
+
+\subsection{Mark Results}
+Combo hyperparameters:
 
 
 - Number of layers: 3
@@ -117,41 +119,92 @@ Combo settings:
 - Recurrent steps: 100
 
 
-Running the default and combo settings gave the following results:
+Running the default and combo hyperparameters gave the following results:
 
 
 
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.75\textwidth] {mark1.png}
-    \caption{Default and Combo settings on Mark Dataset; third epoch}
+    \caption{Default and Combo hyperparameters on Mark Dataset; third epoch}
   \end{center}
 \end{figure}
 
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.75\textwidth] {mark2.png}
-    \caption{Default and Combo settings on Mark Dataset; training, validation, and test}
+    \caption{Default and Combo hyperparameters on Mark Dataset; training, validation, and test}
   \end{center}
 \end{figure}
 
-We can see from the perplexity results in figures 5 and 6 that the combo settings proved effective in decreasing perplexity, though not by as much as the PTB dataset.
+We can see from the perplexity results in figures 5 and 6 that the combo hyperparameters proved effective in decreasing perplexity, though not by as much as the PTB dataset.
+
+\subsection{Mark Sentences}
+Default:
+
+
+Epoch 1: the Lord had right the Lord will the Lord the Lord had right the Lord will the Lord the Lord had
+
+Epoch 2: the right news the right will be right will be right will be right will be right will be right will
+
+Epoch 3: the news and the Lord who will not been one who will not believe the good news the right news out
+
+The default hyperparameters were able to capture some semblance of sentence structure or at least variation in words output.
+
+-----
+
+Combo:
+
+
+Epoch 1: the the the the the the the the the the the the the the the the the the the the the
+
+Epoch 2: the the the the the the the the the the the the the the the the the the the the the
+
+Epoch 3: the chief they will not the whole he will be the whole the whole they will not the whole he will
+
+The combo hyperparameters seemed to get stuck more easily, early on. For 2 epochs the strongest association to "the" was "the" leading to an infinite loop. It was able to break out of this by epoch 3.
+
+\subsection{Trump Results}
 
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.75\textwidth] {trump1.png}
-    \caption{Default and Combo settings on Trump Dataset; third epoch}
+    \caption{Default and Combo hyperparameters on Trump Dataset; third epoch}
   \end{center}
 \end{figure}
 
 \begin{figure}[H]
   \begin{center}
     \includegraphics[width=0.75\textwidth] {trump2.png}
-    \caption{Default and Combo settings on Trump Dataset; training, validation, and test}
+    \caption{Default and Combo hyperparameters on Trump Dataset; training, validation, and test}
   \end{center}
 \end{figure}
 
-There was even less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the results we see with diminished effect of the combo settings compared to the previous datasets.
+Changing hyperparameters had less of an effect on the Trump dataset. The vocabulary size for this dataset was more than triple the vocabulary size for PTB. This, coupled with complexities related to twitter such as usernames, hashtags, etc, could have led to the results we see with diminished effect of the combo hyperparameters compared to the previous datasets.
 
+\subsection{Trump Sentences}
+Default:
+
+
+Epoch 1: the Obama is a great time of the Obama is a great time of the Obama is a great time of
+
+Epoch 2: the @Yankees thing you can do well in the next debate. -- @MittRomney will be a great time to the debate
+
+Epoch 3: the @Yankees game of the @Yankees game last night. <eos>I have to do well in the debate of the @Yankees game
+
+The sentences generated by the default hyperparameters were repetitive and random. But they still read like proper Trump tweets.
+
+
+
+Combo:
+
+
+Epoch 1: the debate of the debate of the debate of the debate of the debate of the debate of the debate of
+
+Epoch 2: the @Yankees in the world is a total in the debate of the next season of Obama to the debate of
+
+Epoch 3: the most most years of the world in the world is the most important in the world in the debate he
+
+The combo hyperparameters led to more structured sentences but, like in the Mark dataset, was initially more repetitive. 
 
 \end{document}
